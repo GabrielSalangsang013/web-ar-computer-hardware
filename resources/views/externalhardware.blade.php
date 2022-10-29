@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="{{ asset('images/ualogo.ico') }}"/>
     <link rel="stylesheet" href="{{ asset('css/internalexternalhardware.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Markerless Web-AR | Internal Hardware</title>
+    <title>External Hardware | Markerless Web-AR</title>
 </head>
 <body>
 <body>
