@@ -11,10 +11,6 @@
     <title>Markerless Web-AR</title>
 </head>
 <body>
-    {{-- <img src="{{ Auth::user()->image}}">
-    Hello, {{ Auth::user()->full_name}}
-    <a href="{{ url('logout') }}">Logout</a> --}}
-
     <header>
         <div class="container">
             <nav>
