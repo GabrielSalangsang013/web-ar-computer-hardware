@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="{{ asset('images/ualogo.ico') }}"/>
     <link rel="stylesheet" href="{{ asset('css/internalexternalhardware.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Markerless Web-AR | Internal Hardware</title>
+    <title>Internal Hardware | Markerless Web-AR</title>
 </head>
 <body>
 <body>
@@ -16,7 +16,6 @@
             <nav>
                 <a href="{{ route('dashboard') }}"><span class='material-icons iconLeave'>keyboard_backspace</span> </a>
                 
-
                 <p>Internal Hardwares</p>
 
                 <ul class="nav-links">
