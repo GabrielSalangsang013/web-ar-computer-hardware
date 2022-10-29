@@ -17,7 +17,7 @@
                 <a href="{{ route('dashboard') }}"><span class='material-icons iconLeave'>keyboard_backspace</span> </a>
                 
 
-                <p>Internal Hardwares</p>
+                <p>External Hardwares</p>
 
                 <ul class="nav-links">
                     <a href="{{ route('internal_hardware') }}"><li>Internal Hardware</li></a>
