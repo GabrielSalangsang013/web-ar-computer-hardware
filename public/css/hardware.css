@@ -92,7 +92,6 @@ model-viewer {
     width: 500px;
     height: 500px;
     background-color: #70BCD1;
-    z-index: -9999;
 }
 
 

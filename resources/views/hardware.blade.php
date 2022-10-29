@@ -65,7 +65,7 @@
             </div>
 
             <br/>
-            <p class="explanation">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "{{ $hardware_info['hardware_description'] }}"</p>
+            <p class="explanation">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ $hardware_info['hardware_description'] }}</p>
 
             <div>
                 <img src="{{asset('images/Design5.png')}}" alt="" class="Design5"/>

@@ -8,7 +8,7 @@
 	<meta name="baseURL" content="{{ url('/') }}">
     <link rel="icon" type="image/png" href="{{ asset('images/ualogo.ico') }}"/>
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
-    <title>Markerless Web-AR | Login</title>
+    <title>Login | Markerless Web-AR</title>
 </head>
 <body>
 
