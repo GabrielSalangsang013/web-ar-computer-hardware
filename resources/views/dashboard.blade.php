@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="{{ asset('images/ualogo.ico') }}"/>
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script type="module" src="https://unpkg.com/@google/model-viewer@0.6.0/dist/model-viewer.js"></script>
     <script nomodule src="https://unpkg.com/@google/model-viewer@0.6.0/dist/model-viewer-legacy.js"></script>
     <title>Markerless Web-AR</title>
@@ -103,11 +105,15 @@
                     src="{{ asset('models/system_unit/system_unit.glb') }}"
                     ios-src="{{ asset('models/system_unit/system_unit.usdz') }}"
                     ar="ar" 
-                    autoplay 
-                    animation-name=""
-                    auto-rotate="auto-rotate" 
-                    camera-controls="camera-controls" 
-                    quick-look-browsers="safari chrome" class="ar">
+                    disable-tap
+                    auto-rotate
+                    camera-controls
+                    touch-action="pan-y"
+                    autoplay
+                    animation-name="MotherboardAction"
+                    quick-look-browsers="safari chrome"
+                    class="ar"
+                    >
                 </model-viewer>
                 <br/>
                 <span>Select device:</span>
