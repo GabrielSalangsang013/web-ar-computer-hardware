@@ -31,3 +31,8 @@ History Version of our Project
 	- Remaining:
 		- Only BSIT students can access and;
 		- Add UI alert box in login
+- Version 1.3.8 (10/31/2022)
+	- Update: Add pan view in dashboard system unit animation
+	- Remaining:
+		- Only BSIT students can access and;
+		- Add UI alert box in login
