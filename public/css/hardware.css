@@ -179,6 +179,7 @@ a:link, a:visited {
     }
 
     .show_nav_links {
+        z-index: 9999;
         padding-top: 40px;
         display: block;
         height: 100%;
