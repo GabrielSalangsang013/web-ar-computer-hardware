@@ -27,7 +27,7 @@ History Version of our Project
 		- Only BSIT students can access and;
 		- Add UI alert box in login
 - Version 1.3.7 (10/31/2022)
-	- Update: Fix bug, make model-viewer don't override the viewport when clicking nav button in mobile responsive
+	- Update: Fix bug, make model-viewer don't override the nav links in mobile responsive
 	- Remaining:
 		- Only BSIT students can access and;
 		- Add UI alert box in login
