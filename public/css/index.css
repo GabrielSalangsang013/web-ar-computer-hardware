@@ -18,6 +18,9 @@
 body {
     position: static !important;
     overflow: scroll !important;
+    height: auto !important;
+    max-height: auto !important;
+    transform: none !important;
 }
 
 .container {

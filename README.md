@@ -57,4 +57,9 @@ History Version of our Project
 	- Update: Make still scrollable when Ionic CDN has been added to the Login page. This has been fixed by overriding body tag using CSS properties in the index.css.
 	- Remaining:
 		- No bugs to fix or important to add yet.
+- Version 1.5.23 (11/05/2022)
+	- Update: Override height, max-height and transform property css in ionic using index.css. To make login page follow the design.
+	- Remaining:
+		- No bugs to fix or important to add yet.
+	
 
