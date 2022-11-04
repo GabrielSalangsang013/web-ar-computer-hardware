@@ -148,6 +148,14 @@ a:link, a:visited {
     height: 315px;
 }
 
+.elipsis {
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin-top: 10px;
+}
+
 @keyframes fadeAnimation {
     from {
         opacity: 0;
@@ -207,13 +215,5 @@ a:link, a:visited {
 
     .cross_burger .line3 {
         transform: rotate(46deg) translate(-5px, -6px);
-    }
-
-    .elipsis {
-        white-space: nowrap; 
-        width: 100%; 
-        overflow: hidden;
-        text-overflow: ellipsis; 
-        margin-top: 10px;
     }
 }

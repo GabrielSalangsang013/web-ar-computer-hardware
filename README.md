@@ -51,3 +51,9 @@ History Version of our Project
 		- Add more margin at bottom of description in Hardware page using br tag and few margin at top of description in Hardware page using also br tag.
 		- Put font-family property value apercu from universal selector to container class in internalexternalhardware.css.
 		- Remove font-family property value apercu from universal selector in index.css and used ionic font. So that the Login page use Ionic font.
+	- Remaining:
+		- Only BSIT students can access and;
+- Version 1.5.20 (11/05/2022)
+	- Update: Fix bug all references url in hardware page. Make ellipsis when reach 100% width both desktop and mobile view. Previous version only mobile view where all urls in mobile view have ellipsis.
+	- Remaining:
+		- Only BSIT students can access and;
