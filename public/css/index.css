@@ -15,6 +15,11 @@
     /* font-family: ApercuRegular; */
 }
 
+body {
+    position: static !important;
+    overflow: scroll !important;
+}
+
 .container {
     width: min(100% - 0px, 628px);
     margin: auto;
@@ -122,6 +127,7 @@ a:link, a:visited {
     text-decoration: none;
     color: black;
 }
+
 
 @media screen and (max-width: 880px) {
 
