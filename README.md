@@ -39,15 +39,15 @@ History Version of our Project
 - Version 1.5.19 (11/05/2022)
 	- Update:
 		- Citation Text, Image & Videos in Hardware page.
-		- Paraphare the description of each devices.
-		- Changing title "View this setup" to "PC assembly simulator" section in dashboard page.
-		- Add ionic CDN and cross platform search box and create functional on page filter search in internal / external hardware devices.
-		- Add box shadow and border-radius in pc assembly simulator.
-		- Add ionic CDN and cross platform alert box login purposes.
-		- Remove background color of model viewer in hardware page.
-		- Remove background color of model viewer when mobile view in dashboard page.
-		- Remove url global variable URL, to fix bug not running when CDN ionic added to index page.
-		- Update container class width property min function value by changing 2rem to 0px.
-		- Add more margin at bottom of description in hardware page using br tag and few margin at top of description in hardware page using also br tag.
+		- Paraphare the description of each devices in Hardware page.
+		- Changing title "View this setup" to "PC assembly simulator" section in Dashboard page.
+		- Add ionic CDN then used the Ionic UI component search box, then create functional on page filter search in Internal and External hardware devices page.
+		- Add box shadow and border-radius in PC assembly simulator in Dashboard page.
+		- Add ionic CDN then used the Ionic UI component alert box in the Login page for login purposes then add functionality.
+		- Remove background color of model viewer in Hardware page.
+		- Remove background color of model viewer when mobile view in Dashboard page.
+		- Remove url global variable URL, to fix bug not running when CDN ionic added to Login page.
+		- Update container class width property min function value by changing 2rem to 0px in all pages.
+		- Add more margin at bottom of description in Hardware page using br tag and few margin at top of description in Hardware page using also br tag.
 		- Put font-family property value apercu from universal selector to container class in internalexternalhardware.css.
-		- Remove font-family property value apercu from universal selector in index.css page and used ionic font.
+		- Remove font-family property value apercu from universal selector in index.css and used ionic font. So that the Login page use Ionic font.
