@@ -8,6 +8,9 @@
 	<meta name="baseURL" content="{{ url('/') }}">
     <link rel="icon" type="image/png" href="{{ asset('images/ualogo.ico') }}"/>
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
     <title>Login | Markerless Web-AR</title>
 </head>
 <body>
@@ -67,6 +70,30 @@
 	
 	<!-- google provider -->
 	<script type="text/javascript" src="{{ url('/js/google.js') }}"></script>
+
+    <script>
+        async function alertSuccess() {
+            const alert = document.createElement('ion-alert');
+            alert.header = 'Success';
+            alert.message = 'You have successfully login.';
+            alert.buttons = [{text: 'OK', handler: () => {
+                window.location.replace("/dashboard");
+            }}];
+
+            document.body.appendChild(alert);
+            await alert.present();
+        }
+
+        async function alertFail() {
+            const alert = document.createElement('ion-alert');
+            alert.header = 'Invalid Domain';
+            alert.message = 'Email must be @ua.edu.ph';
+            alert.buttons = ['OK'];
+
+            document.body.appendChild(alert);
+            await alert.present();
+        }
+    </script>
 
 </body>
 </html>

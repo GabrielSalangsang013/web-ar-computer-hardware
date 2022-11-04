@@ -61,12 +61,20 @@
 
             <div id="video" class="content">
                 <br/>
-                <iframe width="300" height="315" src="{{ $hardware_info['hardware_video'] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="ytVideoiframe" src="{{ $hardware_info['hardware_video'] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <br/>
-            <p class="explanation">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ $hardware_info['hardware_description'] }}</p>
+            <br/>
+            <p class="explanation">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $hardware_info['hardware_description'] }}</p>
 
+            <br/>
+            <br/>
+            <br/>
+            <strong><span>References:</span></strong>
+            <p class="elipsis">Description Reference: <br/><a href="{{ $hardware_info['hardware_ref_text'] }}">{{ $hardware_info['hardware_ref_text'] }}</a></p>
+            <p class="elipsis">Image Reference: <br/><a href="{{ $hardware_info['hardware_ref_image'] }}">{{ $hardware_info['hardware_ref_image'] }}</a></p>
+            <p class="elipsis">Video Reference: <br/><a href="{{ $hardware_info['hardware_ref_video'] }}">{{ $hardware_info['hardware_ref_video'] }}</a></p>
             <div>
                 <img src="{{asset('images/Design5.png')}}" alt="" class="Design5"/>
             </div>

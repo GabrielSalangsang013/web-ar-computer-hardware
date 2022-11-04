@@ -4,8 +4,6 @@ $('#googleLogin').click(function(){
       .signInWithPopup(googleProvider)
       .then((result) => {
 
-
-
         var user = result.user;
         const regex = /@ua\.edu\.ph/;
         if(regex.test(user.email)) {
@@ -24,15 +22,15 @@ $('#googleLogin').click(function(){
           });
 
           $.ajax({
-            url : URL + "/google/login",
+            url : "/google/login",
             type : "post",
             dataType : "json",
             data : user.providerData[0],
             success : function(data){
       
               if(data.status == "success"){
-                alert("Sucessfully logged");
-                window.location.replace(URL + "/dashboard");
+                alertSuccess();
+                // window.location.replace("/dashboard");
               }else{
                 alert("Something went wrong here");
               }
@@ -44,7 +42,8 @@ $('#googleLogin').click(function(){
           })
           
         }else {
-          alert('email must be @ua.edu.ph');
+          // alert('email must be @ua.edu.ph');
+          alertFail();
         }
       // ...
     }).catch((error) => {

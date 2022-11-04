@@ -7,6 +7,9 @@
     <link rel="icon" type="image/png" href="{{ asset('images/ualogo.ico') }}"/>
     <link rel="stylesheet" href="{{ asset('css/internalexternalhardware.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
     <title>Internal Hardware | Markerless Web-AR</title>
 </head>
 <body>
@@ -16,7 +19,7 @@
             <nav>
                 <a href="{{ route('dashboard') }}"><span class='material-icons iconLeave'>keyboard_backspace</span> </a>
                 
-                <p>Internal Hardwares</p>
+                <h4 class="hardware-title-type">Internal Hardwares</h4>
 
                 <ul class="nav-links">
                     <a href="{{ route('internal_hardware') }}"><li>Internal Hardware</li></a>
@@ -34,8 +37,9 @@
     </header>
 
     <main>
-
         <div class="container">
+            <ion-searchbar type="search" placeholder="Custom Placeholder" id="searchbox" oninput="liveSearch()"></ion-searchbar>
+
             <div class="hardwares">
                 <div class="hardware">
                     <a href="{{ route('internal_hardware_device', 'cpu_cooler') }}"><img src="{{ asset('images/internal_hardwares/cpu_cooler.jpg') }}" alt="" class="hardwareImage"/></a>
@@ -97,6 +101,31 @@
             nav_links.classList.toggle('show_nav_links');
             burger.classList.toggle('cross_burger');
             myBody.classList.toggle('overflow_screen');
+        });
+
+        function liveSearch() {
+            // Locate the card elements
+            let cards = document.querySelectorAll('.hardware')
+            // Locate the search input
+            let search_query = document.getElementById("searchbox").value;
+            // Loop through the cards
+            for (var i = 0; i < cards.length; i++) {
+                // If the text is within the card...
+                if(cards[i].textContent.toLowerCase().includes(search_query.toLowerCase())) {
+                    cards[i].classList.remove("is-hidden");
+                } else {
+                    cards[i].classList.add("is-hidden");
+                }
+            }
+        }
+
+        let typingTimer;        
+        let typeInterval = 500; // Half a second
+        let searchInput = document.getElementById('searchbox');
+
+        searchInput.addEventListener('keyup', () => {
+            clearTimeout(typingTimer);
+            typingTimer = setTimeout(liveSearch, typeInterval);
         });
 
     </script>

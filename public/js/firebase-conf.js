@@ -11,7 +11,7 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  var URL = $('meta[name="baseURL"]').attr('content');
+
 
   console.log("Firebase started.");
 

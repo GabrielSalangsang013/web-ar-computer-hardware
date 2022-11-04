@@ -99,7 +99,7 @@
 
         <section>
             <div class="container">
-                <p class="title2">View this setup :)</p>
+                <p class="title2">PC assembly simulator</p>
                 <br/>
                 <model-viewer 
                     src="{{ asset('models/system_unit/system_unit.glb') }}"

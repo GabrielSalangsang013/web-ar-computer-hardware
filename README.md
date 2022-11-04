@@ -36,3 +36,18 @@ History Version of our Project
 	- Remaining:
 		- Only BSIT students can access and;
 		- Add UI alert box in login
+- Version 1.5.19 (11/05/2022)
+	- Update:
+		- Citation Text, Image & Videos in Hardware page.
+		- Paraphare the description of each devices.
+		- Changing title "View this setup" to "PC assembly simulator" section in dashboard page.
+		- Add ionic CDN and cross platform search box and create functional on page filter search in internal / external hardware devices.
+		- Add box shadow and border-radius in pc assembly simulator.
+		- Add ionic CDN and cross platform alert box login purposes.
+		- Remove background color of model viewer in hardware page.
+		- Remove background color of model viewer when mobile view in dashboard page.
+		- Remove url global variable URL, to fix bug not running when CDN ionic added to index page.
+		- Update container class width property min function value by changing 2rem to 0px.
+		- Add more margin at bottom of description in hardware page using br tag and few margin at top of description in hardware page using also br tag.
+		- Put font-family property value apercu from universal selector to container class in internalexternalhardware.css.
+		- Remove font-family property value apercu from universal selector in index.css page and used ionic font.

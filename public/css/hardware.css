@@ -21,7 +21,7 @@ header {
 }
 
 .container {
-    width: min(100% - 2rem, 1024px);
+    width: min(100% - 0px, 1024px);
     margin: auto;
     padding: 30px;
 }
@@ -91,7 +91,6 @@ nav {
 model-viewer {
     width: 500px;
     height: 500px;
-    background-color: #70BCD1;
 }
 
 
@@ -144,6 +143,11 @@ a:link, a:visited {
     color: black;
 }
 
+.ytVideoiframe {
+    width: 100%;
+    height: 315px;
+}
+
 @keyframes fadeAnimation {
     from {
         opacity: 0;
@@ -159,7 +163,6 @@ a:link, a:visited {
     model-viewer {
         width: 100%;
         height: 250px;
-        background-color: #70BCD1;
     }
 
     .burger {
@@ -204,5 +207,13 @@ a:link, a:visited {
 
     .cross_burger .line3 {
         transform: rotate(46deg) translate(-5px, -6px);
+    }
+
+    .elipsis {
+        white-space: nowrap; 
+        width: 100%; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        margin-top: 10px;
     }
 }

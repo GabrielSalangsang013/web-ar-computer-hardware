@@ -12,11 +12,11 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    font-family: ApercuRegular;
+    /* font-family: ApercuRegular; */
 }
 
 .container {
-    width: min(100% - 2rem, 628px);
+    width: min(100% - 0px, 628px);
     margin: auto;
     padding: 30px;
 }
