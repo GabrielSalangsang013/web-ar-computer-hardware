@@ -8,9 +8,9 @@
 	<meta name="baseURL" content="{{ url('/') }}">
     <link rel="icon" type="image/png" href="{{ asset('images/ualogo.ico') }}"/>
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
-    {{-- <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" /> --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
     <title>Login | Markerless Web-AR</title>
 </head>
 <body>
