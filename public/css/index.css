@@ -67,6 +67,7 @@ body {
     border-radius: 50px;
     display: flex;
     color: white;
+    align-items: center;
 }
 
 .googleBtn:hover {
@@ -74,14 +75,14 @@ body {
 }
 
 .googleBtnLeft {
-    width: 25%;
+    width: 27%;
     display: flex;
     justify-content: right;
     align-items: center;
 }
 
 .googleBtnRight {
-    width: 60%;
+    width: 73%;
     display: flex;
     justify-content: left;
     align-items: center;

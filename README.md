@@ -61,5 +61,9 @@ History Version of our Project
 	- Update: Override height, max-height and transform property css in ionic css using index.css. To make login page follow the design.
 	- Remaining:
 		- No bugs to fix or important to add yet.
+- Version 1.5.24 (11/05/2022)
+	- Update: Use semantic element (button tag) instead non-semantic element (div) in google login button.
+	- Remaining:
+		- No bugs to fix or important to add yet. 
 	
 

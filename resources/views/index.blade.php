@@ -27,14 +27,14 @@
             <h1 class="title">Markerless Web based Augmented Reality Technology for Information Technology Course Visualizing Computer Hardware</h1>
             <p class="mobileTextOnly">Learn computer hardware using augmented reality</p>
 
-            <div id="googleLogin" class="googleBtn">
+            <button type="button" id="googleLogin" class="googleBtn">
                 <div class="googleBtnLeft">
                     <img src="{{ asset('images/googleicon.png') }}" alt="" class="googleBtnIcon"/>
                 </div>
                 <div class="googleBtnRight">
                     <span>Continue with Google</span>
                 </div>
-            </div>
+            </button>
 
             <span class="loginInfo">only domain ua.edu.ph can be use</span>
         </div>
