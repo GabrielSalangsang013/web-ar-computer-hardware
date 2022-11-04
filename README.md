@@ -46,15 +46,15 @@ History Version of our Project
 		- Add more margin at bottom of description in Hardware page using br tag and few margin at top of description in Hardware page using also br tag.
 		- Put font-family property value apercu from universal selector to container class in internalexternalhardware.css.
 		- Remove font-family property value apercu from universal selector in index.css and used ionic font. So that the Login page use Ionic font.
-		- Make still scrollable when Ionic CDN has been added to the Internal and External hardware devices pages. This has been fixed by overriding body tag using CSS properties in the internalexternalhardware.css.
+		- Make still scrollable when Ionic CDN has been added to the Internal hardware device page and External hardware device page. This has been fixed by overriding body tag using CSS properties in the internalexternalhardware.css.
 	- Remaining:
 		- No bugs to fix or important to add yet.
 - Version 1.5.21 (11/05/2022)
-	- Update: Fix bug all references url in hardware page. Make ellipsis when reach 100% width both desktop and mobile view. Previous version only mobile view where all urls in mobile view have ellipsis.
+	- Update: Fix bug all references url in Hardware page. Make ellipsis when reach 100% width both desktop and mobile view. Previous version only mobile view where all urls in mobile view have ellipsis.
 	- Remaining:
 		- No bugs to fix or important to add yet.
 - Version 1.5.22 (11/05/2022)
-	- Update: Make still scrollable when Ionic CDN has been added to the Login Page. This has been fixed by overriding body tag using CSS properties in the index.css.
+	- Update: Make still scrollable when Ionic CDN has been added to the Login page. This has been fixed by overriding body tag using CSS properties in the index.css.
 	- Remaining:
 		- No bugs to fix or important to add yet.
 
