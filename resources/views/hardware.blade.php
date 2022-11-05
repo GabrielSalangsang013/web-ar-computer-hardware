@@ -56,12 +56,12 @@
 
             <div id="image" class="content">
                 <br/>
-                <img src="{{ $hardware_info['hardware_image'] }}" alt="" class="image"/>
+                <img loading="lazy" src="{{ $hardware_info['hardware_image'] }}" alt="" class="image"/>
             </div>
 
             <div id="video" class="content">
                 <br/>
-                <iframe class="ytVideoiframe" src="{{ $hardware_info['hardware_video'] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe loading="lazy" class="ytVideoiframe" src="{{ $hardware_info['hardware_video'] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <br/>
@@ -76,7 +76,7 @@
             <p class="elipsis">Image Reference: <br/><a href="{{ $hardware_info['hardware_ref_image'] }}">{{ $hardware_info['hardware_ref_image'] }}</a></p>
             <p class="elipsis">Video Reference: <br/><a href="{{ $hardware_info['hardware_ref_video'] }}">{{ $hardware_info['hardware_ref_video'] }}</a></p>
             <div>
-                <img src="{{asset('images/Design5.png')}}" alt="" class="Design5"/>
+                <img loading="lazy" src="{{asset('images/Design5.png')}}" alt="" class="Design5"/>
             </div>
         </div>
     </main>
