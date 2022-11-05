@@ -7,7 +7,7 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<meta name="baseURL" content="{{ url('/') }}">
     <link rel="icon" type="image/png" href="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_10,w_20/v1667634716/images/ualogo_triinr.webp"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/css/index.min.css">
+    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
@@ -29,7 +29,7 @@
 
             <button type="button" id="googleLogin" class="googleBtn">
                 <div class="googleBtnLeft">
-                    <img width="35" src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,w_35/v1667629945/images/googleicon_lq8jxv.webp" alt="" class="googleBtnIcon"/>
+                    <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,w_35/v1667629945/images/googleicon_lq8jxv.webp" class="googleBtnIcon" width="25" height="25" alt="" />
                 </div>
                 <div class="googleBtnRight">
                     <span>Continue with Google</span>

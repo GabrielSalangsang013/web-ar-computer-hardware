@@ -80,6 +80,7 @@ body {
 
 .googleBtnIcon {
     width: 35px;
+    height: 35px;
 }
 
 .loginInfo {
@@ -164,7 +165,8 @@ a:link, a:visited {
     }
 
     .googleBtnIcon {
-        width: 25px;
+        width: 25px !important;
+        height: 25px !important;
     }
 
     .googleBtnRight {
