@@ -17,7 +17,7 @@
 
     <header class="header">
         <div class="container centerContent marginTop">
-            <img loading="lazy" src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_10,w_100/v1667627564/images/ualogo_fcf3ju.webp" alt="" class="UALogo"/>
+            <img width="100" height="100" src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,w_100/v1667627564/images/ualogo_fcf3ju.webp" alt="" class="UALogo"/>
         </div>
     </header>
 
@@ -29,7 +29,7 @@
 
             <button type="button" id="googleLogin" class="googleBtn">
                 <div class="googleBtnLeft">
-                    <img loading="lazy" src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_10,w_35/v1667629945/images/googleicon_lq8jxv.webp" alt="" class="googleBtnIcon"/>
+                    <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,w_35/v1667629945/images/googleicon_lq8jxv.webp" alt="" class="googleBtnIcon"/>
                 </div>
                 <div class="googleBtnRight">
                     <span>Continue with Google</span>
@@ -40,8 +40,8 @@
         </div>
 
         <div>
-            <img loading="lazy" src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_10/v1667627841/images/Design1_d94v0f.webp" alt="" class="Design1"/>
-            <img loading="lazy" src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_10/v1667627842/images/Design2_a2ljof.webp" alt="" class="Design2"/>
+            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_10/v1667627841/images/Design1_d94v0f.webp" alt="" class="Design1"/>
+            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_10/v1667627842/images/Design2_a2ljof.webp" alt="" class="Design2"/>
         </div>
     </main>
 
