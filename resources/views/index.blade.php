@@ -29,7 +29,7 @@
 
             <button type="button" id="googleLogin" class="googleBtn">
                 <div class="googleBtnLeft">
-                    <img width="35" height="35" src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,w_35/v1667629945/images/googleicon_lq8jxv.webp" alt="" class="googleBtnIcon"/>
+                    <img width="35" src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,w_35/v1667629945/images/googleicon_lq8jxv.webp" alt="" class="googleBtnIcon"/>
                 </div>
                 <div class="googleBtnRight">
                     <span>Continue with Google</span>
