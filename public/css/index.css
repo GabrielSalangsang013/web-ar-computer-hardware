@@ -1,18 +1,7 @@
-/* @font-face {
-    font-family: ApercuRegular;
-    src: url('/typeface/Apercu Pro Regular.otf');
-}
-
-@font-face {
-    font-family: ApercuLight;
-    src: url('/typeface/Apercu Pro Light.otf');
-} */
-
 * {
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -48,13 +37,11 @@ body {
 
 .entranceText {
     font-size: 48px;
-    /* font-family: ApercuRegular; */
     font-weight: bold;
 }
 
 .title {
     margin-top: 40px;
-    /* font-family: ApercuLight; */
     font-size: 20px;
     line-height: 45px;
 }
