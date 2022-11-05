@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="{{ asset('images/ualogo.ico') }}"/>
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_80,w_20/v1667634716/images/ualogo_triinr.webp"/>
     <link rel="stylesheet" href="{{ asset('css/internalexternalhardware.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
@@ -42,47 +42,47 @@
 
             <div class="hardwares">
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'cpu_cooler') }}"><img src="{{ asset('images/internal_hardwares/cpu_cooler.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'cpu_cooler') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_140,q_30,w_140/v1667630847/images/internal_hardwares/cpu_cooler_hpg6ep.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">CPU Cooler</span>
                 </div>
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'cpu') }}"><img src="{{ asset('images/internal_hardwares/cpu.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'cpu') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_140,q_30,w_140/v1667630847/images/internal_hardwares/cpu_ekqfja.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">CPU</span>
                 </div>
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'fan') }}"><img src="{{ asset('images/internal_hardwares/fan.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'fan') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_30,w_140/v1667630847/images/internal_hardwares/fan_exrffz.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">Fan</span>
                 </div>
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'gpu') }}"><img src="{{ asset('images/internal_hardwares/gpu.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'gpu') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_140,q_30,w_140/v1667630848/images/internal_hardwares/gpu_e2nogq.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">GPU</span>
                 </div>
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'hard_drive') }}"><img src="{{ asset('images/internal_hardwares/hard_drive.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'hard_drive') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_30,w_140/v1667630847/images/internal_hardwares/hard_drive_vlkl3q.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">Hard Drive</span>
                 </div>
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'motherboard') }}"><img src="{{ asset('images/internal_hardwares/motherboard.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'motherboard') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_140,q_30,w_140/v1667630848/images/internal_hardwares/motherboard_bmhdbe.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">Motherboard</span>
                 </div>
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'nic') }}"><img src="{{ asset('images/internal_hardwares/nic.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'nic') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_140,q_30,w_140/v1667630847/images/internal_hardwares/nic_wi4sjf.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">NIC</span>
                 </div>
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'power_supply') }}"><img src="{{ asset('images/internal_hardwares/power_supply.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'power_supply') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_140,q_30,w_140/v1667630848/images/internal_hardwares/power_supply_rdklno.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">Power Supply</span>
                 </div>
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'ram') }}"><img src="{{ asset('images/internal_hardwares/ram.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'ram') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_140,q_30,w_140/v1667630848/images/internal_hardwares/ram_doj669.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">RAM</span>
                 </div>
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'sound_card') }}"><img src="{{ asset('images/internal_hardwares/sound_card.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'sound_card') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_140,q_30,w_140/v1667630848/images/internal_hardwares/sound_card_lqtqmt.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">Sound Card</span>
                 </div>
                 <div class="hardware">
-                    <a href="{{ route('internal_hardware_device', 'ssd') }}"><img src="{{ asset('images/internal_hardwares/ssd.jpg') }}" alt="" class="hardwareImage"/></a>
+                    <a href="{{ route('internal_hardware_device', 'ssd') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_140,q_30,w_140/v1667630848/images/internal_hardwares/ssd_rqi4d1.webp" alt="" class="hardwareImage"/></a>
                     <span class="hardwareName">SSD</span>
                 </div>
             </div>

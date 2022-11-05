@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="{{ asset('images/ualogo.ico') }}"/>
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_80,w_20/v1667634716/images/ualogo_triinr.webp"/>
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
 
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -16,7 +16,7 @@
     <header>
         <div class="container">
             <nav>
-               <img src="{{ asset('images/ualogo.png') }}" alt="" class="logo"/>
+               <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_10,w_100/v1667627564/images/ualogo_fcf3ju.webp" alt="" class="logo"/>
                 
                 <ul class="nav-links">
                     <a href="{{ route('internal_hardware') }}"><li>Internal Hardware</li></a>
@@ -36,7 +36,7 @@
     <main>
         <div class="container herosection marginTop2">
             <h1 class="heroText"><strong>Markerless</strong><br/>Web Augmented Reality</h1>
-            <img src="{{ asset('images/herovrguy.png') }}" alt="" class="heroGuy"/>
+            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/q_30/v1667630643/images/herovrguy_v11ykt.webp" alt="" class="heroGuy"/>
         </div>
 
         <section>
@@ -49,16 +49,16 @@
                 <div id="internalHardware" class="content contentActive">
                     <div class="hardwares">
                         <div class="hardware">
-                            <a href="{{ route('internal_hardware_device', 'cpu_cooler') }}"><img src="{{ asset('images/internal_hardwares/cpu_cooler.jpg') }}" alt="" class="hardwareImage"/></a>
+                            <a href="{{ route('internal_hardware_device', 'cpu_cooler') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_30,w_225/v1667630847/images/internal_hardwares/cpu_cooler_hpg6ep.webp" alt="" class="hardwareImage"/></a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('internal_hardware_device', 'cpu') }}"><img src="{{ asset('images/internal_hardwares/cpu.jpg') }}" alt="" class="hardwareImage"/></a>
+                            <a href="{{ route('internal_hardware_device', 'cpu') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_20,w_225/v1667630847/images/internal_hardwares/cpu_ekqfja.webp" alt="" class="hardwareImage"/></a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('internal_hardware_device', 'fan') }}"><img src="{{ asset('images/internal_hardwares/fan.jpg') }}" alt="" class="hardwareImage"/></a>
+                            <a href="{{ route('internal_hardware_device', 'fan') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_30,w_225/v1667630847/images/internal_hardwares/fan_exrffz.webp" alt="" class="hardwareImage"/></a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('internal_hardware_device', 'gpu') }}"><img src="{{ asset('images/internal_hardwares/gpu.jpg') }}" alt="" class="hardwareImage"/></a>
+                            <a href="{{ route('internal_hardware_device', 'gpu') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_25,w_225/v1667630848/images/internal_hardwares/gpu_e2nogq.webp" alt="" class="hardwareImage"/></a>
                         </div>
                     </div>
 
@@ -68,16 +68,16 @@
                 <div id="externalHardware" class="content">
                     <div class="hardwares">
                         <div class="hardware">
-                            <a href="{{ route('external_hardware_device', 'digital_camera') }}"><img src="{{ asset('images/external_hardwares/digital_camera.jpg') }}" alt="" class="hardwareImage"/></a>
+                            <a href="{{ route('external_hardware_device', 'digital_camera') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_25,w_225/v1667630868/images/external_hardwares/digital_camera_vh5qfx.webp" alt="" class="hardwareImage"/></a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('external_hardware_device', 'external_hard_drive') }}"><img src="{{ asset('images/external_hardwares/external_hard_drive.jpg') }}" alt="" class="hardwareImage"/></a>
+                            <a href="{{ route('external_hardware_device', 'external_hard_drive') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_30,w_225/v1667630868/images/external_hardwares/external_hard_drive_yk9kk4.webp" alt="" class="hardwareImage"/></a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('external_hardware_device', 'joystick') }}"><img src="{{ asset('images/external_hardwares/joystick.jpg') }}" alt="" class="hardwareImage"/></a>
+                            <a href="{{ route('external_hardware_device', 'joystick') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_30,w_225/v1667630869/images/external_hardwares/joystick_sdwpai.webp" alt="" class="hardwareImage"/></a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('external_hardware_device', 'keyboard') }}"><img src="{{ asset('images/external_hardwares/keyboard.jpg') }}" alt="" class="hardwareImage"/></a>
+                            <a href="{{ route('external_hardware_device', 'keyboard') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_20,w_225/v1667630869/images/external_hardwares/keyboard_kie6ue.webp" alt="" class="hardwareImage"/></a>
                         </div>
                     </div>
 
@@ -90,7 +90,7 @@
         <section>
             <div class="container">
                 <p class="title2">What is Web-AR?</p>
-                <img src="{{ asset('images/arcover.jpg') }}" alt="" class="titleCover"/>
+                <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_50,w_330/v1667631289/images/arcover_zm50oi.webp" alt="" class="titleCover"/>
                 <p class="explanation">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The abbreviation Web-AR stands for Web-based Augmented Reality, a relatively new technology that doesn't depend on a smartphone app to work. The native camera and mobile web browser on a user's smartphone can be used to access AR experiences.
                 </p>
@@ -141,9 +141,9 @@
         </section>
 
         <div>
-            <img src="{{ asset('images/Design1.png') }}" alt="" class="Design1"/>
-            <img src="{{ asset('images/Design4.png') }}" alt="" class="Design4"/>
-            <img src="{{ asset('images/Design3.png') }}" alt="" class="Design3"/>
+            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_250,q_10,w_250/v1667627841/images/Design1_d94v0f.webp" alt="" class="Design1"/>
+            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_10/v1667632729/images/Design4_bmackz.webp" alt="" class="Design4"/>
+            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/q_10/v1667632729/images/Design3_qqzxeg.webp" alt="" class="Design3"/>
         </div>
     </main>
 
