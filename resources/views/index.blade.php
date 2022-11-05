@@ -7,7 +7,7 @@
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<meta name="baseURL" content="{{ url('/') }}">
     <link rel="icon" type="image/png" href="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_10,w_20/v1667634716/images/ualogo_triinr.webp"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/css/index.min.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
@@ -55,8 +55,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.2.5/firebase-app.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.2.5/firebase-analytics.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/8.2.5/firebase-auth.min.js"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar/public/js/firebase-conf.js"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar/public/js/google.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/js/firebase-conf.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/js/google.min.js"></script>
 
     <script>
         async function alertSuccess() {

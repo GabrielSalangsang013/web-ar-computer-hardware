@@ -73,8 +73,8 @@ class Controller extends BaseController
 		// START INTERNAL HARDWARE DEVICES
 		if($hardwarename == 'cpu_cooler') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/cpu_cooler.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/cpu_cooler.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/cpu_cooler.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/cpu_cooler.usdz', 
 				'hardware_name' => 'AMD Ryzen CPU Cooler', 
 				'hardware_description' => "A CPU cooler is a device made to remove heat from the system CPU and other enclosure components. Lowering CPU temperatures using a CPU cooler enhances computer performance and stability. However, including a cooling device may raise the system's total noise level.",
 				'hardware_image' => '/images/internal_hardwares/cpu_cooler.jpg',
@@ -87,8 +87,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'cpu') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/cpu.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/cpu.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/cpu.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/cpu.usdz', 
 				'hardware_name' => 'Processor Intel Core i9', 
 				'hardware_description' => "The Central Processing Unit is abbreviated as CPU. It is sometimes referred to as a microprocessor or processor. It's one of, if not the most, crucial pieces of hardware in every digital computer system. Numerous minuscule transistors, which act as tiny switches to regulate the flow of energy through integrated circuits, are found inside a CPU. The CPU is found on the motherboard of a computer. The motherboard of a computer is its primary circuit board. Its responsibility is to link all hardware pieces together. A CPU does all work and is sometimes referred to as the brain and heart of all digital systems. It runs instructions and carries out every single task a computer carries out.",
 				'hardware_image' => '/images/internal_hardwares/cpu.jpg',
@@ -101,8 +101,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'fan') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/fan.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/fan.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/fan.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/fan.usdz', 
 				'hardware_name' => 'Lian Li UNI FAN', 
 				'hardware_description' => 'A computer fan is a fan used for active cooling that is located inside or connected to a computer casing. To cool a specific component, fans are utilized to circulate air across a heat sink, pull cooler air from the outside into the case, and exhaust warm air from within. Computers employ axial and occasionally centrifugal (blower/squirrel-cage) fans.',
 				'hardware_image' => '/images/internal_hardwares/fan.jpg',
@@ -115,8 +115,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'gpu') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/gpu.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/gpu.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/gpu.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/gpu.usdz', 
 				'hardware_name' => 'Graphics Card Unit', 
 				'hardware_description' => "A chip or electrical circuit known as a graphics processing unit (GPU) is able to produce graphics for display on an electronic device. The GPU was first made available to the general public in 1999, and it is most recognized for being used to produce the fluid visuals that customers anticipate in contemporary movies and video games.",
 				'hardware_image' => '/images/internal_hardwares/gpu.jpg',
@@ -129,8 +129,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'hard_drive') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/hard_drive.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/hard_drive.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/hard_drive.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/hard_drive.usdz', 
 				'hardware_name' => 'WD Hard Drive', 
 				'hardware_description' => "Your computer's operating system, software, and data files, including documents, images, and music, are all stored on a hard drive, often known as a hard disk or HDD. The remaining parts of your computer cooperate to display the programs and files on your hard disk.",
 				'hardware_image' => '/images/internal_hardwares/hard_drive.jpg',
@@ -143,8 +143,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'motherboard') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/motherboard.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/motherboard.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/motherboard.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/motherboard.usdz', 
 				'hardware_name' => 'ASUS z370-e', 
 				'hardware_description' => "One of the most crucial components of a computer is the motherboard. It holds together a lot of the essential parts of a computer, such as the memory, connections for input and output devices, and the central processor unit (CPU). A highly stiff layer of non-conductive material, usually hard plastic, serves as the motherboard's basis. Traces—thin layers of copper or aluminum foil—are imprinted on this sheet. These traces, which connect the various components, are quite thin. A motherboard also has a number of connectors and slots for connecting additional components.",
 				'hardware_image' => '/images/internal_hardwares/motherboard.jpg',
@@ -157,8 +157,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'nic') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/nic.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/nic.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/nic.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/nic.usdz', 
 				'hardware_name' => 'Network Interface Card', 
 				'hardware_description' => "A network interface card (NIC) is a piece of hardware, often a chip or circuit board, that is inserted on a computer to enable network connectivity.",
 				'hardware_image' => '/images/internal_hardwares/nic.jpg',
@@ -171,8 +171,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'power_supply') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/power_supply.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/power_supply.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/power_supply.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/power_supply.usdz', 
 				'hardware_name' => 'Power Supply Unit', 
 				'hardware_description' => "An internal piece of IT hardware is known as a power supply unit (PSU). Despite their name, power conversion devices, or PSUs, do not really deliver power to systems. A power supply specifically transforms alternating high voltage current (AC) to direct current (DC) and regulates the DC output voltage to the precise tolerances needed for contemporary computer components.",
 				'hardware_image' => '/images/internal_hardwares/power_supply.jpg',
@@ -185,8 +185,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'ram') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/ram.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/ram.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/ram.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/ram.usdz', 
 				'hardware_name' => 'Random Access Memory', 
 				'hardware_description' => "Random-access memory (RAM), often known as main memory, primary memory, or system memory, is a piece of hardware that enables the storing and retrieval of data on a computer. DRAM is a kind of memory module, and RAM is frequently related to it. Access times are greatly accelerated since data is randomly accessible rather than sequentially as it is on a CD or hard disk. RAM is a volatile memory, in contrast to ROM, and needs electricity to maintain the data accessible. All information in RAM is lost if the computer is switched off.",
 				'hardware_image' => '/images/internal_hardwares/ram.jpg',
@@ -199,8 +199,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'sound_card') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/sound_card.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/sound_card.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/sound_card.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/sound_card.usdz', 
 				'hardware_name' => 'Sound Card', 
 				'hardware_description' => "Sometimes known as an audio card, sound board, or audio output device. An expansion card or IC known as a sound card is used by computers to generate sound that may be heard through speakers or headphones. Even though a sound card isn't necessary, every computer has one either integrated into the motherboard or in an expansion slot (as seen below) (onboard).",
 				'hardware_image' => '/images/internal_hardwares/sound_card.jpg',
@@ -213,8 +213,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'ssd') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/ssd.glb', 
-				'hardware_url_ios' => '/models/internal_hardwares/ssd.usdz', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/ssd.glb', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/ssd.usdz', 
 				'hardware_name' => 'Solid State Drive', 
 				'hardware_description' => "SSD is a storage media that accesses and stores data using non-volatile memory. An SSD provides benefits such as quicker access times, noiseless operation, improved durability, and reduced power consumption because it doesn't have moving components as a hard drive does.",
 				'hardware_image' => '/images/internal_hardwares/ssd.jpg',
