@@ -65,5 +65,9 @@ History Version of our Project
 	- Update: Use semantic element (button tag) instead non-semantic element (div tag) in google login button in Login page. It also update the index.css.
 	- Remaining:
 		- No bugs to fix or important to add yet. 
+- Version 1.6.24 (11/07/2022)
+	- Update: Improve the performance of the website. (Use CDN, Minify CSS, JS and Laravel pages).
+	- Remaining:
+		- No bugs to fix or important to add yet. 
 	
 
