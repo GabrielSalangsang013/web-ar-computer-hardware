@@ -69,5 +69,9 @@ History Version of our Project
 	- Update: Improve the performance of the website. (Use CDN, Minify CSS, JS and Laravel pages).
 	- Remaining:
 		- No bugs to fix or important to add yet. 
+- Version 1.6.25 (11/08/2022)
+	- Update: Fix bug, wrong .usdz file imported at pc system simulation.
+	- Remaining:
+		- No bugs to fix or important to add yet. 
 	
 
