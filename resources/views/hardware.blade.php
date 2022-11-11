@@ -7,9 +7,6 @@
     <link rel="icon" type="image/png" href="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_100,w_32/v1667634716/images/ualogo_triinr.webp"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@5ce4294/public/css/hardware.min.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
-    {{-- <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@0.6.0/dist/model-viewer.min.js"></script> --}}
-    {{-- <script nomodule src="https://cdn.jsdelivr.net/npm/@google/model-viewer@0.6.0/dist/model-viewer-legacy.min.js"></script> --}}
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>{{ $hardware_info['hardware_name'] }} | Markerless Web-AR</title>
 </head>
