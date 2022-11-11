@@ -73,9 +73,7 @@ History Version of our Project
 	- Update: Fix bug, wrong .usdz file imported at pc system simulation.
 	- Remaining:
 		- No bugs to fix or important to add yet. 
-- Version 1.7.25 (11/08/2022)
+- Version 1.7.25 (11/11/2022)
 	- Update: Remove model-viewer legacy cdn. android device can enable A.R experience as long the device has installed ARCore.
 	- Remaining:
 		- No bugs to fix or important to add yet.
-	
-
