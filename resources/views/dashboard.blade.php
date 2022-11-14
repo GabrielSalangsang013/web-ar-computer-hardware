@@ -110,6 +110,7 @@
                     animation-name="MotherboardAction"
                     quick-look-browsers="safari chrome"
                     class="ar"
+                    poster="{{ asset('images/loading_model.gif') }}"
                     >
                 </model-viewer>
                 <br/>

@@ -51,7 +51,10 @@
                     auto-rotate="auto-rotate" 
                     camera-controls="camera-controls" 
                     touch-action="pan-y"
-                    quick-look-browsers="safari chrome" class="ar">
+                    quick-look-browsers="safari chrome" 
+                    class="ar"
+                    poster="{{ asset('images/loading_model.gif') }}"
+                    >
                 </model-viewer>
             </div>
 

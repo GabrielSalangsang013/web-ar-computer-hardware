@@ -77,3 +77,7 @@ History Version of our Project
 	- Update: Remove model-viewer legacy cdn. android device can enable A.R experience as long the device has installed ARCore.
 	- Remaining:
 		- No bugs to fix or important to add yet.
+- Version 1.7.26 (11/14/2022)
+	- Update: Added poster attribute to model-viewer, loading .gif file.
+	- Remaining:
+		- No bugs to fix or important to add yet.
