@@ -81,3 +81,7 @@ History Version of our Project
 	- Update: Added poster attribute to model-viewer, loading .gif file.
 	- Remaining:
 		- No bugs to fix or important to add yet.
+- Version 1.7.27 (11/21/2022)
+	- Update: Added android requirement text in login page.
+	- Remaining:
+		- No bugs to fix or important to add yet. 

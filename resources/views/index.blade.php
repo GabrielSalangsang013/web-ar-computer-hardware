@@ -38,6 +38,7 @@
             </button>
 
             <span class="loginInfo">only domain ua.edu.ph can be use</span>
+            <span class="loginInfo">Android Requirement: Must have ARCore installed to enable A.R experience</span>
         </div>
 
         <div>
