@@ -84,8 +84,4 @@ History Version of our Project
 - Version 1.7.27 (11/21/2022)
 	- Update: Added android requirement text in login page.
 	- Remaining:
-		- No bugs to fix or important to add yet. 
-- Version 1.7.28 (11/22/2022)
-	- Update: Align to center using justify-content the model-viewer in hardware page.
-	- Remaining:
 		- No bugs to fix or important to add yet.

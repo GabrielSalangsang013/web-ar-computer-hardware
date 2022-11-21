@@ -146,15 +146,6 @@ a:link, a:visited {
     margin-top: 10px;
 }
 
-#ar {
-    display: flex;
-    justify-content: center;
-}
-
-#image {
-    margin-top: 20px;
-}
-
 @keyframes fadeAnimation {
     from {
         opacity: 0;
