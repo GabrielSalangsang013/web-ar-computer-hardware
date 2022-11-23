@@ -81,7 +81,13 @@ class Controller extends BaseController
 				'hardware_video' => 'https://www.youtube.com/embed/y2ekQXYEbbs',
 				'hardware_ref_text' => 'https://www.webopedia.com/definitions/cpu-cooler/',
 				'hardware_ref_image' => 'https://lzd-img-global.slatic.net/g/p/7fe8db12ee8cb84b698258d5cf748d11.jpg_720x720q80.jpg_.webp',
-				'hardware_ref_video' => 'https://www.youtube.com/watch?v=y2ekQXYEbbs'
+				'hardware_ref_video' => 'https://www.youtube.com/watch?v=y2ekQXYEbbs',
+				'hardware_hotspots' => '<button class="Hotspot" slot="hotspot-1" data-position="-0.567189160231198m 0.9242978541438832m 0.07141739252501232m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+											<div class="HotspotAnnotation">Fan</div>
+										</button>
+										<button class="Hotspot" slot="hotspot-2" data-position="0.33880299667697245m 0.8659192681899891m -0.041129449013556585m" data-normal="0.9999999999999076m 3.5762788286318666e-7m 2.3841850804727707e-7m" data-visibility-attribute="visible">
+											<div class="HotspotAnnotation">CPU Heatsink</div>
+										</button>'
 			]]);
 		}
 

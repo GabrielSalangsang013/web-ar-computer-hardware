@@ -146,6 +146,38 @@ a:link, a:visited {
     margin-top: 10px;
 }
 
+.HotspotAnnotation {
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 2px 4px;
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    font-family: Futura, "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    left: calc(100% + 1em);
+    max-width: 128px;
+    overflow-wrap: break-word;
+    padding: 0.5em 1em;
+    position: absolute;
+    top: 50%;
+    width: max-content;
+}
+
+.Hotspot {
+    background: rgb(255, 255, 255);
+    border-radius: 32px;
+    border: 0px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 2px 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 24px;
+    padding: 8px;
+    position: relative;
+    transition: opacity 0.3s ease 0s;
+    width: 24px;
+}
+
 @keyframes fadeAnimation {
     from {
         opacity: 0;

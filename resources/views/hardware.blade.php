@@ -55,7 +55,9 @@
                     class="ar"
                     poster="{{ asset('images/loading_model.gif') }}"
                     >
+                    {!! $hardware_info['hardware_hotspots'] !!}
                 </model-viewer>
+                
             </div>
 
             <div id="image" class="content">
