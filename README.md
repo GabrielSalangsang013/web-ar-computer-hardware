@@ -85,3 +85,7 @@ History Version of our Project
 	- Update: Added android requirement text in login page.
 	- Remaining:
 		- No bugs to fix or important to add yet.
+- Version 1.7.28 (11/24/2022)
+	- Update: Added labels in each part of the CPU.
+	- Remaining:
+		- No bugs to fix or important to add yet.
