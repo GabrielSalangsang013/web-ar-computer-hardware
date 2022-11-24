@@ -127,10 +127,21 @@ a:link, a:visited {
     }
 
     .hardware {
-        width: 140px;
-        height: 140px;
+        width: 150px;
+        height: auto;
         margin-top: 15px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+        padding: 13px 13px 15px 13px;
+        border-radius: 10px;
+    }
+
+    .hardwareImage {
+        margin-bottom: 5px;
+        height: 120px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
     }
 }
 

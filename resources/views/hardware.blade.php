@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_100,w_32/v1667634716/images/ualogo_triinr.webp"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@77d9ffa/public/css/hardware.min.css">
+    <link rel="stylesheet" href="{{ asset('css/hardware.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/scroll.css') }}">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>{{ $hardware_info['hardware_name'] }} | Markerless Web-AR</title>
@@ -41,33 +42,35 @@
                 <button type="button" class="btnTab" data-content="#video">Video</button>
             </div>
 
-            <div id="ar" class="content contentActive">
-                <br/>
-                <model-viewer 
-                    src="{{ $hardware_info['hardware_url_android'] }}"
-                    ios-src="{{ $hardware_info['hardware_url_ios'] }}"
-                    ar="ar" 
-                    disable-tap
-                    auto-rotate="auto-rotate" 
-                    camera-controls="camera-controls" 
-                    touch-action="pan-y"
-                    quick-look-browsers="safari chrome" 
-                    class="ar"
-                    poster="{{ asset('images/loading_model.gif') }}"
-                    >
-                    {!! $hardware_info['hardware_hotspots'] !!}
-                </model-viewer>
-                
-            </div>
+            <div class="centering">
+                <div id="ar" class="content contentActive">
+                    <br/>
+                    <model-viewer 
+                        src="{{ $hardware_info['hardware_url_android'] }}"
+                        ios-src="{{ $hardware_info['hardware_url_ios'] }}"
+                        ar="ar" 
+                        disable-tap
+                        auto-rotate="auto-rotate" 
+                        camera-controls="camera-controls" 
+                        touch-action="pan-y"
+                        quick-look-browsers="safari chrome" 
+                        class="ar"
+                        poster="{{ asset('images/loading_model.gif') }}"
+                        >
+                        {!! $hardware_info['hardware_hotspots'] !!}
+                    </model-viewer>
+                    
+                </div>
 
-            <div id="image" class="content">
-                <br/>
-                <img loading="lazy" src="{{ $hardware_info['hardware_image'] }}" alt="" class="image"/>
-            </div>
+                <div id="image" class="content">
+                    <br/>
+                    <img loading="lazy" src="{{ $hardware_info['hardware_image'] }}" alt="" class="image"/>
+                </div>
 
-            <div id="video" class="content">
-                <br/>
-                <iframe loading="lazy" class="ytVideoiframe" src="{{ $hardware_info['hardware_video'] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div id="video" class="content">
+                    <br/>
+                    <iframe loading="lazy" class="ytVideoiframe" src="{{ $hardware_info['hardware_video'] }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
 
             <br/>

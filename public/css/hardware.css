@@ -68,7 +68,8 @@ nav {
 }
 
 .image {
-    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .Design5 {
@@ -115,12 +116,22 @@ model-viewer {
     border-bottom: 1px solid #0094FF;
 }
 
+.centering {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
 .content {
     display: none;
 }
 
 .contentActive {
-    display: block;
+    display: flex;
+    width: 100%;
+    justify-content: center;
     animation: fadeAnimation 1s;
 }
 
@@ -135,7 +146,7 @@ a:link, a:visited {
 
 .ytVideoiframe {
     width: 100%;
-    height: 315px;
+    height: 455px;
 }
 
 .elipsis {
@@ -153,7 +164,7 @@ a:link, a:visited {
     color: rgba(0, 0, 0, 0.8);
     display: block;
     font-family: Futura, "Helvetica Neue", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
     left: calc(100% + 1em);
     max-width: 128px;
@@ -171,12 +182,14 @@ a:link, a:visited {
     box-shadow: rgb(0 0 0 / 25%) 0px 2px 4px;
     box-sizing: border-box;
     cursor: pointer;
-    height: 24px;
+    height: 12px;
     padding: 8px;
     position: relative;
     transition: opacity 0.3s ease 0s;
-    width: 24px;
+    width: 12px;
 }
+
+
 
 @keyframes fadeAnimation {
     from {
@@ -237,5 +250,14 @@ a:link, a:visited {
 
     .cross_burger .line3 {
         transform: rotate(46deg) translate(-5px, -6px);
+    }
+
+    .image {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .ytVideoiframe {
+        height: 300px;
     }
 }

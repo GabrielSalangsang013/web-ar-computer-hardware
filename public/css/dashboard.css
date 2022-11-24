@@ -51,6 +51,7 @@ nav {
 .burger {
     display: none;
     cursor: pointer;
+    z-index: 9999;
 }
 
 .burger div {
@@ -70,6 +71,10 @@ nav {
     font-size: 58px;
     font-weight: lighter;
     line-height: 85px;
+    background-image: url('../images/herotext.gif');
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .marginTop1 {
@@ -86,6 +91,7 @@ nav {
     border: 0px;
     transition: all 0.2s;
     background-color: white;
+    font-size: 16px;
 }
 
 .btnTab:hover {
@@ -133,7 +139,8 @@ nav {
     width: 100%;
     object-fit: cover;
     margin-top: 40px;
-    border-radius: 30px
+    border-radius: 30px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .explanation {
@@ -201,7 +208,7 @@ nav {
 
 .btnTabActive {
     color: #0094FF;
-    border-bottom: 1px solid #0094FF;
+    border-bottom: 2px solid #0094FF;
 }
 
 .content {
@@ -238,6 +245,17 @@ model-viewer {
     border: 1px solid #0094FF;
     color: white;
 }
+
+.tab {
+    display: flex;
+    justify-content: left;
+}
+
+iframe {
+    width: 100% !important;
+    height: 600px;
+    margin-top: 30px;
+} 
 
 @keyframes fadeAnimation {
     from {
@@ -313,6 +331,7 @@ model-viewer {
         height: 250px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         border-radius: 5px;
+        margin-bottom: 15px;
     }
 
     .logo {
@@ -360,5 +379,24 @@ model-viewer {
 
     .cross_burger .line3 {
         transform: rotate(46deg) translate(-5px, -6px);
+    }
+
+    .tab {
+        display: flex;
+        justify-content: left;
+    }
+
+    .btnTab {
+        font-size: 14px;
+    }
+
+    .btnTabActive {
+        border-bottom: 1px solid #0094FF;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 300px;
+        margin-top: 30px;
     }
 }

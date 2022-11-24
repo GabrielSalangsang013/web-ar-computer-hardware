@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_100,w_32/v1667634716/images/ualogo_triinr.webp"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/css/dashboard.min.css">
+    <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/scroll.css') }}">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
     <title>Markerless Web-AR</title>
 </head>
@@ -87,7 +88,7 @@
         <section>
             <div class="container">
                 <p class="title2">What is Web-AR?</p>
-                <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_95,w_400/v1667631289/images/arcover_zm50oi.webp" alt="" class="titleCover" loading="lazy"/>
+                <iframe width="330" height="315" src="https://www.youtube.com/embed/I9EZ4k-8dLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p class="explanation">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The abbreviation Web-AR stands for Web-based Augmented Reality, a relatively new technology that doesn't depend on a smartphone app to work. The native camera and mobile web browser on a user's smartphone can be used to access AR experiences.
                 </p>
@@ -151,6 +152,7 @@
             <p>This was created by: Team Cord</p>
             <br/>
             <p>For more info contact us: +639298066743</p>
+            <br/>
         </div>
     </footer>
 
