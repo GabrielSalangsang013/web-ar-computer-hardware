@@ -47,16 +47,28 @@
                 <div id="internalHardware" class="content contentActive">
                     <div class="hardwares">
                         <div class="hardware">
-                            <a href="{{ route('internal_hardware_device', 'cpu_cooler') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630847/images/internal_hardwares/cpu_cooler_hpg6ep.webp" alt="" class="hardwareImage" loading="lazy"/></a>
+                            <a href="{{ route('internal_hardware_device', 'cpu_cooler') }}">
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630847/images/internal_hardwares/cpu_cooler_hpg6ep.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <span class="hardwareName">CPU Cooler</span>
+                            </a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('internal_hardware_device', 'cpu') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630847/images/internal_hardwares/cpu_ekqfja.webp" alt="" class="hardwareImage" loading="lazy"/></a>
+                            <a href="{{ route('internal_hardware_device', 'cpu') }}">
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630847/images/internal_hardwares/cpu_ekqfja.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <span class="hardwareName">CPU</span>
+                            </a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('internal_hardware_device', 'fan') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_85,w_225/v1667630847/images/internal_hardwares/fan_exrffz.webp" alt="" class="hardwareImage" loading="lazy"/></a>
+                            <a href="{{ route('internal_hardware_device', 'fan') }}">
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_85,w_225/v1667630847/images/internal_hardwares/fan_exrffz.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <span class="hardwareName">Fan</span>
+                            </a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('internal_hardware_device', 'gpu') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630848/images/internal_hardwares/gpu_e2nogq.webp" alt="" class="hardwareImage" loading="lazy"/></a>
+                            <a href="{{ route('internal_hardware_device', 'gpu') }}">
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630848/images/internal_hardwares/gpu_e2nogq.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <span class="hardwareName">GPU</span>
+                            </a>
                         </div>
                     </div>
 
@@ -66,16 +78,28 @@
                 <div id="externalHardware" class="content">
                     <div class="hardwares">
                         <div class="hardware">
-                            <a href="{{ route('external_hardware_device', 'digital_camera') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630868/images/external_hardwares/digital_camera_vh5qfx.webp" alt="" class="hardwareImage" loading="lazy"/></a>
+                            <a href="{{ route('external_hardware_device', 'digital_camera') }}">
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630868/images/external_hardwares/digital_camera_vh5qfx.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <span class="hardwareName">Digital Camera</span>
+                            </a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('external_hardware_device', 'external_hard_drive') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_85,w_225/v1667630868/images/external_hardwares/external_hard_drive_yk9kk4.webp" alt="" class="hardwareImage" loading="lazy"/></a>
+                            <a href="{{ route('external_hardware_device', 'external_hard_drive') }}">
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_85,w_225/v1667630868/images/external_hardwares/external_hard_drive_yk9kk4.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <span class="hardwareName">External Hard Drive</span>
+                            </a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('external_hardware_device', 'joystick') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630869/images/external_hardwares/joystick_sdwpai.webp" alt="" class="hardwareImage" loading="lazy"/></a>
+                            <a href="{{ route('external_hardware_device', 'joystick') }}">
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630869/images/external_hardwares/joystick_sdwpai.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <span class="hardwareName">Joystick</span>
+                            </a>
                         </div>
                         <div class="hardware">
-                            <a href="{{ route('external_hardware_device', 'keyboard') }}"><img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630869/images/external_hardwares/keyboard_kie6ue.webp" alt="" class="hardwareImage" loading="lazy"/></a>
+                            <a href="{{ route('external_hardware_device', 'keyboard') }}">
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630869/images/external_hardwares/keyboard_kie6ue.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <span class="hardwareName">Keyboard</span>
+                            </a>
                         </div>
                     </div>
 
@@ -184,10 +208,13 @@
         const burger = document.querySelector('.burger');
         const nav_links = document.querySelector('.nav-links');
         const myBody = document.querySelector('body');
+        const myHeader = document.querySelector('header');
         burger.addEventListener('click', () => {
             nav_links.classList.toggle('show_nav_links');
             burger.classList.toggle('cross_burger');
+            myHeader.classList.toggle('onHeader');
             myBody.classList.toggle('overflow_screen');
+
         });
 
         let btnAnims = document.querySelectorAll('.btnAnim');

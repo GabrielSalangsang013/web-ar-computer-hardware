@@ -124,7 +124,7 @@ nav {
     width: 100%;
     height: 50px;
     background-color: #8FEBFF;
-    margin: 80px auto;
+    margin: 20px auto;
     display: block;
     border: 0px;
     border-radius: 20px;
@@ -257,6 +257,12 @@ iframe {
     margin-top: 30px;
 } 
 
+.hardwareName {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
 @keyframes fadeAnimation {
     from {
         opacity: 0;
@@ -274,7 +280,21 @@ iframe {
     }
 
     .hardware {
-        margin-top: 25px;
+        width: 150px;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        box-shadow: rgba(157, 157, 165, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+        padding: 13px 13px 15px 13px;
+        border-radius: 10px;
+    }
+
+    .hardwareImage {
+        margin-bottom: 5px;
+        height: 120px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
     }
 
     .Design1 {
@@ -310,9 +330,9 @@ iframe {
     }
 
     .hardware {
-        width: 140px;
-        height: 140px;
-        margin-top: 25px;
+        width: 150px;
+        height: auto;
+        margin-top: 10px;
     }
 }
 

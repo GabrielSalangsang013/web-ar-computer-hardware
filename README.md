@@ -89,3 +89,7 @@ History Version of our Project
 	- Update: Added labels in each part of the CPU.
 	- Remaining:
 		- No bugs to fix or important to add yet.
+- Version 1.7.29 (11/25/2022)
+	- Update: Added box shadow in few devices in dashboard page.
+	- Remaining:
+		- No bugs to fix or important to add yet.
