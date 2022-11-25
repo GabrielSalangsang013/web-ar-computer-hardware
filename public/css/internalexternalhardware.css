@@ -211,4 +211,12 @@ a:link, a:visited {
     .cross_burger .line3 {
         transform: rotate(46deg) translate(-5px, -6px);
     }
+
+    .hardwareName {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+    
 }
