@@ -1,0 +1,422 @@
+@font-face {
+    font-family: ApercuRegular;
+    src: url('/typeface/Apercu Pro Regular.otf');
+}
+
+@font-face {
+    font-family: ApercuLight;
+    src: url('/typeface/Apercu Pro Light.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+}
+
+.container {
+    width: min(100% - 0px, 1024px);
+    margin: auto;
+    padding: 30px;
+}
+
+.logo {
+    width: 60px;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.herosection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroText {
+    font-size: 58px;
+    font-weight: lighter;
+    line-height: 85px;
+    background-image: url('../images/herotext.gif');
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.marginTop1 {
+    margin-top: 20px;
+}
+
+.marginTop2 {
+    margin-top: 30px;
+}
+
+.btnTab {
+    padding: 10px;
+    cursor: pointer;
+    border: 0px;
+    transition: all 0.2s;
+    background-color: white;
+    font-size: 16px;
+}
+
+.btnTab:hover {
+    background-color: #0094FF;
+}
+
+.content {
+    display: none;
+}
+
+.contentActive {
+    display: block;
+    animation: fadeAnimation 1s;
+}
+
+.hardwares {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hardware {
+    width: 225px;
+    height: 225px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+}
+
+.btnSeeMore {
+    width: 100%;
+    height: 50px;
+    background-color: #8FEBFF;
+    margin: 20px auto;
+    display: block;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.title2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.titleCover {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 40px;
+    border-radius: 30px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.explanation {
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+.centerContent {
+    text-align: center;
+}
+
+.hardwareImage {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.Design1 {
+    position: absolute;
+    top: 80%;
+    left: -60%;
+    z-index: -9999;
+}
+
+.Design4 {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    z-index: -9999;
+}
+
+.Design3 {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    z-index: -9999;
+}
+
+
+.overflow_screen {
+    overflow: hidden;
+}
+
+/* For Tabs */
+
+.btnTab {
+    padding: 10px;
+    cursor: pointer;
+    border: 0px;
+    transition: all 0.2s;
+}
+
+.btnTab:hover {
+    background-color: white;
+    color: #0094FF;
+}
+
+.btnTabActive {
+    color: #0094FF;
+    border-bottom: 2px solid #0094FF;
+}
+
+.content {
+    display: none;
+}
+
+.contentActive {
+    display: block;
+    animation: fadeAnimation 1s;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+model-viewer {
+    width: 100%;
+    height: 500px;
+}
+
+.btnAnim {
+    padding: 12px 16px;
+    background-color: white;
+    color: rgb(78, 78, 78);
+    border: 1px solid rgb(129, 129, 129);
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.btnAnim:hover {
+    background-color: #0094FF;
+    border: 1px solid #0094FF;
+    color: white;
+}
+
+.tab {
+    display: flex;
+    justify-content: left;
+}
+
+iframe {
+    width: 100% !important;
+    height: 600px;
+    margin-top: 30px;
+} 
+
+.hardwareName {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes fadeAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .hardwares {
+        display: flex;  
+        flex-wrap: wrap;
+    }
+
+    .hardware {
+        width: 150px;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        box-shadow: rgba(157, 157, 165, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+        padding: 13px 13px 15px 13px;
+        border-radius: 10px;
+    }
+
+    .hardwareImage {
+        margin-bottom: 5px;
+        height: 120px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .Design1 {
+        width: 340px;
+        height: 340px;
+    }
+
+    .Design3 {
+        display: none;
+    }
+
+    .Design4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .hardwares {
+        margin-top: 20px;
+    }
+
+    .heroText {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .herosection {
+        padding-bottom: 0px;
+    }
+
+    .heroGuy {
+        display: none;
+    }
+
+    .hardware {
+        width: 150px;
+        height: auto;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .btnAnim {
+        margin: 2px;
+    }
+
+    header  {
+        background-color: white;
+    }
+
+    model-viewer {
+        width: 100%;
+        height: 250px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .logo {
+        z-index: 9999;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        background-color: white;
+        top: 80px;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .show_nav_links {
+        padding-top: 40px;
+        display: block;
+        height: 100%;
+    }
+
+    .nav-links li {
+        padding: 20px 35px;
+        margin: 5px 0px;
+    }
+
+    .nav-links li:hover {
+        color: black;
+    }
+
+    .cross_burger .line1 {
+        transform: rotate(-46deg) translate(-4px, 5px);
+    }
+
+    .cross_burger .line2 {
+        opacity: 0;
+    }
+
+    .cross_burger .line3 {
+        transform: rotate(46deg) translate(-5px, -6px);
+    }
+
+    .tab {
+        display: flex;
+        justify-content: left;
+    }
+
+    .btnTab {
+        font-size: 14px;
+    }
+
+    .btnTabActive {
+        border-bottom: 1px solid #0094FF;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 300px;
+        margin-top: 30px;
+    }
+}
