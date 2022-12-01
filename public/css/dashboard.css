@@ -263,6 +263,11 @@ iframe {
     text-align: center;
 }
 
+.webarcover {
+    margin-top:20px;
+    width: 100%;
+}
+
 @keyframes fadeAnimation {
     from {
         opacity: 0;

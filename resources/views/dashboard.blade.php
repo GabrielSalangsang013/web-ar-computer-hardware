@@ -48,25 +48,25 @@
                     <div class="hardwares">
                         <div class="hardware">
                             <a href="{{ route('internal_hardware_device', 'cpu_cooler') }}">
-                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630847/images/internal_hardwares/cpu_cooler_hpg6ep.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/cpu_fan_xwv4jt.png" alt="" class="hardwareImage" loading="lazy"/>
                             <span class="hardwareName">CPU Cooler</span>
                             </a>
                         </div>
                         <div class="hardware">
                             <a href="{{ route('internal_hardware_device', 'cpu') }}">
-                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630847/images/internal_hardwares/cpu_ekqfja.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/cpu_dfzmnw.png" alt="" class="hardwareImage" loading="lazy"/>
                             <span class="hardwareName">CPU</span>
                             </a>
                         </div>
                         <div class="hardware">
                             <a href="{{ route('internal_hardware_device', 'fan') }}">
-                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_85,w_225/v1667630847/images/internal_hardwares/fan_exrffz.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/fan_vmadpy.png" alt="" class="hardwareImage" loading="lazy"/>
                             <span class="hardwareName">Fan</span>
                             </a>
                         </div>
                         <div class="hardware">
                             <a href="{{ route('internal_hardware_device', 'gpu') }}">
-                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630848/images/internal_hardwares/gpu_e2nogq.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/gpu_ntynsn.png" alt="" class="hardwareImage" loading="lazy"/>
                             <span class="hardwareName">GPU</span>
                             </a>
                         </div>
@@ -79,25 +79,25 @@
                     <div class="hardwares">
                         <div class="hardware">
                             <a href="{{ route('external_hardware_device', 'digital_camera') }}">
-                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630868/images/external_hardwares/digital_camera_vh5qfx.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/digital_camera_k2ctbm.png" alt="" class="hardwareImage" loading="lazy"/>
                             <span class="hardwareName">Digital Camera</span>
                             </a>
                         </div>
                         <div class="hardware">
                             <a href="{{ route('external_hardware_device', 'external_hard_drive') }}">
-                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_85,w_225/v1667630868/images/external_hardwares/external_hard_drive_yk9kk4.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/external_hard_drive_ctsrsu.png" alt="" class="hardwareImage" loading="lazy"/>
                             <span class="hardwareName">External Hard Drive</span>
                             </a>
                         </div>
                         <div class="hardware">
                             <a href="{{ route('external_hardware_device', 'joystick') }}">
-                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630869/images/external_hardwares/joystick_sdwpai.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/joystrick_b5kybd.png" alt="" class="hardwareImage" loading="lazy"/>
                             <span class="hardwareName">Joystick</span>
                             </a>
                         </div>
                         <div class="hardware">
                             <a href="{{ route('external_hardware_device', 'keyboard') }}">
-                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,h_225,q_85,w_225/v1667630869/images/external_hardwares/keyboard_kie6ue.webp" alt="" class="hardwareImage" loading="lazy"/>
+                            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/keyboard_b7etzu.png" alt="" class="hardwareImage" loading="lazy"/>
                             <span class="hardwareName">Keyboard</span>
                             </a>
                         </div>
@@ -112,7 +112,7 @@
         <section>
             <div class="container">
                 <p class="title2">What is Web-AR?</p>
-                <iframe width="330" height="315" src="https://www.youtube.com/embed/I9EZ4k-8dLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img class="webarcover" src="{{ asset('images/webarcover.png') }}" alt="">
                 <p class="explanation">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The abbreviation Web-AR stands for Web-based Augmented Reality, a relatively new technology that doesn't depend on a smartphone app to work. The native camera and mobile web browser on a user's smartphone can be used to access AR experiences.
                 </p>

@@ -93,3 +93,7 @@ History Version of our Project
 	- Update: Added box shadow in few devices in dashboard page.
 	- Remaining:
 		- No bugs to fix or important to add yet.
+- Version 1.9.35 (12/02/2022)
+	- Update: Added table contain model name and brand, make own picture each hardware device, add audio while in ar view mode.
+	- Remaining:
+		- No bugs to fix or important to add yet.

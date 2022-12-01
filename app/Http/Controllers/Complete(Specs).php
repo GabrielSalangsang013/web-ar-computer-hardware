@@ -86,26 +86,20 @@ class Controller extends BaseController
 				<table id="customers">
 					<tr><th>Model Name</th><th>AMD Wraith Spire Cooler</th></tr>
 					<tr><td>Brand</td><td>AMD</td></tr>
+					<tr>
+						<td colspan="2">
+							- AMD Spire Cooler for AMD Processor on Socket AM4 <br/><br/>
+							- Ideal for Ryzen 5 <br/><br/>
+							- Compatible with CPUs up to 95W TDP <br/><br/>
+							- ABS, aluminium and copper design <br/><br/>
+							- Top Flow design <br/><br/>
+							- 92 mm fan <br/><br/>
+							- 4-pin PWM connector <br/><br/>
+						</td>
+					</tr>
 				</table>
-				',
-				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.43889362872423554m 1.2892747334991392m 0.22894607327820604m" data-normal="-0.8416150134794259m 0.19232748356302817m 0.5046724761192539m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">Fans</div>
-					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="0.3388030183019874m 0.8324301195129228m -0.08159762264918657m" data-normal="0.9999999999999076m 3.5762788286318666e-7m 2.3841850804727707e-7m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">Heatsink</div>
-					</button>
-				',
-				'hardware_audio_1' => '../../audio/hotspots_audio/cpu_fan/cpu_fan_fan.mp3',
-				'hardware_audio_2' => '../../audio/hotspots_audio/cpu_fan/cpu_fan_heatsink.mp3',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => 'The computer processor is being cooled by this fan. It aids in removing hot air from the processor and blowing it away, keeping it cooler.',
-				'hardware_caption_2' => 'This heat sink is a form of active cooling used to keep integrated circuits in computer systems, most often the central processing unit, at a safe temperature.',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				
+				' 
 			]]);
 		}
 
@@ -124,24 +118,17 @@ class Controller extends BaseController
 				<table id="customers">
 					<tr><th>Model Name</th><th>Intel® Core™ i9-9900 Processor</th></tr>
 					<tr><td>Brand</td><td>Intel</td></tr>
+					<tr><td>Total Cores</td><td> 8 <br/><br/></td></tr>
+					<tr><td>Total Threads</td><td> 16 <br/><br/></td></tr>
+					<tr><td>Max Turbo Frequency</td><td> 5.00 GHz <br/><br/></td></tr>
+					<tr><td>Processor Base Frequency</td><td> 3.10 GHz <br/><br/></td></tr>
+					<tr><td>Cache</td><td> 16 MB Intel® Smart Cache <br/><br/></td></tr>
+					<tr><td>Bus Speed</td><td> 8 GT/s <br/><br/></td></tr>
+					<tr><td>TDP</td><td> 65 W <br/><br/></td></tr>
 					</td>
 				</table>
-				',
-				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.40997179997595595m 0.3285817400886239m -0.03842650035248971m" data-normal="0.006414073238348886m 0.0005883292642919781m -0.9999792565514397m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">Land Pads</div>
-					</button>
-				',
-				'hardware_audio_1' => '../../audio/hotspots_audio/cpu/cpu_landpads.mp3',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => 'The land pads are how everything connects to the CPU, including the memory, peripherals, disk, screen, keyboard, and power supply.',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				
+				' 
 			]]);
 		}
 
@@ -166,19 +153,19 @@ class Controller extends BaseController
 						<td>Brand</td>
 						<td>Lian Li</td>
 					</tr>
+					<tr>
+						<td colspan="2">
+							- Software controlled fan speed/ LED lighting <br/><br/>
+							- Only one cable is required for a cluster of fans <br/><br/>
+							- Embedded magnetic Fluid Dynamic Bearing to provide stability, durability, and longevity <br/><br/>
+							- 40 LEDs in each fan <br/><br/>
+							- Quick PIN connection to provide ease of installation <br/><br/>
+							- Low noise level at high RPM <br/><br/>
+							- Infinity mirror look all around <br/><br/>
+						</td>
+					</tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -198,29 +185,26 @@ class Controller extends BaseController
 				<table id="customers">
 					<tr><th>Model Name</th><th>GeForce RTX 3090</th></tr>
 					<tr><td>Brand</td><td>Nvidia</td></tr>
+					<tr><td>Total Cores<br/><br/></td><td>8</td></tr>
+					<tr><td>Total Threads</td><td>16 <br/><br/></td></tr>
+					<tr><td>Max Turbo Frequency</td><td>5.00 GHz</td></tr>
+					<tr><td>PCB number</td><td>	PG132 SKU 30 <br/><br/></td></tr>
+					<tr><td>Architecture</td><td> Ampere <br/><br/></td></tr>
+					<tr><td>Transistors</td><td> 28 billion <br/><br/></td></tr>
+					<tr><td>Bus interface</td><td> PCI-E 4.0 x 16 <br/><br/></td></tr>
+					<tr><td>Base clock</td><td>	1395 MHz <br/><br/></td></tr>
+					<tr><td>Boost clock</td><td> 1695 MHz <br/><br/></td></tr>
+					<tr><td>Memory size</td><td> 24 GB <br/><br/></td></tr>
+					<tr><td>Memory type</td><td> GDDR6X <br/><br/></td></tr>
+					<tr><td>Memory clock</td><td> 1219 MHz <br/><br/></td></tr>
+					<tr><td>Memory clock (effective)</td><td> 19.5 GHz <br/><br/></td></tr>
+					<tr><td>CUDA</td><td>	8.5 <br/><br/></td></tr>
+					<tr><td>CUDA cores</td><td>	10496 <br/><br/></td></tr>
+					<tr><td>RT cores</td><td> 82 <br/><br/></td></tr>
+					<tr><td>Tensor cores</td><td> 328 <br/><br/></td></tr>
+					<tr><td>ROPs</td><td> 112 <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-4" data-position="-1.1403148599868518m 1.136582389787727m -0.13672558922188874m" data-normal="0.5273071563687053m -0.08537767549421489m -0.8453743640361674m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">Fan</div>
-					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="0.6157583098128309m 1.5337952250674252m -0.15016154213844501m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">Bus interface PCI-E 4.0 x 16</div>
-					</button>
-					<button id="hot3" class="Hotspot" slot="hotspot-3" data-position="1.7633449415807831m 0.9983082337670092m -0.16450762955158477m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">4x HDMI 2.1 </div>
-					</button>
-				',
-				'hardware_audio_1' => '../../audio/hotspots_audio/gpu/gpu_fan.mp3',
-				'hardware_audio_2' => '../../audio/hotspots_audio/gpu/gpu_pcie.mp3',
-				'hardware_audio_3' => '../../audio/hotspots_audio/gpu/gpu_hdmi.mp3',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => "The large copper heat sink that this fan uses to dissipate heat. The GPU's heat sink is heated by the air that the fans are blowing into it. The GPU and the computer case are then used to vent this hot air.",
-				'hardware_caption_2' => 'A Gen 4 expansion card or slot with a 16-lane configuration is referred to as PCIe 4.0 x16.',
-				'hardware_caption_3' => 'The most recent revision of the HDMI® specification, HDMI 2.1, supports a variety of higher video resolutions and refresh rates, including 8K60 and 4K120, as well as resolutions up to 10K.',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -237,21 +221,16 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=io2CrCm9f0I',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td> <td>Western Digital Caviar SE 80GB SATA WD800JD 7.2K Hard Drive </td>
-				<tr><td>Brand</td> <td>Western Digital </td>
+				<tr><td>Model Name</td> <td>Western Digital Caviar SE 80GB SATA WD800JD 7.2K Hard Drive <br/><br/></td>
+				<tr><td>Brand</td> <td>Western Digital <br/></td>
+				<tr>
+				<td colspan="2">Western Digital WD800JD 80 GB Serial ATA 150 Hard Drive General Features: 80 GB storage capacity <br/><br/>
+				7200 RPM spindle speed 8 MB Buffer 4.20 ms average latency Average Read Seek Time: 8.9 ms <br/><br/>
+				Buffer to Host (transfer rate): 150 MB/sec. SATA/150 interface 3.5-inch form factor <br/><br/>
+				Power Specifications: +5V, 0.45A +12V, 0.50A Regulatory Approvals: cULus CE C-Tick BSMI MIC <br/><br/>
+				TUV <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -268,21 +247,18 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=B-gHA6sI5n8',
 				'hardware_name&specs' => '
 				<table id="customers">
-					<tr><td>Model Name</td> <td>ROG STRIX Z370-E</td></tr>
-					<tr><td>Brand</td> <td>Asus ROG</td></tr>
+					<tr><td>Model Name</td> <td>ROG STRIX Z370-E <br/><br/></td></tr>
+					<tr><td>Brand</td> <td>Asus ROG <br/><br/></td></tr>
+					<tr><td>Socket</td> <td>LGA1151 socket for 8th -gen Intel® Core™ desktop processors. <br/><br/></td></tr>
+					<tr><td>Aura Sync RGB</td> <td> Synchronize LED lighting with a vast portfolio of compatible PC gear, including addressable RGB strips. <br/><br/></td></tr>
+					<tr><td>Onboard M.2 heatsink</td> <td> Cools your M.2 drive, delivering consistent storage performance and enhanced reliability. <br/><br/></td></tr>
+					<tr><td>5-Way Optimization</td> <td> Automated system-wide tuning, providing overclocking and cooling profiles that are tailor-made for your rig. <br/><br/></td></tr>
+					<tr><td>Gaming audio</td> <td> SupremeFX S1220A teams with Sonic Studio III to create an aural landscape that draws you deeper into the action. <br/><br/></td></tr>
+					<tr><td>Gaming connectivity</td> <td> Dual M.2 and USB 3.1 Gen 2 Type-A and Type-C connectors. <br/><br/></td></tr>
+					<tr><td>Gaming networking</td> <td> Intel Gigabit Ethernet, LANGuard, GameFirst and 2x2 802.11ac Wi-Fi with MU-MIMO support. <br/><br/></td></tr>
+					<tr><td>Gamer’s Guardian</td> <td> ASUS SafeSlot and premium components for maximum endurance. <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -299,21 +275,17 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=oo-tn17rUBo',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> TP-Link TG-3468</td></tr>
-				<tr><td>Brand</td><td> TP-Link </td></tr>
+				<tr><td>Model Name</td><td> TP-Link TG-3468 <br/><br/></td></tr>
+				<tr><td>Brand</td><td> TP-Link  <br/></td></tr>
+				<tr>
+					<td colspan="2">
+						- 10/100/1000Mbps PCIe Adapter <br/><br/>
+						- 32-bit PCIe interface, saving the finite chassis space <br/><br/>
+						- Wake-on-LAN, convenient to manage over LAN <br/><br/>
+					</td>
+				</tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -330,21 +302,21 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=ZW1wcoERoDU',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> T.F.SKYWINDINTL 600W 1U Flex Power Supply ITX Nas PSU GPU Power MINI ATX Computer Pwer Supplier</td></tr>
-				<tr><td>Brand</td><td> T.F.SKYWINDINTL</td></tr>
+				<tr><td>Model Name</td><td> T.F.SKYWINDINTL 600W 1U Flex Power Supply ITX Nas PSU GPU Power MINI ATX Computer Pwer Supplier <br/><br/></td></tr>
+				<tr><td>Brand</td><td> T.F.SKYWINDINTL <br/><br/></td></tr>
+				<tr><td>80 PLUS Certification</td><td>Other Certification <br/><br/></td></tr>
+				<tr><td>Rating Power</td><td>401W - 500W <br/><br/></td></tr>
+				<tr><td>Graphics Card 12V Pin Number</td><td>2 x6 pin <br/><br/></td></tr>
+				<tr><td>Input Voltage</td><td>175-264V <br/><br/></td></tr>
+				<tr><td>Interface Type</td><td>20 + 4Pin <br/><br/></td></tr>
+				<tr><td>D-type Bus Number</td><td>4 <br/><br/></td></tr>
+				<tr><td>PFC Type</td><td>Active <br/><br/></td></tr>
+				<tr><td>CPU Power Connector</td><td>4 pin <br/><br/></td></tr>
+				<tr><td>Model Number</td><td>ATX600a <br/><br/></td></tr>
+				<tr><td>Package</td><td>Yes <br/><br/></td></tr>
+				<tr><td>Modular</td><td>Non-Modular <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -361,21 +333,14 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=-aQOv3T7P8E',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> Kingston ValueRAM 3GB DDR3 SDRAM Memory Module</td></tr>
-				<tr><td>Brand</td><td> Kingston</td></tr>
+				<tr><td>Model Name</td><td> Kingston ValueRAM 3GB DDR3 SDRAM Memory Module <br/></td></tr>
+				<tr><td>Brand</td><td> Kingston <br/><br/></td></tr>
+				<tr><td>Computer Memory Size</td><td> 3 GB <br/><br/></td></tr>
+				<tr><td>RAM Memory Technology</td><td>DDR3 <br/><br/></td></tr>
+				<tr><td>Memory Speed</td><td> 1066 MHz <br/><br/></td></tr>
+				<tr><td>Compatible Devices</td><td>	Desktop <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -394,19 +359,21 @@ class Controller extends BaseController
 				<table id="customers">
 				<tr><td>Model Name</td><td> Creative Labs Sound Blaster X-Fi Titanium PCI Express Sound Card <br/></td></tr>
 				<tr><td>Brand</td><td> Creative <br/></td></tr>
+				<tr>
+					<td colspan="2">
+					- CMSS-3D Technology <br/><br/>
+					- EAX Advanced HD <br/><br/>
+					- ASIO 2.0 Drivers for Recording Audio <br/><br/>
+					- 3.5mm Mic/Line Input <br/><br/>
+					- 4x 3.5mm Speaker Outputs <br/><br/>
+					- Optical Digital I/O Jacks <br/><br/>
+					- Software Suite Included <br/><br/>
+					- Fits PCI Express Slot <br/><br/>
+					- Windows Vista or XP Compatible <br/><br/>
+					</td>
+				</tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -425,19 +392,20 @@ class Controller extends BaseController
 				<table id="customers">
 				<tr><td>Model Name</td><td> WD 500GB Blue 3D NAND SATA III 2.5" Internal SSD <br/></td></tr>
 				<tr><td>Brand</td><td> Western Digital <br/></td></tr>
+					<tr>
+						<td colspan="2">
+							- 500GB Storage Capacity <br/><br/>
+							- 2.5" / 7mm Form Factor <br/><br/>
+							- SATA III 6 Gb/s Interface <br/><br/>
+							- Up to 530 MB/s Sequential Write Speed <br/><br/>
+							- Up to 560 MB/s Sequential Read Speed <br/><br/>
+							- 3D V-NAND Technology <br/><br/>
+							- Downloadable WD SSD Dashboard Software <br/><br/>
+							- Downloadable Acronis True Image Software <br/><br/>
+						</td>
+					</tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 		// END INTERNAL HARDWARE DEVICES
@@ -462,21 +430,26 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=OaWsnJh8Xtk',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> Sigma dp1 Quattro</td></tr>	
-				<tr><td>Brand</td><td> Sigma </td></tr>	
+				<tr><td>Model Name</td><td> Sigma dp1 Quattro <br/><br/></td></tr>	
+				<tr><td>Brand</td><td> Sigma  <br/><br/></td></tr>	
+				<tr><td>Body type</td><td>	Large sensor compact <br/><br/>	</td></tr>	
+				<tr><td>Max resolution</td><td>	5424 x 3616 <br/><br/>	</td></tr>	
+				<tr><td>Effective pixels</td><td>	20 megapixels <br/><br/>	</td></tr>	
+				<tr><td>Sensor size</td><td>	APS-C (23.5 x 15.7 mm) <br/><br/>	</td></tr>	
+				<tr><td>Sensor type</td><td>	CMOS (Foveon X3) <br/><br/>	</td></tr>	
+				<tr><td>ISO	Auto</td><td> 100-6400 <br/><br/>	</td></tr>	
+				<tr><td>Focal length (equiv.)</td><td>	28 mm <br/><br/>	</td></tr>	
+				<tr><td>Max aperture</td><td>	F2.8 <br/><br/>	</td></tr>	
+				<tr><td>Articulated</td><td> LCD	Fixed <br/><br/>	</td></tr>	
+				<tr><td>Screen size</td><td>	3″ <br/><br/>	</td></tr>	
+				<tr><td>Screen dots</td><td>	920,000 <br/><br/>	</td></tr>	
+				<tr><td>Max shutter speed</td><td>	1/2000 sec <br/><br/>	</td></tr>	
+				<tr><td>USB</td><td>	USB 2.0 (480 Mbit/sec) <br/><br/>	</td></tr>	
+				<tr><td>Dimensions</td><td>	161 x 67 x 87 mm (6.34 x 2.64 x 3.43″) <br/><br/>	</td></tr>	
+				<tr><td>GPS</td><td>	None <br/></td></tr>	
+				</tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -493,21 +466,14 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=Fl8ImWZeXxs',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> ADATA 2TB HD680 External USB 3.1 Hard Drive</td></tr>
-				<tr><td>Brand</td><td> ADATA</td></tr>
+				<tr><td>Model Name</td><td> ADATA 2TB HD680 External USB 3.1 Hard Drive <br/></td></tr>
+				<tr><td>Brand</td><td> ADATA <br/><br/></td></tr>
+				<tr><td>Digital storage capacity</td><td>	2 TB <br/><br/></td></tr>
+				<tr><td>Hard disk interface</td><td>	ESATA <br/><br/></td></tr>
+				<tr><td>Connectivity technology</td><td>	USB <br/><br/></td></tr>
+				<tr><td>Compatible devices</td><td>	Desktop <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -524,21 +490,11 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=R1aApvrAAn4',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> Atari 2600 Joystick</td></tr>
-				<tr><td>Brand</td><td> Atara</td></tr>
+				<tr><td>Model Name</td><td> Atari 2600 Joystick <br/></td></tr>
+				<tr><td>Brand</td><td> Atara <br/></td></tr>
+				<tr><td colspan="2">- Classic look and feel of the original Atari joystick <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -555,21 +511,19 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=g2SiyJVFcDI',
 				'hardware_name&specs' => '
 				<table id="customers">
-					<tr><td>Model Name</td><td> Logitech G213 Keyboard</td></tr>
-					<tr><td>Brand</td><td> Logitech</td></tr>
+					<tr><td>Model Name</td><td> Logitech G213 Keyboard <br/></td></tr>
+					<tr><td>Brand</td><td> Logitech <br/></td></tr>
+					<tr>
+						<td colspan="2">
+							- Prodigy Series Logitech G keyboard for advanced gaming-grade performance up to 4x faster than standard keyboards so every keypress is near instantaneous from fingers to screen <br/><br/>
+							- Brilliant Color Spectrum Illumination lets you easily personalize up to 5 lighting zones from over 16.8 million colors to match your style and gaming gear <br/><br/>
+							- Tactile performance keys tuned for gaming with responsive and more. LCD Display: No <br/><br/>
+							- Dedicated media control let you quickly play, pause, skip and adjust the volume of music right from the keyboard <br/><br/>
+							- Easily customize key lighting, 12 Function keys with custom commands, and more with free Logitech Gaming Software <br/>
+						</td>
+					</tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -586,21 +540,17 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=d_crXXbuEKE',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> Razer Seiren X USB Streaming Microphone</td></tr>
-				<tr><td>Brand</td><td> Razer</td></tr>
+				<tr><td>Model Name</td><td> Razer Seiren X USB Streaming Microphone <br/></td></tr>
+				<tr><td>Brand</td><td> Razer <br/></td></tr>
+				<tr>
+					<td colspan="2">
+						- Built-In background Noise Reduction: Utilizes a supercardiod pickup microphone to eliminate distracting noises further away from the microphone for professional-grade stream audio <br/><br/>
+						- Built-In Shock Mount: Dampens vibrations to help protect against bumps for smooth and uninterrupted audio <br/><br/>
+						- Zero Latency Monitoring: Allows for real-time in-stream monitoring without confusing echos <br/><br/>
+					</td>
+				</tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -617,21 +567,19 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=LaqeGAXkIsE',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> Acer-k222hql</td></tr>
-				<tr><td>Brand</td><td> Acer</td></tr>
+				<tr><td>Model Name</td><td> Acer-k222hql <br/><br/></td></tr>
+				<tr><td>Brand</td><td> Acer <br/><br/></td></tr>
+				<tr><td>Maximum Resolution</td><td> 1920 x 1080 <br/><br/></td></tr>
+				<tr><td>Color Supported</td><td> 16.7 Million Colors <br/></td></tr>
+				<tr><td>Brightness</td><td> 200 Nit <br/><br/></td></tr>
+				<tr><td>Aspect Ratio</td><td> 16:9 <br/><br/></td></tr>
+				<tr><td>Response Time</td><td> 5 ms <br/><br/></td></tr>
+				<tr><td>Backlight Technology</td><td> LED <br/><br/></td></tr>
+				<tr><td>Horizontal Viewing Angle</td><td> 90° <br/><br/></td></tr>
+				<tr><td>Vertical Viewing Angle</td><td> 65° <br/><br/></td></tr>
+				<tr><td>Tilt Angle</td><td> -5° to 25° <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -648,21 +596,15 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=LaqeGAXkIsE',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> Viewsonic-PS790</td></tr>
-				<tr><td>Brand</td><td> Viewsonic</td></tr>
+				<tr><td>Model Name</td><td> Viewsonic-PS790 <br/><br/></td></tr>
+				<tr><td>Brand</td><td> Viewsonic <br/><br/></td></tr>
+				<tr><td>Screen Size</td><td> 19" (18" viewable) <br/><br/></td></tr>
+				<tr><td>Power Consumption</td><td> 140W <br/><br/></td></tr>
+				<tr><td>Dimensions(WxHxD)</td><td> 17.6" x 17.9" x 16.3" <br/><br/></td></tr>
+				<tr><td>Weight</td><td> 47.4 lb. (21.5 kg.) <br/><br/></td></tr>
+				<tr><td>Video Connectors</td><td> 15-pin mini D-Sub (VGA) <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -679,21 +621,24 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=oobt4TmEJ8U',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> Logitech G402 Hyperion Fury FPS</td></tr>
-				<tr><td>Brand</td><td> Logitech</td></tr></td></tr>
+				<tr><td>Model Name</td><td> Logitech G402 Hyperion Fury FPS <br/></td></tr>
+				<tr><td>Brand</td><td> Logitech <br/></td></tr></td></tr>
+				<tr><td>Length Cable</td><td> 7 ft. ( 2.1 m) <br/><br/></td></tr>
+				<tr><td>Width</td><td> 2.8 in (72 mm),Depth: 1.6 in (41 mm) <br/><br/></td></tr>
+				<tr><td>Weight</td><td> 5.1 oz (144 grams,mouse plus cable), 3.8 oz (108 grams,mouse without cable) <br/><br/></td></tr>
+				<tr>
+					<td colspan="2">
+						- Fusion Engine hybrid sensor <br/><br/>
+						- 8 programmable buttons <br/><br/>
+						- On-the-fly DPI Switching,32-bit ARM processor <br/><br/>
+						- 1 millisecond report <br/><br/>
+						- High-speed clicking <br/><br/>
+						- Full-speed USB <br/><br/>
+						- 4 on-the-fly DPI settings <br/><br/>
+					</td>
+				</tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -710,21 +655,17 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=kZLb9kvqRWI',
 				'hardware_name&specs' => '
 				<table id="customers">
-					<tr><td>Model Name</td><td> HP DesignJet T630</td></tr>
-					<tr><td>Brand</td><td> HP</td></tr>
+					<tr><td>Model Name</td><td> HP DesignJet T630 <br/></td></tr>
+					<tr><td>Brand</td><td> HP <br/></td></tr>
+					<tr><td>Item Weight</td><td>	77 pounds (34.65 kg) <br/><br/></td></tr>
+					<tr><td>Connectivity Technology</td><td>	Gigabit Ethernet, Wi-Fi, Wi-Fi Direct, USB 2.0 <br/><br/></td></tr>
+					<tr><td>Printing Technology</td><td>	Thermal Inkjet <br/><br/></td></tr>
+					<tr><td>Color</td><td>	Black <br/><br/></td></tr>
+					<tr><td>Printer Output</td><td>	Color <br/><br/></td></tr>
+					<tr><td>Maximum Print Speed (Color)</td><td>	2 ppm <br/><br/></td></tr>
+					<tr><td>Max Printspeed Monochrome</td><td>	2 ppm <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -741,21 +682,15 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=A_a9eFN-qLc',
 				'hardware_name&specs' => '
 				<table id="customers">
-					<tr><td>Model Name</td><td> Epson 4750 printer</td></tr>
-					<tr><td>Brand</td><td> Epson</td></tr>
+					<tr><td>Model Name</td><td> Epson 4750 printer <br/></td></tr>
+					<tr><td>Brand</td><td> Epson <br/></td></tr>
+					<tr><td>PRINTING METHOD</td><td>	On-demand Inkjet (piezoelectric) <br/></td></tr>
+					<tr><td>PRODUCT DIMENSIONS</td><td>	375(W) x 347(D) x 231(H)mm <br/></td></tr>
+					<tr><td>WEIGHT</td><td>	6.8kg <br/></td></tr>
+					<tr><td>INK BOTTLES</td><td>	T502 (Black, Cyan, Magenta, Yellow) <br/></td></tr>
+					<tr><td>PRINTER DRIVERS</td><td>	Windows® XP/XP Professional x64 Edition/Vista/7/8/8.1/10, Windows® Server 2003/2003 x64 Edition/2003 R2/2003 R2 x64 Edition/2008/2008 R2/2012/2012 R2/2016 <br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -772,21 +707,16 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=FM-M1PjAD88',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> Epson ebx450</td></tr>
-				<tr><td>Brand</td><td> Epson</td></tr>
+				<tr><td>Model Name</td><td> Epson ebx450 <br/><br/></td></tr>
+				<tr><td>Brand</td><td> Epson <br/></td></tr>
+				<tr><td>Projector system</td><td> 3lcd technology <br/><br/></td></tr>
+				<tr><td>Native resolution</td><td> Xga <br/><br/></td></tr>
+				<tr><td>Contrast ratio</td><td> Color brightness: 3600 ansi lumens <br/><br/></td></tr>
+				<tr><td>Dimensions</td><td> 30, 2x23.4x7.7cm <br/><br/></td></tr>
+				<tr><td>Weight</td><td> 2.5 kg <br/><br/></td></tr>
+				<tr><td>Power consumption</td><td> 220-240 v <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -803,21 +733,16 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=zQYIcxYXafc',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> Samsung PRO Endurance Card</td></tr>
-				<tr><td>Brand</td><td> Samsung</td></tr>
+				<tr><td>Model Name</td><td> Samsung PRO Endurance Card <br/><br/></td></tr>
+				<tr><td>Brand</td><td> Samsung <br/><br/></td></tr>
+				<tr><td>Capacities</td><td>	32GB 64GB 128GB <br/><br/></td></tr>
+				<tr><td>FHD Recording</td><td>	32GB – 17,520 hours 64GB – 26,280 hours 128GB – 43,800 hours <br/><br/></td></tr>
+				<tr><td>Form Factor</td><td>	microSDHC and microSDXC (Includes SD adaptor) <br/><br/></td></tr>
+				<tr><td>Sequential Read</td><td>	Up to 100MB/s <br/><br/></td></tr>
+				<tr><td>Sequential Write</td><td>	Up to 30MB/s <br/><br/></td></tr>
+				<tr><td>Operating Temperatures</td><td>	From -25ºC to 85ºC <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -834,21 +759,17 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=BHPg2UnbIe4',
 				'hardware_name&specs' => '
 				<table id="customers">
-					<tr><td>Model Name</td><td> LogiTech Z333</td></tr>
-					<tr><td>Brand</td><td> Logitech</td></tr>
+					<tr><td>Model Name</td><td> LogiTech Z333 <br/><br/></td></tr>
+					<tr><td>Brand</td><td> Logitech <br/><br/></td></tr>
+					<tr><td>Total watts (RMS)</td><td> 40 W <br/><br/></td></tr>
+					<tr><td>Subwoofer</td><td> 24 W <br/><br/></td></tr>
+					<tr><td>Satellites</td><td> 2 x 8 W <br/><br/></td></tr>
+					<tr><td>3.5 mm input</td><td> 1 <br/><br/></td></tr>
+					<tr><td>RCA input</td><td> 1 <br/><br/></td></tr>
+					<tr><td>Headphone jack</td><td> 1 <br/><br/></td></tr>
+					<tr><td>Controls</td><td> Power and volume control on wired control pod; bass control on back of subwoofer <br/><br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -865,21 +786,10 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=Lzk1Hfd0Dmk',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> Es6c Trackball</td></tr>
-				<tr><td>Brand</td><td> Es6c</td></tr>
+				<tr><td>Model Name</td><td> Es6c Trackball <br/></td></tr>
+				<tr><td>Brand</td><td> Es6c <br/></td></tr>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
@@ -896,21 +806,16 @@ class Controller extends BaseController
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=f8T_E4RCvUc',
 				'hardware_name&specs' => '
 				<table id="customers">
-				<tr><td>Model Name</td><td> UGREEN Card Reader USB 3.0</td></tr>
-				<tr><td>Brand</td><td> UGREEN</td></tr>
+				<tr><td>Model Name</td><td> UGREEN Card Reader USB 3.0 <br/><br/></td></tr>
+				<tr><td>Brand</td><td> UGREEN <br/><br/></td></tr>
+				<tr><td>USB 3.0 Model</td><td> SD/TF card slots, support reading at the same time <br/><br/></td></tr>
+				<tr>
+					<td colspan="2">
+					 	- Any memory cards are not included. <br/><br/>
+						- Compatible with UHS-II memory cards, but the actual speed will be only up to UHS-I. <br/><br/>
+					</td>
 				</table>
-				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'
 			]]);
 		}
 
