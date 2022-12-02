@@ -129,15 +129,15 @@ class Controller extends BaseController
 				',
 				'hardware_hotspots' => '
 					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.40997179997595595m 0.3285817400886239m -0.03842650035248971m" data-normal="0.006414073238348886m 0.0005883292642919781m -0.9999792565514397m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">Land Pads</div>
+						<div class="HotspotAnnotation">LGA</div>
 					</button>
 				',
-				'hardware_audio_1' => '../../audio/hotspots_audio/cpu/cpu_landpads.mp3',
+				'hardware_audio_1' => '../../audio/hotspots_audio/cpu/cpu_lga.mp3',
 				'hardware_audio_2' => '',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => 'The land pads are how everything connects to the CPU, including the memory, peripherals, disk, screen, keyboard, and power supply.',
+				'hardware_caption_1' => 'The pins on the socket, rather than the integrated circuit, are what makes the land grid array a unique type of surface-mount packaging for integrated circuits. A socket or direct soldering to the PCB are two ways that an LGA can be electrically connected to the board.',
 				'hardware_caption_2' => '',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
@@ -241,15 +241,27 @@ class Controller extends BaseController
 				<tr><td>Brand</td> <td>Western Digital </td>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
+				'hardware_hotspots' => '
+				<button id="hot1" class="Hotspot" slot="hotspot-2" data-position="0.2830409689391742m 0.12682226662793733m 0.8230858827164265m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">PATA Power</div>
+				</button>
+			
+				<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-0.07967082800728498m 0.09682605832689192m 0.863802184080086m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">SATA Data</div>
+				</button>
+			
+				<button id="hot3" class="Hotspot" slot="hotspot-5" data-position="-0.31582002357134603m 0.11074695624310944m 0.863802184080086m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">SATA Power</div>
+				</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/hdd/hdd_pata.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/hdd/hdd_sata_data.mp3',
+				'hardware_audio_3' => '../../audio/hotspots_audio/hdd/hdd_sata_power.mp3',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
+				'hardware_caption_1' => 'Parallel Advanced Technology Attachment is known as PATA. It is an IDE standard for attaching storage components to the motherboard, such as optical and hard drives.',
+				'hardware_caption_2' => 'Seven pins are typically present on SATA data connectors. SATA data cables are frequently thin and compact, giving the system more room to cool. Additionally, differential signaling is included in these data connectors to lessen the possibility of data loss during transfer.',
+				'hardware_caption_3' => "The larger of the two, the SATA power cable connectors have 15 pins. The connector's three pins function in parallel to supply various voltages.",
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
 			]]);
@@ -272,16 +284,29 @@ class Controller extends BaseController
 					<tr><td>Brand</td> <td>Asus ROG</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.589108652781651m 10.04401881158623m -0.08963286889955902m" data-normal="0m -1.5099580252808495e-7m 0.9999999999999888m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Processor Socket</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="3.47766556613211m 12.327384746654936m -0.2588850030478357m" data-normal="0m -1.3435886108395827e-7m 0.999999999999991m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Memory Slot</div>
+					</button>
+					<button id="hot3" class="Hotspot" slot="hotspot-3" data-position="-1.455286371877649m 5.539718285602969m 0.22759537207767144m" data-normal="1.5561423079959446e-7m -0.38067990454690276m 0.9247068780289983m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">PCI Slot</div>
+					</button>
+					<button id="hot4" class="Hotspot" slot="hotspot-4" data-position="-2.589475895660356m 13.549926010693078m 0.18488715651482013m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">8-Pin CPU Power Connector</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/motherboard/motherboard_processor_socket.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/motherboard/motherboard_ram_slot.mp3',
+				'hardware_audio_3' => '../../audio/hotspots_audio/motherboard/motherboard_pci_slot.mp3',
+				'hardware_audio_4' => '../../audio/hotspots_audio/motherboard/motherboard_cpu_power.mp3',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
+				'hardware_caption_1' => "To ensure proper circuit chip insertion, the motherboard's processor socket is a unique mount used only for the CPU.",
+				'hardware_caption_2' => 'RAM (computer memory) can be inserted into a computer through a memory slot, memory socket, or RAM slot.',
+				'hardware_caption_3' => 'The most typical method of connecting add-on controller cards and other devices to a computer motherboard is via PCI, or peripheral component interconnect.',
+				'hardware_caption_4' => 'Modern graphics cards have 8-pin power connectors. Up to 150 watts can be delivered by 8-pin connectors with a 4.2mm pitch, which is twice as much as a 6-pin connector can.',
 				'hardware_caption_5' => '',
 			]]);
 		}
@@ -303,14 +328,21 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> TP-Link </td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-6.231713771820068m 0.6605354342582035m 0.3006179266762241m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">RJ-45 Lan Port</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-2.3591592263322383m 0.09209442369969523m 1.3049972349977719m" data-normal="0m 0.9999999999999911m 1.3435886108395827e-7m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">PCI 32-bit</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/nic/nic_rj45.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/nic/nic_pci.mp3',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
+				'hardware_caption_1' => 'A data port known as a Registered Jack 45 (RJ-45) port is frequently found on hubs, switches, routers, and PCs. With an 8 position 8 conductor (8P8C) jack, it is frequently used for an Ethernet or serial connection.',
+				'hardware_caption_2' => 'The memory and I/O port address spaces of the x86 processor family are represented by two distinct 32-bit or 64-bit address spaces provided by PCI.',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
@@ -334,17 +366,33 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> T.F.SKYWINDINTL</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-8.924973293076818m 1.4767739588518423m 10.957664541757675m" data-normal="0m 0.999999999999991m 1.3435886108395827e-7m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">ATX 24-Pin</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-10.661340947614233m 1.414482561054248m 12.247610448059476m" data-normal="0.007102143312122951m 0.9997269698646217m -0.02226084647258106m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">EPS12V 4-Pin</div>
+					</button>
+					<button id="hot3" class="Hotspot" slot="hotspot-4" data-position="-14.39714929869524m 1.1884061779334592m 11.153459370059693m" data-normal="-0.4500536117458761m -0.02260854913782658m 0.8927152961949149m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Molex</div>
+					</button>
+					<button id="hot4" class="Hotspot" slot="hotspot-5" data-position="-14.305326152870094m 1.1562454145924113m 6.81162486475664m" data-normal="-0.38830763706889815m 0.9117133329391315m -0.1341490869703906m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">SATA</div>
+					</button>
+					<button id="hot5" class="Hotspot" slot="hotspot-6" data-position="1.0082188047995517m 2.539418122474022m 5.635529073390122m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Power Plug Receptacle</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/psu/psu_atx.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/psu/psu_eps.mp3',
+				'hardware_audio_3' => '../../audio/hotspots_audio/psu/psu_molex.mp3',
+				'hardware_audio_4' => '../../audio/hotspots_audio/psu/psu_sata.mp3',
+				'hardware_audio_5' => '../../audio/hotspots_audio/psu/psu_power_plug.mp3',
+				'hardware_caption_1' => 'The typical motherboard connector is an ATX 24 power connecter. These connectors, which have multiple power wires, were primarily used to supply additional power to PCIe cards.',
+				'hardware_caption_2' => 'A power supply device called EPS12V is made for PCs with high power requirements and entry-level servers. The EPS12V specification was created by the SSI or Server System Infrastructure forum, an organization that includes numerous computer firms, including HP and Dell, and it was derived from the ATX form factor.',
+				'hardware_caption_3' => 'The colloquial name for a two-piece pin and socket interconnection is Molex.',
+				'hardware_caption_4' => 'SATA is a type of computer bus interface that links mass storage gadgets like solid-state drives, optical drives, and hard drives to host bus adapters.',
+				'hardware_caption_5' => 'The electrical outlet is essentially referred to as a power receptacle. They are apparatuses that enable the primary alternating current power supply in a building to be connected to electrically operated equipment.',
 			]]);
 		}
 
@@ -365,14 +413,21 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Kingston</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.007681592093014857m 2.1169325976739586m -0.09981929343149196m" data-normal="0.999999999999991m -1.3435883843274952e-7m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Memory Chip</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-0.00204994046559648m 1.2877322287332988m 0.19706204239847377m" data-normal="-0.999999999999991m 1.3435883843274952e-7m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Notch for Alignment</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/ram/ram_chip.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/ram/ram_notch.mp3',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
+				'hardware_caption_1' => 'Microchips called RAM chips are utilized as RAM storage in computers and other electronic devices. This is the real chip that is soldered onto tiny circuit boards to produce RAM cards or sticks, and depending on the model and manufacturer, it has varying performance and capacity ratings. The most popular RAM chip utilized in the mobile device market is DDR3, which has a storage capacity of 1 to 3 GB.',
+				'hardware_caption_2' => 'On Random Access Memory (RAM), the Notch on top of the module can be quickly examined to determine whether it is DDR1, DDR2, or DDR3.',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
@@ -396,15 +451,25 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Creative <br/></td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-6" data-position="-0.662203754956765m 0.031944157197778544m -0.36687746203060956m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Line out (front)</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-7" data-position="-0.6637513798492916m 0.031944157197778544m -0.5133138819508737m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Line in</div>
+					</button>
+					<button id="hot3" class="Hotspot" slot="hotspot-8" data-position="-0.6590919416992745m 0.03194415719777907m -0.06887926116064325m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Digital Output</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/sound_card/sound_card_line_out.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/sound_card/sound_card_line_in.mp3',
+				'hardware_audio_3' => '../../audio/hotspots_audio/sound_card/sound_card_digital_out.mp3',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
+				'hardware_caption_1' => 'In order to transfer computer-generated audio to the devices so they can be heard, line out enables external speakers, headphones, or other output devices to connect to the computer.',
+				'hardware_caption_2' => 'On computer sound cards, there is a jack called line in or line-in that enables users to connect an external audio device. They are utilized to capture, playback, and alter incoming audio.',
+				'hardware_caption_3' => 'Digital out should not be connected to speakers directly; instead, it should be connected to other electronics (like an external amplifier).',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
 			]]);
@@ -427,14 +492,21 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Western Digital <br/></td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-1.0280086177929286m 0.23134319065998168m -0.2390702752869314m" data-normal="-0.9994897993555354m 0.031939645962845147m 2.7922525328457317e-9m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">SATA Power</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-1.0283004894650167m 0.22220959427526804m 0.1462535513492089m" data-normal="-0.9994897993555354m 0.031939645962845147m 2.7922525328457317e-9m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">SATA Data</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/ssd/ssd_sata_power.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/ssd/ssd_sata_data.mp3',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
+				'hardware_caption_1' => "The larger of the two, the SATA power cable connectors have 15 pins. The connectors three pins function in parallel to supply various voltages.",
+				'hardware_caption_2' => 'Seven pins are typically present on SATA data connectors. SATA data cables are frequently thin and compact, giving the system more room to cool. Additionally, differential signaling is included in these data connectors to lessen the possibility of data loss during transfer.',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
@@ -466,15 +538,25 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Sigma </td></tr>	
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-2" data-position="0.2092806558286689m 1.273836313230301m 1.0830823971813428m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Self-timer Lamp</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-1.4753625814384628m 1.4987069712020882m -0.34382901769825636m" data-normal="-0.653796741809387m 0m -0.7566702190514901m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Mode Dial</div>
+					</button>
+					<button id="hot3" class="Hotspot" slot="hotspot-4" data-position="-0.7419008664473289m 1.4257407654214629m -0.1756584292464496m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Power</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/digital_camera/digital_camera_self_timer.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/digital_camera/digital_camera_mode_dial.mp3',
+				'hardware_audio_3' => '../../audio/hotspots_audio/digital_camera/digital_camera_power.mp3',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
+				'hardware_caption_1' => 'The moment the self-timer is set to take a picture, the lamp blinks.',
+				'hardware_caption_2' => "On digital cameras, the mode dial, also known as the camera dial, is used to change the camera's mode.",
+				'hardware_caption_3' => 'Power switch. This turns on and off the camera.',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
 			]]);
@@ -497,13 +579,17 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> ADATA</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.005338188552451464m 0.4370976884811617m 1.9870797197191905m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">SATA to USB bridge adapter</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/external_hard_drive/external_hard_drive_sata_usb.mp3',
 				'hardware_audio_2' => '',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
+				'hardware_caption_1' => 'A SATA to USB adapter is the best option if you need to externally connect a hard drive, disk drive, or any other SATA connector to your system.',
 				'hardware_caption_2' => '',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
@@ -528,14 +614,21 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Atara</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.38510991138321954m 0.5940341228776713m -0.3771414767906275m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Programmable Button</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.14507768291530815m 0.6110624376330759m -0.09236791106777115m" data-normal="-0.8703991066643111m 0m -0.49234682401531693m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Hand Rest</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/joystick/joystick_button.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/joystick/joystick_hand_rest.mp3',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
+				'hardware_caption_1' => 'Button on the joystick that can be used as hotkeys and for key-specific operations.',
+				'hardware_caption_2' => 'Better steering control is provided by the hand rest, which also lessens harmful static load on the hands.',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
@@ -559,15 +652,25 @@ class Controller extends BaseController
 					<tr><td>Brand</td><td> Logitech</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.9641034726523434m 0.42505853860578857m -0.08403005443259226m" data-normal="0.1403765879171798m 0.9890944071890275m 0.04457204541096251m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Main Typing Keypad</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.4952701546830566m 0.4647510220129679m -1.0011135316225734m" data-normal="0.1403765879171798m 0.9890944071890273m 0.04457204541096251m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Function Keys</div>
+					</button>
+					<button id="hot3" class="Hotspot" slot="hotspot-4" data-position="1.8870634831200608m 0.4018158757116155m 0.3552108646465608m" data-normal="0.00009384217432264161m 0.9989574181513464m 0.04565159267804801m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Directional Keys</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/keyboard/keyboard_main.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/keyboard/keyboard_function.mp3',
+				'hardware_audio_3' => '../../audio/hotspots_audio/keyboard/keyboard_directional.mp3',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
+				'hardware_caption_1' => 'Main typing keypad. It is the main tool used for text entry. In addition to keys for general purposes, a keyboard often include keys for particular letters, numerals, and special characters.',
+				'hardware_caption_2' => 'Specific actions can be taken using the function keys.',
+				'hardware_caption_3' => 'You can navigate between pages and documents, move the cursor, and edit text by using the directional keys.',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
 			]]);
@@ -590,13 +693,55 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Razer</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.06218806740955997m 3.0753563207871992m 0.6672263089613846m" data-normal="-0.287753900287859m 0.948610763600599m 0.13166363222322758m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Volume Changer</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-4" data-position="0.09998229675899468m 2.482411710393791m 0.6614617913073685m" data-normal="0.09801411234006746m 0m 0.9951850248984803m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Power</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/mic/mic_volume.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/mic/mic_power.mp3',
+				'hardware_audio_3' => '',
+				'hardware_audio_4' => '',
+				'hardware_audio_5' => '',
+				'hardware_caption_1' => 'This will lower or higher the volume of your mic.',
+				'hardware_caption_2' => 'This will turn on or off your mic.',
+				'hardware_caption_3' => '',
+				'hardware_caption_4' => '',
+				'hardware_caption_5' => '',
+			]]);
+		}
+
+		if($hardwarename == 'monitor_crt') {
+			return view('hardware', ['hardware_info' => [
+				'hardware_url_android' => '/models/external_hardwares/monitor_crt.glb?sound=audio/external_hardwares/monitor_crt.ogg', 
+				'hardware_url_ios' => '/models/external_hardwares/monitor_crt.usdz?sound=audio/external_hardwares/monitor_crt.ogg', 
+				'hardware_name' => 'Monitor (CRT)', 
+				'hardware_description' => "An electrical visual computer display known as a monitor consists of a screen, circuitry, and the housing for that equipment. Cathode ray tubes (CRT) were used in older computer monitors, which made them bulky, heavy, and ineffective. Since they are lighter and more energy-efficient, flat-screen LCD displays are now found in gadgets like laptops, PDAs, and desktop PCs. Another name for a monitor is a screen or a visual display device (VDU).",
+				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/monitor_crt_pzn7zb.png',
+				'hardware_video' => 'https://www.youtube.com/embed/LaqeGAXkIsE',
+				'hardware_ref_text' => 'https://www.techopedia.com/definition/3185/monitor#:~:text=Techopedia%20Explains%20Monitor-,What%20Does%20Monitor%20Mean%3F,them%20large%2C%20heavy%20and%20inefficient.',
+				'hardware_ref_image' => 'https://www.online-tech-tips.com/wp-content/uploads/2019/09/cropped-crt-monitor.jpeg',
+				'hardware_ref_video' => 'https://www.youtube.com/watch?v=LaqeGAXkIsE',
+				'hardware_name&specs' => '
+				<table id="customers">
+				<tr><td>Model Name</td><td> Viewsonic-PS790</td></tr>
+				<tr><td>Brand</td><td> Viewsonic</td></tr>
+				</table>
+				',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-4.978357889772517m 5.951866172214682m 28.571962703226205m" data-normal="-0.01687504202214337m 0.015588905899498557m -0.9997360746565103m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">VGA</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/monitor_crt/monitor_crt_vga.mp3',
 				'hardware_audio_2' => '',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
+				'hardware_caption_1' => 'For computer video output, there is a standard connector called the Video Graphics Array (VGA).',
 				'hardware_caption_2' => '',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
@@ -621,46 +766,25 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Acer</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
-			]]);
-		}
-
-		if($hardwarename == 'monitor_crt') {
-			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/external_hardwares/monitor_crt.glb?sound=audio/external_hardwares/monitor_crt.ogg', 
-				'hardware_url_ios' => '/models/external_hardwares/monitor_crt.usdz?sound=audio/external_hardwares/monitor_crt.ogg', 
-				'hardware_name' => 'Monitor (CRT)', 
-				'hardware_description' => "An electrical visual computer display known as a monitor consists of a screen, circuitry, and the housing for that equipment. Cathode ray tubes (CRT) were used in older computer monitors, which made them bulky, heavy, and ineffective. Since they are lighter and more energy-efficient, flat-screen LCD displays are now found in gadgets like laptops, PDAs, and desktop PCs. Another name for a monitor is a screen or a visual display device (VDU).",
-				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/monitor_crt_pzn7zb.png',
-				'hardware_video' => 'https://www.youtube.com/embed/LaqeGAXkIsE',
-				'hardware_ref_text' => 'https://www.techopedia.com/definition/3185/monitor#:~:text=Techopedia%20Explains%20Monitor-,What%20Does%20Monitor%20Mean%3F,them%20large%2C%20heavy%20and%20inefficient.',
-				'hardware_ref_image' => 'https://www.online-tech-tips.com/wp-content/uploads/2019/09/cropped-crt-monitor.jpeg',
-				'hardware_ref_video' => 'https://www.youtube.com/watch?v=LaqeGAXkIsE',
-				'hardware_name&specs' => '
-				<table id="customers">
-				<tr><td>Model Name</td><td> Viewsonic-PS790</td></tr>
-				<tr><td>Brand</td><td> Viewsonic</td></tr>
-				</table>
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.9825731523463846m 1.1621426820073184m -0.0024319259595321496m" data-normal="0m -0.999999999999991m -1.3435886108395827e-7m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">VGA</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.7486086733172309m 1.1621426837379762m -0.015312785785925187m" data-normal="0m -0.9999999999999911m -1.343588610839583e-7m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">DVI-D</div>
+					</button>
+					<button id="hot3" class="Hotspot" slot="hotspot-3" data-position="-0.5493025428189034m 1.1621426817668803m -0.0006424043841099913m" data-normal="0m -0.9999999999999911m -1.343588610839583e-7m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">HDMI</div>
+					</button>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
+				'hardware_audio_1' => '../../audio/hotspots_audio/monitor_lcd/monitor_lcd_vga.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/monitor_lcd/monitor_lcd_dvid.mp3',
+				'hardware_audio_3' => '../../audio/hotspots_audio/monitor_lcd/monitor_lcd_hdmi.mp3',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
+				'hardware_caption_1' => 'For computer video output, there is a standard connector called the Video Graphics Array (VGA).',
+				'hardware_caption_2' => "Computers with HD graphics cards have DVI-D ports. These cards send high-resolution digital video signals to digital monitors.",
+				'hardware_caption_3' => "The HDMI port is one of the most frequently utilized ports (HDMI). Both audio and visual signals are supported by this digital interface. Its one of the most popular connections for using a single cable to transport high-definition video and audio between devices.",
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
 			]]);
@@ -683,15 +807,25 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Logitech</td></tr></td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-3" data-position="0.023310786950688223m 0.7134425979464922m 1.2217872565331427m" data-normal="-0.039967130024597786m 0.8888727959914299m 0.4564074726206561m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Mouse Body</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-4" data-position="-0.014777512552314007m 0.7591624696654303m -0.4118978377089535m" data-normal="-0.9584834948588766m 0.2826980915443531m 0.03729851364725475m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Scroll Wheel</div>
+						</button>
+					<button id="hot3" class="Hotspot" slot="hotspot-5" data-position="-0.5147462945886504m 0.32717948336644387m -0.5013179237088558m" data-normal="-0.9880400367703004m 0.1470235338429931m -0.04648619402857061m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Side Button</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/mouse/mouse_mouse_body.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/mouse/mouse_scroll_wheel.mp3',
+				'hardware_audio_3' => '../../audio/hotspots_audio/mouse/mouse_side.mp3',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
+				'hardware_caption_1' => 'The portion of the mouse you are holding in your hand is its body. It typically has a smooth surface and is made of plastic or metal to facilitate movement.',
+				'hardware_caption_2' => "To navigate up and down any page without utilizing the vertical scroll bar on the right side of a document or website, utilize the scroll wheel that is positioned in the middle of the mouse. Another function of the mouse's scroll wheel is as a third button.",
+				'hardware_caption_3' => "A function or macro can be assigned to a mouse's side buttons.",
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
 			]]);
@@ -714,14 +848,21 @@ class Controller extends BaseController
 					<tr><td>Brand</td><td> HP</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.19464974733949292m 7.039204403436852m -0.520853158080953m" data-normal="-0.000009542895216473279m 0.9997793111961161m 0.02100782742581658m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Window</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="1.0650421995537007m 2.588579903553136m 3.8012006069522073m" data-normal="0m -0.5983850089883103m 0.8012087000389223m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Basket</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/plotter/plotter_window.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/plotter/plotter_basket.mp3',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
+				'hardware_caption_1' => 'This is the window. This cover the Printhead.',
+				'hardware_caption_2' => 'The basket keeps the planned film from touching the ground. Thus, soiling is avoided.',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
@@ -745,14 +886,21 @@ class Controller extends BaseController
 					<tr><td>Brand</td><td> Epson</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="3.270358359744964m 0.823335342082719m -0.15959090639572016m" data-normal="-0.006497704738077495m 0.9997826537292805m 0.019809723248304534m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Output Tray</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="2.070017763590979m 1.6562956468556407m 0.9730014936574851m" data-normal="0.7690879274299888m 0.6391376940914726m 0.002601513574772636m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Control Panel</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/printer/printer_output.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/printer/printer_control_panel.mp3',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
+				'hardware_caption_1' => 'The printed side of the paper is output to the output tray located on top of the printer. In the order that the sheets were printed, the printed paper is collected in the output tray face down.',
+				'hardware_caption_2' => 'The control panel has icons and buttons for operating the printer, as well as a control panel display for choosing print settings.',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
@@ -776,17 +924,33 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Epson</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
-				'hardware_audio_3' => '',
-				'hardware_audio_4' => '',
-				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
-				'hardware_caption_3' => '',
-				'hardware_caption_4' => '',
-				'hardware_caption_5' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-3" data-position="0.9973827502523005m 1.1663620547082307m 1.613036834788188m" data-normal="0.00014863222594806765m 0.93807460058061m 0.3464332860075522m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">A/V Mute Slide Lever</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-4" data-position="0.6822411724767101m 1.2484388009179284m -0.6304134041531988m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Control Panel</div>
+					</button>
+					<button id="hot3" class="Hotspot" slot="hotspot-5" data-position="0.9702596838543239m 1.04182272387317m 1.1508510328520494m" data-normal="0.0006319113460094031m -6.559945581529487e-8m 0.9999998003440035m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Zoom Ring</div>
+					</button>
+					<button id="hot4" class="Hotspot" slot="hotspot-7" data-position="-0.14993439902355793m 0.9940610507978067m -1.5542595809682624m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">HDMI</div>
+					</button>
+					<button id="hot5" class="Hotspot" slot="hotspot-8" data-position="0.2901319998335277m 0.9740675941648499m -1.5965871779257357m" data-normal="0m 0m -1m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">VGA</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/projector/projector_av_mute.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/projector/projector_control_panel.mp3',
+				'hardware_audio_3' => '../../audio/hotspots_audio/projector/projector_zoom_ring.mp3',
+				'hardware_audio_4' => '../../audio/hotspots_audio/projector/projector_hdmi.mp3',
+				'hardware_audio_5' => '../../audio/hotspots_audio/projector/projector_vga.mp3',
+				'hardware_caption_1' => 'The projector screen turns black when the AV mute is used. If you need to stop projecting for a moment, this feature might come in handy. However, because the projector bulb is still powered on while in use, its use should be restricted to less than a minute.',
+				'hardware_caption_2' => 'You can select what your projector will show on the screen using the Control Panel.',
+				'hardware_caption_3' => 'Using the zoom ring on the projector, you can resize the image.',
+				'hardware_caption_4' => "The projector's HDMI input receives the highest traffic. Digital image and sound data are sent to the projector via an HDMI connection from a laptop, Blu-ray.",
+				'hardware_caption_5' => 'The VGA connector connects a computer to a monitor, projector, or TV for use with display devices.',
 			]]);
 		}
 
@@ -807,14 +971,21 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Samsung</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
+				'hardware_hotspots' => '
+				<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.28853310442372376m 0.525870805881832m -0.022257017714673394m" data-normal="0m 0.258819609533249m 0.9659256750501338m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">Storage Capacity</div>
+					</button>
+				<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="0.4346767130343661m 0.30739469395433655m 0.03628361687243711m" data-normal="0m 0.258819609533249m 0.9659256750501338m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">UHS Class</div>
+				</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/sd_card/sd_card_storage.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/sd_card/sd_card_uhs.mp3',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
+				'hardware_caption_1' => "Probably the most frequent marking on an SD card is this one. This displays how much space a specific card can hold. However, keep in mind that, as with all storage devices, you should anticipate that the amount of actual (usable) storage space you receive will be less than the card's stated capacity.",
+				'hardware_caption_2' => 'The Ultra High Speed Class, also known as the UHS Class, completes our list of SD card markings. The SD Association introduced the UHS class in 2009; it provides faster transfer rates for SDHC and SDXC and is designed for high definition video recording.',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
@@ -838,14 +1009,21 @@ class Controller extends BaseController
 					<tr><td>Brand</td><td> Logitech</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-2" data-position="-0.05158121390469131m 0.46496433358779987m 0.09540411923065667m" data-normal="0.47509349909824644m -0.1993447224880479m 0.8570576694311463m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Cone</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-12" data-position="-0.12878495664938194m 0.2734188218528101m 0.2218127491139933m" data-normal="-0.2854754750302498m -0.4547075753967475m -0.8436496749439689m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Surround</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/speaker/speaker_cone.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/speaker/speaker_surround.mp3',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
+				'hardware_caption_1' => 'The primary active area of the loudspeaker is the loudspeaker cone or speaker diaphragm. It forces the air backwards and forwards to produce sound waves when the coil.',
+				'hardware_caption_2' => "In surround sound systems, the back speaker that is positioned behind the listener is also referred to as a surround speaker. This is due to the fact that they are in charge of a film's or game's ambiance and sound effects.",
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
@@ -869,14 +1047,21 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> Es6c</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.31460056964934885m 0.386970239354648m -0.0624786007477731m" data-normal="0.6192329405463433m -0.7355305811906581m -0.2748551063299751m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Track Ball</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.3328130092627672m 0.20187937605527387m 0.048722915366300926m" data-normal="0.7759485288343615m -0.6247602194937536m -0.08705486050707892m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Function Assignment Buttons</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/trackball/trackball_trackball.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/trackball/trackball_function.mp3',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
+				'hardware_caption_1' => "This is a ball. That's why they call this trackball.",
+				'hardware_caption_2' => 'The buttons for function assignment. The forward button is on top, and the backward button is at the bottom.',
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',
@@ -900,14 +1085,21 @@ class Controller extends BaseController
 				<tr><td>Brand</td><td> UGREEN</td></tr>
 				</table>
 				',
-				'hardware_hotspots' => '',
-				'hardware_audio_1' => '',
-				'hardware_audio_2' => '',
+				'hardware_hotspots' => '
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.0068829909873281275m 0.06817509889598124m 0.6034114759049569m" data-normal="-9.711503793160696e-8m 0.9999999999999953m 7.500737628111567e-9m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">USB 3.0</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="0.35635900100376183m 0.2957694360571439m 0.010652581684511608m" data-normal="0m 0.9998000724174381m -0.019995379318375764m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">USB C</div>
+					</button>
+				',
+				'hardware_audio_1' => '../../audio/hotspots_audio/usb_card_reader/usb_card_reader_usb3.mp3',
+				'hardware_audio_2' => '../../audio/hotspots_audio/usb_card_reader/usb_card_reader_usbc.mp3',
 				'hardware_audio_3' => '',
 				'hardware_audio_4' => '',
 				'hardware_audio_5' => '',
-				'hardware_caption_1' => '',
-				'hardware_caption_2' => '',
+				'hardware_caption_1' => 'In November 2008, the USB 3.0 specification was introduced. The majority of modern computers and gadgets support USB 3.0, often known as SuperSpeed USB.',
+				'hardware_caption_2' => "A rotationally symmetrical connector makes up the 24-pin USB-C connector system. The connector's precise capabilities, which are identified by its transfer requirements, are not to be confused with the name C, which merely refers to the connector's physical arrangement or form factor.",
 				'hardware_caption_3' => '',
 				'hardware_caption_4' => '',
 				'hardware_caption_5' => '',

@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://res.cloudinary.com/dr9p65xlj/image/upload/c_scale,q_100,w_32/v1667634716/images/ualogo_triinr.webp"/>
-    <link rel="stylesheet" href="{{ asset('css/hardware.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/scroll.css') }}">
+    <link rel="stylesheet" href="../../css/hardware.css">
+    <link rel="stylesheet" href="../../css/scroll.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <title>{{ $hardware_info['hardware_name'] }} | Markerless Web-AR</title>
 </head>
 <body>
@@ -60,12 +62,42 @@
 
                         {!! $hardware_info['hardware_hotspots'] !!}
                     </model-viewer>
-                    
+                    <br/>
+                    <button id="toggleLabel">View on / off labels</button>
+
                 </div>
 
                 <div id="image" class="content">
                     <br/>
-                    <img loading="lazy" src="{{ $hardware_info['hardware_image'] }}" alt="" class="image"/>
+                    {{-- <img loading="lazy" src="{{ $hardware_info['hardware_image'] }}" alt="" class="image"/> --}}
+                    
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{ $hardware_info['hardware_image'] }}" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ $hardware_info['hardware_image'] }}" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ $hardware_info['hardware_image'] }}" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+
                 </div>
 
                 <div id="video" class="content">
@@ -75,7 +107,7 @@
             </div>
 
             <br/>
-            <br/>
+
             <p class="explanation">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ $hardware_info['hardware_description'] }}</p>
 
             <br/>
@@ -132,6 +164,26 @@
     <footer></footer>
 
         <script>
+            const carousel = new bootstrap.Carousel('#myCarousel')
+        </script>
+
+        <script>
+            let Hotspot = document.querySelectorAll('.Hotspot');
+            let toggleLabel = document.getElementById('toggleLabel');
+
+            if(Hotspot.length == 0) {
+                toggleLabel.classList.add('hide');
+            }
+            
+            toggleLabel.addEventListener('click', () => {
+                let Hotspot = document.querySelectorAll('.Hotspot');
+                Hotspot.forEach(hot => {
+                    hot.classList.toggle('hide');
+                });
+            });
+        </script>
+
+        <script>
             let caption_box = document.querySelector('.caption_box');
             caption_box.addEventListener('click', () => {
                 caption_box.classList.remove('caption_box_active');
@@ -145,11 +197,8 @@
                 let audio_hot1 = document.getElementById('audio_hot1');
                 hot1.addEventListener('click', () => {
                     audio_hot1.play();
-                    caption_box.innerText = hot_caption_1;
+                    caption_box.innerHTML = hot_caption_1;
                     caption_box.classList.add('caption_box_active');
-                    setTimeout(() => {
-                        document.querySelector('.caption_box').classList.remove('caption_box_active')
-                    }, 10000)
                 });
             </script>
         @endif 
@@ -161,11 +210,8 @@
                 let audio_hot2 = document.getElementById('audio_hot2');
                 hot2.addEventListener('click', () => {
                     audio_hot2.play();
-                    caption_box.innerText = hot_caption_2;
+                    caption_box.innerHTML = hot_caption_2;
                     caption_box.classList.add('caption_box_active');
-                    setTimeout(() => {
-                        document.querySelector('.caption_box').classList.remove('caption_box_active')
-                    }, 10000)
                 });
             </script>
         @endif 
@@ -177,11 +223,8 @@
                 let audio_hot3 = document.getElementById('audio_hot3');
                 hot3.addEventListener('click', () => {
                     audio_hot3.play();
-                    caption_box.innerText = hot_caption_3;
+                    caption_box.innerHTML = hot_caption_3;
                     caption_box.classList.add('caption_box_active');
-                    setTimeout(() => {
-                        document.querySelector('.caption_box').classList.remove('caption_box_active')
-                    }, 10000)
                 });
             </script>
         @endif 
@@ -193,27 +236,21 @@
                 let audio_hot4 = document.getElementById('audio_hot4');
                 hot4.addEventListener('click', () => {
                     audio_hot4.play();
-                    caption_box.innerText = hot_caption_4;
+                    caption_box.innerHTML = hot_caption_4;
                     caption_box.classList.add('caption_box_active');
-                    setTimeout(() => {
-                        document.querySelector('.caption_box').classList.remove('caption_box_active')
-                    }, 10000)
                 });
             </script>
         @endif 
 
         @if ($hardware_info['hardware_audio_5'] != '')
             <script>
-                let hot_caption_4 = '{{ $hardware_info["hardware_caption_5"] }}' ;
+                let hot_caption_5 = '{{ $hardware_info["hardware_caption_5"] }}' ;
                 let hot5 = document.getElementById('hot5');
                 let audio_hot5 = document.getElementById('audio_hot5');
                 hot5.addEventListener('click', () => {
                     audio_hot5.play();
-                    caption_box.innerText = hot_caption_5;
+                    caption_box.innerHTML = hot_caption_5;
                     caption_box.classList.add('caption_box_active');
-                    setTimeout(() => {
-                        document.querySelector('.caption_box').classList.remove('caption_box_active')
-                    }, 10000)
                 });
             </script>
         @endif 
