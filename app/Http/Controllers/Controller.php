@@ -313,8 +313,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'nic') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/nic.glb?sound=audio/internal_hardwares/nic.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/internal_hardwares/nic.usdz?sound=audio/internal_hardwares/nic.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@78de855/public/models/internal_hardwares/nic.glb?sound=audio/internal_hardwares/nic.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@78de855/public/models/internal_hardwares/nic.usdz?sound=audio/internal_hardwares/nic.ogg', 
 				'hardware_name' => 'Network Interface Card', 
 				'hardware_description' => "A network interface card (NIC) is a piece of hardware, often a chip or circuit board, that is inserted on a computer to enable network connectivity.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/nic_kdqsx9.png',
@@ -329,10 +329,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-6.231713771820068m 0.6605354342582035m 0.3006179266762241m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.7362107485532761m 0.4312183661401909m 0.2708329046754926m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">RJ-45 Lan Port</div>
-					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-2.3591592263322383m 0.09209442369969523m 1.3049972349977719m" data-normal="0m 0.9999999999999911m 1.3435886108395827e-7m" data-visibility-attribute="visible">
+						</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="0.6861828358122195m 0.24541299427279442m 0.6310743496352482m" data-normal="0m 0.9999999999999911m 1.3435886108395827e-7m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">PCI 32-bit</div>
 					</button>
 				',
