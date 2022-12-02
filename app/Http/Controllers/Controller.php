@@ -600,7 +600,7 @@ class Controller extends BaseController
 		if($hardwarename == 'joystick') {
 			return view('hardware', ['hardware_info' => [
 				'hardware_url_android' => '/models/external_hardwares/joystick.glb?sound=audio/external_hardwares/joystick.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/joystick.usdz?sound=audio/external_hardwares/joystick.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@e784035/public/models/external_hardwares/joystick.usdz?sound=audio/external_hardwares/joystick.ogg', 
 				'hardware_name' => 'Joystick', 
 				'hardware_description' => "A joystick is an input device that may be used to manage the movement of a computer device's cursor or pointer. The joystick has a lever that may be used to control the pointer/cursor movement. The input device is mostly used for gaming applications, though occasionally graphical ones as well. For those with movement disorders, a joystick might be useful as an input device.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/joystrick_b5kybd.png',
