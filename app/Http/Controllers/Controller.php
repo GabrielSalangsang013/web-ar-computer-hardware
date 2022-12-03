@@ -73,8 +73,8 @@ class Controller extends BaseController
 		// START INTERNAL HARDWARE DEVICES
 		if($hardwarename == 'cpu_cooler') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/cpu_cooler.glb?sound=audio/internal_hardwares/cpu_cooler.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/cpu_cooler.usdz?sound=audio/internal_hardwares/cpu_cooler.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/cpu_cooler.glb?sound=audio/internal_hardwares/cpu_cooler.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/cpu_cooler.usdz?sound=audio/internal_hardwares/cpu_cooler.ogg', 
 				'hardware_name' => 'CPU Cooler', 
 				'hardware_description' => "A CPU cooler is a device made to remove heat from the system CPU and other enclosure components. Lowering CPU temperatures using a CPU cooler enhances computer performance and stability. However, including a cooling device may raise the system's total noise level.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/cpu_fan_xwv4jt.png',
@@ -99,10 +99,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.43889362872423554m 1.2892747334991392m 0.22894607327820604m" data-normal="-0.8416150134794259m 0.19232748356302817m 0.5046724761192539m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">Fans</div>
+					<button id="hot1" class="Hotspot" slot="hotspot-2" data-position="-0.022712493299865955m 0.03143387372029287m -0.008526865516891326m" data-normal="-0.58236632219289m -0.20769783481838966m -0.7859459753617165m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Fan</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="0.3388030183019874m 0.8324301195129228m -0.08159762264918657m" data-normal="0.9999999999999076m 3.5762788286318666e-7m 2.3841850804727707e-7m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-10" data-position="0.02001472336562969m 0.045080962773041265m -0.0007109515375109312m" data-normal="0.9999999999999076m 3.576278828631866e-7m 2.38418508047277e-7m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Heatsink</div>
 					</button>
 				',
@@ -121,8 +121,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'cpu') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/cpu.glb?sound=audio/internal_hardwares/cpu.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/cpu.usdz?sound=audio/internal_hardwares/cpu.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/cpu.glb?sound=audio/internal_hardwares/cpu.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/cpu.usdz?sound=audio/internal_hardwares/cpu.ogg', 
 				'hardware_name' => 'Central Processing Unit (CPU)', 
 				'hardware_description' => "The Central Processing Unit is abbreviated as CPU. It is sometimes referred to as a microprocessor or processor. It's one of, if not the most, crucial pieces of hardware in every digital computer system. Numerous minuscule transistors, which act as tiny switches to regulate the flow of energy through integrated circuits, are found inside a CPU. The CPU is found on the motherboard of a computer. The motherboard of a computer is its primary circuit board. Its responsibility is to link all hardware pieces together. A CPU does all work and is sometimes referred to as the brain and heart of all digital systems. It runs instructions and carries out every single task a computer carries out.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/cpu_dfzmnw.png',
@@ -148,7 +148,7 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.40997179997595595m 0.3285817400886239m -0.03842650035248971m" data-normal="0.006414073238348886m 0.0005883292642919781m -0.9999792565514397m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.02596969205916012m 0.014092455263086154m -0.004296647425063747m" data-normal="0.006414073238348887m 0.0005883292642919782m -0.9999792565514397m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">LGA</div>
 					</button>
 				',
@@ -167,8 +167,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'fan') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/fan.glb?sound=audio/internal_hardwares/computer_fan.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/fan.usdz?sound=audio/internal_hardwares/computer_fan.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/fan.glb?sound=audio/internal_hardwares/computer_fan.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/fan.usdz?sound=audio/internal_hardwares/computer_fan.ogg', 
 				'hardware_name' => 'Computer Fan', 
 				'hardware_description' => 'A computer fan is a fan used for active cooling that is located inside or connected to a computer casing. To cool a specific component, fans are utilized to circulate air across a heat sink, pull cooler air from the outside into the case, and exhaust warm air from within. Computers employ axial and occasionally centrifugal (blower/squirrel-cage) fans.',
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/fan_vmadpy.png',
@@ -214,8 +214,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'gpu') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/gpu.glb?sound=audio/internal_hardwares/gpu.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/gpu.usdz?sound=audio/internal_hardwares/gpu.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/gpu.glb?sound=audio/internal_hardwares/gpu.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/gpu.usdz?sound=audio/internal_hardwares/gpu.ogg', 
 				'hardware_name' => 'Graphics Card Unit', 
 				'hardware_description' => "A chip or electrical circuit known as a graphics processing unit (GPU) is able to produce graphics for display on an electronic device. The GPU was first made available to the general public in 1999, and it is most recognized for being used to produce the fluid visuals that customers anticipate in contemporary movies and video games.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/gpu_ntynsn.png',
@@ -241,14 +241,14 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-4" data-position="-1.1403148599868518m 1.136582389787727m -0.13672558922188874m" data-normal="0.5273071563687053m -0.08537767549421489m -0.8453743640361674m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-3" data-position="-0.08522086201460354m 0.05342502147747984m -0.01862667941800332m" data-normal="0.00034540466506350606m -0.0006269435740636121m -0.9999997438186535m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Fan</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="0.6157583098128309m 1.5337952250674252m -0.15016154213844501m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-4" data-position="0.05056570387027794m 0.12525284577775425m -0.015359390959523265m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Bus interface PCI-E 4.0 x 16</div>
 					</button>
-					<button id="hot3" class="Hotspot" slot="hotspot-3" data-position="1.7633449415807831m 0.9983082337670092m -0.16450762955158477m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">4x HDMI 2.1 </div>
+					<button id="hot3" class="Hotspot" slot="hotspot-6" data-position="0.1403546808941396m 0.08186498399486472m -0.016423668162705258m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">4x HDMI 2.1</div>
 					</button>
 				',
 				'hardware_audio_1' => '../../audio/hotspots_audio/gpu/gpu_fan.mp3',
@@ -267,7 +267,7 @@ class Controller extends BaseController
 		if($hardwarename == 'hard_drive') {
 			return view('hardware', ['hardware_info' => [
 				'hardware_url_android' => '/models/internal_hardwares/hard_drive.glb?sound=audio/internal_hardwares/hdd.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/hard_drive.usdz?sound=audio/internal_hardwares/hdd.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/hard_drive.usdz?sound=audio/internal_hardwares/hdd.ogg', 
 				'hardware_name' => 'Hard Disk Drive (HDD)', 
 				'hardware_description' => "Your computer's operating system, software, and data files, including documents, images, and music, are all stored on a hard drive, often known as a hard disk or HDD. The remaining parts of your computer cooperate to display the programs and files on your hard disk.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/hdd_vs0jpx.png',
@@ -292,17 +292,15 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-				<button id="hot1" class="Hotspot" slot="hotspot-2" data-position="0.2830409689391742m 0.12682226662793733m 0.8230858827164265m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
-					<div class="HotspotAnnotation">PATA Power</div>
-				</button>
-			
-				<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-0.07967082800728498m 0.09682605832689192m 0.863802184080086m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
-					<div class="HotspotAnnotation">SATA Data</div>
-				</button>
-			
-				<button id="hot3" class="Hotspot" slot="hotspot-5" data-position="-0.31582002357134603m 0.11074695624310944m 0.863802184080086m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
-					<div class="HotspotAnnotation">SATA Power</div>
-				</button>
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.017534110900648475m 0.007289039468979602m 0.05710860571414941m" data-normal="0m -1m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">PATA Power</div>
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.007218896460782571m 0.005722434710859552m 0.05677201962937814m" data-normal="0m -1m 0m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">SATA Data</div>
+					</button>
+					<button id="hot3" class="Hotspot" slot="hotspot-3" data-position="-0.0210729484883366m 0.006329273553444684m 0.057433468027161504m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">SATA Power</div>
+					</button>
 				',
 				'hardware_audio_1' => '../../audio/hotspots_audio/hdd/hdd_pata.mp3',
 				'hardware_audio_2' => '../../audio/hotspots_audio/hdd/hdd_sata_data.mp3',
@@ -319,8 +317,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'motherboard') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/motherboard.glb?sound=audio/internal_hardwares/motherboard.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/motherboard.usdz?sound=audio/internal_hardwares/motherbard.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/motherboard.glb?sound=audio/internal_hardwares/motherboard.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/motherboard.usdz?sound=audio/internal_hardwares/motherbard.ogg', 
 				'hardware_name' => 'Motherboard', 
 				'hardware_description' => "One of the most crucial components of a computer is the motherboard. It holds together a lot of the essential parts of a computer, such as the memory, connections for input and output devices, and the central processor unit (CPU). A highly stiff layer of non-conductive material, usually hard plastic, serves as the motherboard's basis. Traces—thin layers of copper or aluminum foil—are imprinted on this sheet. These traces, which connect the various components, are quite thin. A motherboard also has a number of connectors and slots for connecting additional components.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/motherboard_puqw8a.png',
@@ -345,16 +343,16 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.589108652781651m 10.04401881158623m -0.08963286889955902m" data-normal="0m -1.5099580252808495e-7m 0.9999999999999888m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.0006411189694131986m 0.11656502064153823m -0.0032231951605625957m" data-normal="0m -1.5099580252808492e-7m 0.9999999999999887m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Processor Socket</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="3.47766556613211m 12.327384746654936m -0.2588850030478357m" data-normal="0m -1.3435886108395827e-7m 0.999999999999991m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="0.037890883466132674m 0.13674268421233157m -0.006449966940884448m" data-normal="0m -1.3435886108395827e-7m 0.9999999999999911m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Memory Slot</div>
 					</button>
-					<button id="hot3" class="Hotspot" slot="hotspot-3" data-position="-1.455286371877649m 5.539718285602969m 0.22759537207767144m" data-normal="1.5561423079959446e-7m -0.38067990454690276m 0.9247068780289983m" data-visibility-attribute="visible">
+					<button id="hot3" class="Hotspot" slot="hotspot-4" data-position="-0.026013878945453324m 0.06316111202494706m -0.0024115123478824414m" data-normal="-1.1920928766290509e-7m 0.999999999999984m 1.3435887529481304e-7m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">PCI Slot</div>
 					</button>
-					<button id="hot4" class="Hotspot" slot="hotspot-4" data-position="-2.589475895660356m 13.549926010693078m 0.18488715651482013m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+					<button id="hot4" class="Hotspot" slot="hotspot-5" data-position="-0.036001067280769836m 0.15737223643833112m -0.003166306204603451m" data-normal="0m -1.3435886108395824e-7m 0.999999999999991m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">8-Pin CPU Power Connector</div>
 					</button>
 				',
@@ -373,8 +371,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'nic') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/nic.glb?sound=audio/internal_hardwares/nic.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/nic.usdz?sound=audio/internal_hardwares/nic.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/nic.glb?sound=audio/internal_hardwares/nic.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/nic.usdz?sound=audio/internal_hardwares/nic.ogg', 
 				'hardware_name' => 'Network Interface Card', 
 				'hardware_description' => "A network interface card (NIC) is a piece of hardware, often a chip or circuit board, that is inserted on a computer to enable network connectivity.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/nic_kdqsx9.png',
@@ -399,10 +397,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.7362107485532761m 0.4312183661401909m 0.2708329046754926m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.031937275314703584m 0.0073880858783797795m 0.008538293351470659m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">RJ-45 Lan Port</div>
-						</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="0.6861828358122195m 0.24541299427279442m 0.6310743496352482m" data-normal="0m 0.9999999999999911m 1.3435886108395827e-7m" data-visibility-attribute="visible">
+					</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="0.02656075041803782m 0.000686173013816147m 0.02441543742975305m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">PCI 32-bit</div>
 					</button>
 				',
@@ -422,7 +420,7 @@ class Controller extends BaseController
 		if($hardwarename == 'power_supply') {
 			return view('hardware', ['hardware_info' => [
 				'hardware_url_android' => '/models/internal_hardwares/power_supply.glb?sound=audio/internal_hardwares/psu.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/power_supply.usdz?sound=audio/internal_hardwares/psu.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/power_supply.usdz?sound=audio/internal_hardwares/psu.ogg', 
 				'hardware_name' => 'Power Supply Unit', 
 				'hardware_description' => "An internal piece of IT hardware is known as a power supply unit (PSU). Despite their name, power conversion devices, or PSUs, do not really deliver power to systems. A power supply specifically transforms alternating high voltage current (AC) to direct current (DC) and regulates the DC output voltage to the precise tolerances needed for contemporary computer components.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/psu_bklwlz.png',
@@ -447,19 +445,19 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-8.924973293076818m 1.4767739588518423m 10.957664541757675m" data-normal="0m 0.999999999999991m 1.3435886108395827e-7m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.03739412396344152m 0.006556989255820191m 0.07352908698338133m" data-normal="0m -1.3435886108395832e-7m 0.9999999999999911m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">ATX 24-Pin</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-10.661340947614233m 1.414482561054248m 12.247610448059476m" data-normal="0.007102143312122951m 0.9997269698646217m -0.02226084647258106m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-0.0625611824151269m 0.005771933864747881m 0.08780981776669962m" data-normal="0.007102154035205436m 0.999726972150701m -0.02226074038417823m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">EPS12V 4-Pin</div>
 					</button>
-					<button id="hot3" class="Hotspot" slot="hotspot-4" data-position="-14.39714929869524m 1.1884061779334592m 11.153459370059693m" data-normal="-0.4500536117458761m -0.02260854913782658m 0.8927152961949149m" data-visibility-attribute="visible">
+					<button id="hot3" class="Hotspot" slot="hotspot-4" data-position="-0.11317269455171036m 0.0031362286173715337m 0.0719260860260023m" data-normal="0m 0.9999999999999911m 1.3435886108395832e-7m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Molex</div>
 					</button>
-					<button id="hot4" class="Hotspot" slot="hotspot-5" data-position="-14.305326152870094m 1.1562454145924113m 6.81162486475664m" data-normal="-0.38830763706889815m 0.9117133329391315m -0.1341490869703906m" data-visibility-attribute="visible">
+					<button id="hot4" class="Hotspot" slot="hotspot-5" data-position="-0.11320002837308638m 0.0020091428714859513m 0.013170879668934585m" data-normal="0.16247322193949126m 0.985115195321983m 0.056129351486831604m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">SATA</div>
 					</button>
-					<button id="hot5" class="Hotspot" slot="hotspot-6" data-position="1.0082188047995517m 2.539418122474022m 5.635529073390122m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
+					<button id="hot5" class="Hotspot" slot="hotspot-7" data-position="0.10207539977437115m 0.01815348306877963m 0.0027188818995238714m" data-normal="0.3496801881688458m -1.2587666923811515e-7m 0.9368691296025209m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Power Plug Receptacle</div>
 					</button>
 				',
@@ -478,8 +476,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'ram') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/ram.glb?sound=audio/internal_hardwares/ram.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/ram.usdz?sound=audio/internal_hardwares/ram.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/ram.glb?sound=audio/internal_hardwares/ram.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/ram.usdz?sound=audio/internal_hardwares/ram.ogg', 
 				'hardware_name' => 'Random Access Memory (RAM)', 
 				'hardware_description' => "Random-access memory (RAM), often known as main memory, primary memory, or system memory, is a piece of hardware that enables the storing and retrieval of data on a computer. DRAM is a kind of memory module, and RAM is frequently related to it. Access times are greatly accelerated since data is randomly accessible rather than sequentially as it is on a CD or hard disk. RAM is a volatile memory, in contrast to ROM, and needs electricity to maintain the data accessible. All information in RAM is lost if the computer is switched off.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/ram_hxrsre.png',
@@ -504,10 +502,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.007681592093014857m 2.1169325976739586m -0.09981929343149196m" data-normal="0.999999999999991m -1.3435883843274952e-7m 0m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.0002104070374049586m 0.13327752301547807m 0.0028906215589845465m" data-normal="0.9999999999999911m -1.3435883843274954e-7m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Memory Chip</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-0.00204994046559648m 1.2877322287332988m 0.19706204239847377m" data-normal="-0.999999999999991m 1.3435883843274952e-7m 0m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-0.001005797812135885m 0.10634984203884566m 0.019102234362564374m" data-normal="-0.999999999999991m 1.3435883843274954e-7m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Notch for Alignment</div>
 					</button>
 				',
@@ -526,8 +524,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'sound_card') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/sound_card.glb?sound=audio/internal_hardwares/sound_card.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/sound_card.usdz?sound=audio/internal_hardwares/sound_card.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/sound_card.glb?sound=audio/internal_hardwares/sound_card.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/sound_card.usdz?sound=audio/internal_hardwares/sound_card.ogg', 
 				'hardware_name' => 'Sound Card', 
 				'hardware_description' => "Sometimes known as an audio card, sound board, or audio output device. An expansion card or IC known as a sound card is used by computers to generate sound that may be heard through speakers or headphones. Even though a sound card isn't necessary, every computer has one either integrated into the motherboard or in an expansion slot (as seen below) (onboard).",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/soundcard_joq98s.png',
@@ -552,13 +550,13 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-6" data-position="-0.662203754956765m 0.031944157197778544m -0.36687746203060956m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-15" data-position="-0.0863808390237466m 0.012135846381306159m -0.028454951484613335m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Line out (front)</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-7" data-position="-0.6637513798492916m 0.031944157197778544m -0.5133138819508737m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-16" data-position="-0.0863808390237466m 0.012117182791644105m -0.0435336220167173m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Line in</div>
 					</button>
-					<button id="hot3" class="Hotspot" slot="hotspot-8" data-position="-0.6590919416992745m 0.03194415719777907m -0.06887926116064325m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+					<button id="hot3" class="Hotspot" slot="hotspot-17" data-position="-0.08638083902374666m 0.012797304003998342m 0.012982870025474616m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Digital Output</div>
 					</button>
 				',
@@ -577,8 +575,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'ssd') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/ssd.glb?sound=audio/internal_hardwares/ssd.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7af59dd/public/models/internal_hardwares/ssd.usdz?sound=audio/internal_hardwares/ssd.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/ssd.glb?sound=audio/internal_hardwares/ssd.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/ssd.usdz?sound=audio/internal_hardwares/ssd.ogg', 
 				'hardware_name' => 'Solid State Drive', 
 				'hardware_description' => "SSD is a storage media that accesses and stores data using non-volatile memory. An SSD provides benefits such as quicker access times, noiseless operation, improved durability, and reduced power consumption because it doesn't have moving components as a hard drive does.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/ssd_ogugc4.png',
@@ -603,10 +601,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-1.0280086177929286m 0.23134319065998168m -0.2390702752869314m" data-normal="-0.9994897993555354m 0.031939645962845147m 2.7922525328457317e-9m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.06472104974470483m 0.0025954653923357905m -0.0094018011782417m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">SATA Power</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-1.0283004894650167m 0.22220959427526804m 0.1462535513492089m" data-normal="-0.9994897993555354m 0.031939645962845147m 2.7922525328457317e-9m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.06472104974470483m 0.0026065856516850803m 0.014270340425267349m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">SATA Data</div>
 					</button>
 				',
