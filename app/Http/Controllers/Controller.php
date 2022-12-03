@@ -632,7 +632,7 @@ class Controller extends BaseController
 		if($hardwarename == 'digital_camera') {
 			return view('hardware', ['hardware_info' => [
 				'hardware_url_android' => '/models/external_hardwares/digital_camera.glb?sound=audio/external_hardwares/digital_camera.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/digital_camera.usdz?sound=audio/external_hardwares/digital_camera.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/digital_camera.usdz?sound=audio/external_hardwares/digital_camera.ogg', 
 				'hardware_name' => 'Digital Camera', 
 				'hardware_description' => "A digital camera is a hardware device that captures images and saves them as data to a memory card. A digital camera employs digital optical components to record the strength and color of light and turn it into pixel data, in contrast to an analog camera, which exposes film chemicals to light. In addition to shooting pictures, many digital cameras also have the ability to capture video.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/digital_camera_k2ctbm.png',
@@ -682,8 +682,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'external_hard_drive') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/external_hard_drive.glb?sound=audio/external_hardwares/external_hard_drive.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/external_hard_drive.usdz?sound=audio/external_hardwares/external_hard_drive.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/external_hard_drive.glb?sound=audio/external_hardwares/external_hard_drive.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/external_hard_drive.usdz?sound=audio/external_hardwares/external_hard_drive.ogg', 
 				'hardware_name' => 'External Hard Drive', 
 				'hardware_description' => "A portable storage device known as an external hard drive can be wirelessly or through a USB or FireWire connection connected to a computer. External hard drives sometimes have large storage capabilities and are used as network drives or to back up systems.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/external_hard_drive_ctsrsu.png',
@@ -728,7 +728,7 @@ class Controller extends BaseController
 		if($hardwarename == 'joystick') {
 			return view('hardware', ['hardware_info' => [
 				'hardware_url_android' => '/models/external_hardwares/joystick.glb?sound=audio/external_hardwares/joystick.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@9276751/public/models/external_hardwares/joystick.usdz?sound=audio/external_hardwares/joystick.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/joystick.usdz?sound=audio/external_hardwares/joystick.ogg', 
 				'hardware_name' => 'Joystick', 
 				'hardware_description' => "A joystick is an input device that may be used to manage the movement of a computer device's cursor or pointer. The joystick has a lever that may be used to control the pointer/cursor movement. The input device is mostly used for gaming applications, though occasionally graphical ones as well. For those with movement disorders, a joystick might be useful as an input device.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/joystrick_b5kybd.png',
@@ -776,7 +776,7 @@ class Controller extends BaseController
 		if($hardwarename == 'keyboard') {
 			return view('hardware', ['hardware_info' => [
 				'hardware_url_android' => '/models/external_hardwares/keyboard.glb?sound=audio/external_hardwares/keyboard.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/keyboard.usdz?sound=audio/external_hardwares/keyboard.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/keyboard.usdz?sound=audio/external_hardwares/keyboard.ogg', 
 				'hardware_name' => 'Keyboard', 
 				'hardware_description' => "One of the main input methods for computers is the keyboard. A keyboard is made up of buttons that may be used to produce letters, numbers, and symbols as well as carry out other tasks, much like an electronic typewriter. More in-depth details and responses to some commonly asked questions concerning the keyboard are provided in the sections that follow.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/keyboard_b7etzu.png',
@@ -826,8 +826,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'mic') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/mic.glb?sound=audio/external_hardwares/microphone.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/mic.usdz?sound=audio/external_hardwares/microphone.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/mic.glb?sound=audio/external_hardwares/microphone.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/mic.usdz?sound=audio/external_hardwares/microphone.ogg', 
 				'hardware_name' => 'Microphone', 
 				'hardware_description' => "A microphone, also shortened to 'mic,' is a hardware input and peripheral device created by Emile Berliner in 1877. Computer users may enter sounds into their computers via a microphone.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/microphone_yzpnqd.png',
@@ -919,8 +919,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'monitor_lcd') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/monitor_lcd.glb?sound=audio/external_hardwares/monitor_lcd.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/monitor_lcd.usdz?sound=audio/external_hardwares/monitor_lcd.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/monitor_lcd.glb?sound=audio/external_hardwares/monitor_lcd.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/monitor_lcd.usdz?sound=audio/external_hardwares/monitor_lcd.ogg', 
 				'hardware_name' => 'Monitor (LCD)', 
 				'hardware_description' => "An electrical visual computer display known as a monitor consists of a screen, circuitry, and the housing for that equipment. Cathode ray tubes (CRT) were used in older computer monitors, which made them bulky, heavy, and ineffective. Since they are lighter and more energy-efficient, flat-screen LCD displays are now found in gadgets like laptops, PDAs, and desktop PCs. Another name for a monitor is a screen or a visual display device (VDU).",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/monitor_lcd_yr3xzl.png',
@@ -970,8 +970,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'mouse') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/mouse.glb?sound=audio/external_hardwares/mouse.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/mouse.usdz?sound=audio/external_hardwares/mouse.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/mouse.glb?sound=audio/external_hardwares/mouse.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/mouse.usdz?sound=audio/external_hardwares/mouse.ogg', 
 				'hardware_name' => 'Mouse', 
 				'hardware_description' => "A computer mouse is a portable hardware input tool used for pointing, moving, and selecting text, icons, files, and folders on a computer's graphical user interface (GUI). A mouse may also be used to drag and drop things and provide you access to the right-click menu in addition to these features. The mouse is set up in front of desktop computers on a flat surface, such as a desk or mouse pad.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/mouse_jjvpxm.png',
@@ -1021,8 +1021,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'plotter') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/plotter.glb?sound=audio/external_hardwares/plotter.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/plotter.usdz?sound=audio/external_hardwares/plotter.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/plotter.glb?sound=audio/external_hardwares/plotter.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/plotter.usdz?sound=audio/external_hardwares/plotter.ogg', 
 				'hardware_name' => 'Plotter', 
 				'hardware_description' => "A plotter is a piece of computer gear, similar to a printer, used to produce vector graphics. Plotters create several, continuous lines on paper as opposed to numerous dots, as is the case with conventional printers, using a pen, pencil, marker, or other writing instrument as opposed to toner. Schematics and other comparable applications are printed using plotters. These tools were originally often used for computer-aided design, but wide-format printers mostly replaced them.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/plotter_w2obpj.png',
@@ -1069,8 +1069,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'printer') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/printer.glb?sound=audio/external_hardwares/printer.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/printer.usdz?sound=audio/external_hardwares/printer.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/printer.glb?sound=audio/external_hardwares/printer.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/printer.usdz?sound=audio/external_hardwares/printer.ogg', 
 				'hardware_name' => 'Printer', 
 				'hardware_description' => "An external hardware output device known as a printer converts digital data stored on a computer or other device into a physical copy. You may print numerous copies of a report you produced on your computer, for instance, and distribute them during a staff meeting. One of the most well-liked computer accessories, printers are frequently used to print text and images.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/printer_jdgvcc.png',
@@ -1117,8 +1117,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'projector') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/projector.glb?sound=audio/external_hardwares/projector.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/projector.usdz?sound=audio/external_hardwares/projector.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/projector.glb?sound=audio/external_hardwares/projector.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/projector.usdz?sound=audio/external_hardwares/projector.ogg', 
 				'hardware_name' => 'Projector', 
 				'hardware_description' => "A projector is an output device that reproduces images by projecting them onto a screen, wall, or other surface using images created by a computer or Blu-ray player. The surface that is projected upon is often big, flat, and softly colored. To ensure that everyone in the room can view a presentation, you may, for instance, utilize a projector to display it on a wide screen. Moving or motionless pictures can be produced via projectors (slides) (videos). A projector often has the same size and weight as a toaster.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/projector_uhaxqv.png',
@@ -1174,8 +1174,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'sd_card') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/sd_card.glb?sound=audio/external_hardwares/sd_card.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/sd_card.usdz?sound=audio/external_hardwares/sd_card.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/sd_card.glb?sound=audio/external_hardwares/sd_card.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/sd_card.usdz?sound=audio/external_hardwares/sd_card.ogg', 
 				'hardware_name' => 'SD Card', 
 				'hardware_description' => "One of the most popular memory card kinds used with electronics is the SD card, often known as a Secure Digital card. Over 8000 distinct kinds of electronic devices from over 400 different companies, including digital cameras and cell phones, employ the SD technology. Due of its widespread use, it is regarded as the industry standard.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/sd_card_dni13b.png',
@@ -1222,8 +1222,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'speaker') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/speaker.glb?sound=audio/external_hardwares/speaker.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/speaker.usdz?sound=audio/external_hardwares/speaker.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/speaker.glb?sound=audio/external_hardwares/speaker.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/speaker.usdz?sound=audio/external_hardwares/speaker.ogg', 
 				'hardware_name' => 'Speaker', 
 				'hardware_description' => "A computer speaker is a piece of hardware used for audio output that is connected to a computer. The sound card in the computer generates the signal that is needed to generate the sound that emanates from a computer speaker. The Harman Kardon Soundsticks III 2.1 Channel Multimedia Speaker System is seen in the image.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/spekare_wnhk7m.png',
@@ -1270,8 +1270,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'trackball') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/trackball.glb?sound=audio/external_hardwares/trackball.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/trackball.usdz?sound=audio/external_hardwares/trackball.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/trackball.glb?sound=audio/external_hardwares/trackball.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/trackball.usdz?sound=audio/external_hardwares/trackball.ogg', 
 				'hardware_name' => 'Trackball', 
 				'hardware_description' => "The trackball is an input device that resembles a mouse turned sideways or upside down. A trackball is located on the top or side of the mouse, as opposed to a mechanical mouse ball that travels along the work surface. With the mouse not actually being moved, the user may control the on-screen pointer by rotating the ball in two dimensions with their fingers or thumb. A trackball helps avoid RSI since it involves less arm and wrist motion than a normal mouse and is frequently less unpleasant for the user to use.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/trackball_wbhkwk.png',
@@ -1318,8 +1318,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'usb_card_reader') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/usb_card_reader.glb?sound=audio/external_hardwares/memory_card_reader.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@latest/public/models/external_hardwares/usb_card_reader.usdz?sound=audio/external_hardwares/memory_card_reader.ogg', 
+				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/usb_card_reader.glb?sound=audio/external_hardwares/memory_card_reader.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@8852d75/public/models/external_hardwares/usb_card_reader.usdz?sound=audio/external_hardwares/memory_card_reader.ogg', 
 				'hardware_name' => 'USB Card Reader', 
 				'hardware_description' => "A memory card reader is a compact device that is used to access, read, copy, and backup data from a variety of memory cards, including SD (Secure Digital), CF (CompactFlash), MMC (MultiMediaCardC), and others. It is sometimes referred to as a USB card reader and an SD card reader.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/card_reader_wv14dj.png',

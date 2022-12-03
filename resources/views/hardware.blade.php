@@ -58,6 +58,7 @@
                         quick-look-browsers="safari chrome" 
                         class="ar"
                         poster="{{ asset('images/loading_model.gif') }}"
+                        shadow-intensity=".97"
                         >
 
                         {!! $hardware_info['hardware_hotspots'] !!}
