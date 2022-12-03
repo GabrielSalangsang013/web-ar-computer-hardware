@@ -80,7 +80,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/cpu_fan_xwv4jt.png',
 				'hardware_video' => 'https://www.youtube.com/embed/y2ekQXYEbbs',
 				'hardware_ref_text' => 'https://www.webopedia.com/definitions/cpu-cooler/',
-				'hardware_ref_image' => 'https://lzd-img-global.slatic.net/g/p/7fe8db12ee8cb84b698258d5cf748d11.jpg_720x720q80.jpg_.webp',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/cpu_fan_xwv4jt.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016122/images/internal_hardwares/cpu_fan_2_im1ppa.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016139/images/internal_hardwares/cpu_fan_3_k8fzcy.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=y2ekQXYEbbs',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -118,7 +128,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/cpu_dfzmnw.png',
 				'hardware_video' => 'https://www.youtube.com/embed/tbRC3dUo9h4',
 				'hardware_ref_text' => 'https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/#:~:text=CPU%20is%20short%20for%20Central,if%20not%20the%20most%20important.',
-				'hardware_ref_image' => 'https://i.pcmag.com/imagery/reviews/075s7sVk2yE6LbE8KspfTeu-39.fit_scale.size_760x427.v1569481249.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/cpu_dfzmnw.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016122/images/internal_hardwares/cpu_2_tkzws8.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016139/images/internal_hardwares/cpu_3_s3zulf.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=tbRC3dUo9h4',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -154,7 +174,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/fan_vmadpy.png',
 				'hardware_video' => 'https://www.youtube.com/embed/xdEqEGrbMkQ',
 				'hardware_ref_text' => 'https://en.wikipedia.org/wiki/Computer_fan',
-				'hardware_ref_image' => 'https://lian-li.com/wp-content/uploads/2021/06/al120_03.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/fan_vmadpy.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016121/images/internal_hardwares/fan_2_w3zcir.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016139/images/internal_hardwares/fan_3_pymdan.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=xdEqEGrbMkQ',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -191,7 +221,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/gpu_ntynsn.png',
 				'hardware_video' => 'https://www.youtube.com/embed/LfdK-v0SbGI',
 				'hardware_ref_text' => 'https://www.investopedia.com/terms/g/graphics-processing-unit-gpu.asp',
-				'hardware_ref_image' => 'https://m.media-amazon.com/images/I/61AZBIL4+2L._AC_SL1500_.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/gpu_ntynsn.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016122/images/internal_hardwares/gpu_2_q7onzb.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016139/images/internal_hardwares/gpu_3_er2gpx.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=LfdK-v0SbGI',
 				'hardware_name&specs' => '
 
@@ -233,7 +273,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/hdd_vs0jpx.png',
 				'hardware_video' => 'https://www.youtube.com/embed/io2CrCm9f0I',
 				'hardware_ref_text' => 'https://www.crucial.com/articles/pc-builders/what-is-a-hard-drive',
-				'hardware_ref_image' => 'https://i0.wp.com/www.partsourceonline.com/wp-content/uploads/2019/02/WD800JD__18382.gif?fit=400%2C400&ssl=1',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/hdd_vs0jpx.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016122/images/internal_hardwares/hdd_2_qkef82.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016139/images/internal_hardwares/hdd_3_g0yal1.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=io2CrCm9f0I',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -276,7 +326,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/motherboard_puqw8a.png',
 				'hardware_video' => 'https://www.youtube.com/embed/B-gHA6sI5n8',
 				'hardware_ref_text' => 'https://study.com/academy/lesson/what-is-a-motherboard-definition-function-diagram.html#:~:text=A%20motherboard%20is%20one%20of,for%20input%20and%20output%20devices.',
-				'hardware_ref_image' => 'https://cdn.mos.cms.futurecdn.net/aaP328Vx83UFVUJEUsTDAE-1200-80.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/motherboard_puqw8a.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016122/images/internal_hardwares/motherboard_2_yhaqtm.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016138/images/internal_hardwares/motherboard_3_mxtiwx.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=B-gHA6sI5n8',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -320,7 +380,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/nic_kdqsx9.png',
 				'hardware_video' => 'https://www.youtube.com/embed/oo-tn17rUBo',
 				'hardware_ref_text' => 'https://www.techtarget.com/searchnetworking/definition/network-interface-card',
-				'hardware_ref_image' => 'https://s3.ap-south-1.amazonaws.com/afteracademy-server-uploads/what-is-nic-network-interface-card-wired-network-interface-card-6e4b918325e615a4.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/nic_kdqsx9.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016122/images/internal_hardwares/nic_2_rcs81b.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016138/images/internal_hardwares/nic_3_uhoiwo.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=oo-tn17rUBo',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -358,7 +428,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/psu_bklwlz.png',
 				'hardware_video' => 'https://www.youtube.com/embed/ZW1wcoERoDU',
 				'hardware_ref_text' => 'https://www.techbuyer.com/uk/blog/What-is-a-Power-Supply-Unit-PSU',
-				'hardware_ref_image' => 'https://m.media-amazon.com/images/I/51FWwux-SML._AC_SY450_.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/psu_bklwlz.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016122/images/internal_hardwares/psu_2_im4ekg.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016138/images/internal_hardwares/psu_3_blrs3e.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=ZW1wcoERoDU',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -405,7 +485,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/ram_hxrsre.png',
 				'hardware_video' => 'https://www.youtube.com/embed/-aQOv3T7P8E',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/r/ram.htm#:~:text=Alternatively%20referred%20to%20as%20main,a%20type%20of%20memory%20module.',
-				'hardware_ref_image' => 'https://cf.shopee.ph/file/aa260a8b7a3c1711630e7a9995c6c1df',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1669886096/images/internal_hardwares/ram_hxrsre.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016122/images/internal_hardwares/ram_2_xmncoj.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016138/images/internal_hardwares/ram_3_rakvyo.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=-aQOv3T7P8E',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -443,7 +533,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/soundcard_joq98s.png',
 				'hardware_video' => 'https://www.youtube.com/embed/SFBvvlebSmw',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/s/souncard.htm#:~:text=Alternatively%20referred%20to%20as%20an,heard%20through%20speakers%20or%20headphones.',
-				'hardware_ref_image' => 'https://asapguide.com/wp-content/uploads/2020/03/Sound-Card-1200x720.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/soundcard_joq98s.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016122/images/internal_hardwares/soundcard_2_ja4rzo.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016138/images/internal_hardwares/sound_card_3_ytgdm3.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=SFBvvlebSmw',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -484,7 +584,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/ssd_ogugc4.png',
 				'hardware_video' => 'https://www.youtube.com/embed/aa5l8uof_j0',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/s/ssd.htm#:~:text=Short%20for%20solid%2Dstate%20drive,reliability%2C%20and%20lower%20power%20consumption.',
-				'hardware_ref_image' => 'https://c1.neweggimages.com/ProductImageCompressAll1280/20-250-088-V03.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/ssd_ogugc4.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016122/images/internal_hardwares/ssd_2_itutn8.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016138/images/internal_hardwares/ssd_3_ul0e3p.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=aa5l8uof_j0',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -530,7 +640,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/digital_camera_k2ctbm.png',
 				'hardware_video' => 'https://www.youtube.com/embed/OaWsnJh8Xtk',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/d/digicame.htm#:~:text=A%20digital%20camera%20is%20a,converts%20it%20into%20pixel%20data.',
-				'hardware_ref_image' => 'https://www.cameralabs.com/wp-content/uploads/2014/11/Sigma_DP1_front-1440x838.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/digital_camera_k2ctbm.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016171/images/external_hardwares/digital_camera_2_jrnorj.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016188/images/external_hardwares/digital_camera_3_qb8dy6.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=OaWsnJh8Xtk',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -571,7 +691,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/external_hard_drive_ctsrsu.png',
 				'hardware_video' => 'https://www.youtube.com/embed/Fl8ImWZeXxs',
 				'hardware_ref_text' => 'https://www.techtarget.com/whatis/definition/external-hard-drive#:~:text=An%20external%20hard%20drive%20is,serve%20as%20a%20network%20drive.',
-				'hardware_ref_image' => 'https://d1rlzxa98cyc61.cloudfront.net/catalog/product/cache/1801c418208f9607a371e61f8d9184d9/1/7/176568_2020.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/external_hard_drive_ctsrsu.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016171/images/external_hardwares/external_hard_drive_2_agkguy.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016187/images/external_hardwares/external_hard_drive_3_ahny98.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=Fl8ImWZeXxs',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -600,13 +730,23 @@ class Controller extends BaseController
 		if($hardwarename == 'joystick') {
 			return view('hardware', ['hardware_info' => [
 				'hardware_url_android' => '/models/external_hardwares/joystick.glb?sound=audio/external_hardwares/joystick.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@9977c7d/public/models/external_hardwares/joystick.usdz?sound=audio/external_hardwares/joystick.ogg', 
+				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@9276751/public/models/external_hardwares/joystick.usdz?sound=audio/external_hardwares/joystick.ogg', 
 				'hardware_name' => 'Joystick', 
 				'hardware_description' => "A joystick is an input device that may be used to manage the movement of a computer device's cursor or pointer. The joystick has a lever that may be used to control the pointer/cursor movement. The input device is mostly used for gaming applications, though occasionally graphical ones as well. For those with movement disorders, a joystick might be useful as an input device.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/joystrick_b5kybd.png',
 				'hardware_video' => 'https://www.youtube.com/embed/R1aApvrAAn4',
 				'hardware_ref_text' => 'https://www.techopedia.com/definition/31108/joystick#:~:text=A%20joystick%20is%20an%20input,%2C%20sometimes%2C%20in%20graphics%20applications.',
-				'hardware_ref_image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Atari-2600-Joystick.jpg/1200px-Atari-2600-Joystick.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/joystrick_b5kybd.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016171/images/external_hardwares/joystick_2_c62nnd.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/joystrick_b5kybd.png" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=R1aApvrAAn4',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -644,7 +784,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/keyboard_b7etzu.png',
 				'hardware_video' => 'https://www.youtube.com/embed/g2SiyJVFcDI',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/k/keyboard.htm',
-				'hardware_ref_image' => 'https://m.media-amazon.com/images/I/61Nt8geXzWL._AC_SL1500_.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/keyboard_b7etzu.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016171/images/external_hardwares/keyboard_2_tjstyf.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016187/images/external_hardwares/keyboard_3_scf6im.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=g2SiyJVFcDI',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -685,7 +835,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/microphone_yzpnqd.png',
 				'hardware_video' => 'https://www.youtube.com/embed/d_crXXbuEKE',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/m/microphone.htm',
-				'hardware_ref_image' => 'http://cdn.shopify.com/s/files/1/0355/8296/7943/products/main_3e67f988-a575-4f50-a786-c670a001c1de_1024x.jpg?v=1617087679',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/microphone_yzpnqd.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016171/images/external_hardwares/microphone_2_ntrrr1.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016188/images/external_hardwares/microphone_3_pcjieb.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=d_crXXbuEKE',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -723,7 +883,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/monitor_crt_pzn7zb.png',
 				'hardware_video' => 'https://www.youtube.com/embed/LaqeGAXkIsE',
 				'hardware_ref_text' => 'https://www.techopedia.com/definition/3185/monitor#:~:text=Techopedia%20Explains%20Monitor-,What%20Does%20Monitor%20Mean%3F,them%20large%2C%20heavy%20and%20inefficient.',
-				'hardware_ref_image' => 'https://www.online-tech-tips.com/wp-content/uploads/2019/09/cropped-crt-monitor.jpeg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/monitor_crt_pzn7zb.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016172/images/external_hardwares/monitor_crt_2_xhthe5.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016187/images/external_hardwares/monitor_crt_3_ypwnmu.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=LaqeGAXkIsE',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -758,7 +928,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/monitor_lcd_yr3xzl.png',
 				'hardware_video' => 'https://www.youtube.com/embed/LaqeGAXkIsE',
 				'hardware_ref_text' => 'https://www.techopedia.com/definition/3185/monitor#:~:text=Techopedia%20Explains%20Monitor-,What%20Does%20Monitor%20Mean%3F,them%20large%2C%20heavy%20and%20inefficient.',
-				'hardware_ref_image' => 'https://cf.shopee.ph/file/ff3ac2d5d6ac7b89e3a918098eb9b085',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/monitor_lcd_yr3xzl.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016172/images/external_hardwares/monitor_lcd_2_hc50dr.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016187/images/external_hardwares/monitor_lcd_3_prlfzz.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=LaqeGAXkIsE',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -799,7 +979,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/mouse_jjvpxm.png',
 				'hardware_video' => 'https://www.youtube.com/embed/oobt4TmEJ8U',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/m/mouse.htm',
-				'hardware_ref_image' => 'https://lzd-img-global.slatic.net/g/p/88cf30012f2833d6618d20411e914c08.jpg_720x720q80.jpg_.webp',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/mouse_jjvpxm.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016172/images/external_hardwares/mouse_2_fs1h0i.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016187/images/external_hardwares/mouse_3_tr0hvv.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=oobt4TmEJ8U',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -840,7 +1030,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/plotter_w2obpj.png',
 				'hardware_video' => 'https://www.youtube.com/embed/kZLb9kvqRWI',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/p/plotter.htm',
-				'hardware_ref_image' => 'https://m.media-amazon.com/images/I/71PAiSDGJHL._AC_SL1500_.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/plotter_w2obpj.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016172/images/external_hardwares/plotter_2_fsnsze.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016187/images/external_hardwares/plotter_3_wyucjd.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=kZLb9kvqRWI',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -878,7 +1078,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/printer_jdgvcc.png',
 				'hardware_video' => 'https://www.youtube.com/embed/A_a9eFN-qLc',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/p/printer.htm',
-				'hardware_ref_image' => 'https://mediaserver.goepson.com/ImConvServlet/imconv/ea90ccf617c56c9219bf6f6de3c413d90619048b/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=et4750_hero_690x460',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/printer_jdgvcc.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016172/images/external_hardwares/printer_2_kjgkfh.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016186/images/external_hardwares/printer_3_sqmlnl.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=A_a9eFN-qLc',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -916,7 +1126,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/projector_uhaxqv.png',
 				'hardware_video' => 'https://www.youtube.com/embed/FM-M1PjAD88',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/p/projecto.htm#:~:text=A%20projector%20is%20an%20output,%2C%20flat%2C%20and%20lightly%20colored.',
-				'hardware_ref_image' => 'https://mediaserver.goepson.com/ImConvServlet/imconv/ff8452a11c4a58dd71ce1b9f1ef8a3c0e858e554/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=X41_wbw_2_tif',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/projector_uhaxqv.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016172/images/external_hardwares/projector_2_oqxeip.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016186/images/external_hardwares/projector_3_qzpsbp.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=FM-M1PjAD88',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -963,7 +1183,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/sd_card_dni13b.png',
 				'hardware_video' => 'https://www.youtube.com/embed/zQYIcxYXafc',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/s/sdcard.htm',
-				'hardware_ref_image' => 'https://lzd-img-global.slatic.net/g/p/74fb480701b37e49c3738f3f7798e88c.jpg_720x720q80.jpg_.webp',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/sd_card_dni13b.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016172/images/external_hardwares/sd_card_2_usling.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016186/images/external_hardwares/sd_card_3_fqssvj.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=zQYIcxYXafc',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -1001,7 +1231,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/spekare_wnhk7m.png',
 				'hardware_video' => 'https://www.youtube.com/embed/BHPg2UnbIe4',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/s/speaker.htm#:~:text=A%20computer%20speaker%20is%20an,2.1%20Channel%20Multimedia%20Speaker%20System.',
-				'hardware_ref_image' => 'https://cdn.shopify.com/s/files/1/0217/5985/2608/products/000000_22180_grande.jpg?v=1594107385',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/spekare_wnhk7m.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016172/images/external_hardwares/speaker_2_lvn4dc.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016186/images/external_hardwares/speaker_3_p9oc7o.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=BHPg2UnbIe4',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -1039,7 +1279,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/trackball_wbhkwk.png',
 				'hardware_video' => 'https://www.youtube.com/embed/Lzk1Hfd0Dmk',
 				'hardware_ref_text' => 'https://www.computerhope.com/jargon/t/trackbal.htm',
-				'hardware_ref_image' => 'https://www.nsi-be.com/media/get/large/749/additional-usb-port___6061bc54aac2c___.jpg',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/trackball_wbhkwk.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016173/images/external_hardwares/trackball_2_ycekdr.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016186/images/external_hardwares/trackball_3_wwswyg.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=Lzk1Hfd0Dmk',
 				'hardware_name&specs' => '
 				<table id="customers">
@@ -1077,7 +1327,17 @@ class Controller extends BaseController
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/card_reader_wv14dj.png',
 				'hardware_video' => 'https://www.youtube.com/embed/f8T_E4RCvUc',
 				'hardware_ref_text' => 'https://www.sysdevlabs.com/articles/additional-equipment/memory-card-reader/',
-				'hardware_ref_image' => 'https://cf.shopee.ph/file/20ece23c26865ee2485379da1f537feb',
+				'hardware_ref_image' => '
+					<div class="carousel-item active">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/card_reader_wv14dj.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/v1670016171/images/external_hardwares/card_reader_2_zsnrom.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="https://res.cloudinary.com/dr9p65xlj/image/upload/w_400,h_400,c_fill/v1670016253/images/external_hardwares/card_reader_3_icipbr.jpg" class="d-block w-100" alt="...">
+					</div>
+				',
 				'hardware_ref_video' => 'https://www.youtube.com/watch?v=f8T_E4RCvUc',
 				'hardware_name&specs' => '
 				<table id="customers">
