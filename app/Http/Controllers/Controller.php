@@ -657,15 +657,15 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-2" data-position="0.2092806558286689m 1.273836313230301m 1.0830823971813428m" data-normal="0m -1.343588610839583e-7m 0.9999999999999911m" data-visibility-attribute="visible">
+				<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.01453445845023944m 0.07732132490880632m 0.07041482682036415m" data-normal="0m -1.343588610839583e-7m 0.999999999999991m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Self-timer Lamp</div>
-					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-1.4753625814384628m 1.4987069712020882m -0.34382901769825636m" data-normal="-0.653796741809387m 0m -0.7566702190514901m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">Mode Dial</div>
-					</button>
-					<button id="hot3" class="Hotspot" slot="hotspot-4" data-position="-0.7419008664473289m 1.4257407654214629m -0.1756584292464496m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
-						<div class="HotspotAnnotation">Power</div>
-					</button>
+				</button>
+				<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-0.09609198462658729m 0.08906529323630748m -0.019598929211475925m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">Mode Dial</div>
+				</button>
+				<button id="hot3" class="Hotspot" slot="hotspot-4" data-position="-0.04378562171647386m 0.09005836848662363m -0.009636635429632579m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+					<div class="HotspotAnnotation">Power</div>
+				</button>
 				',
 				'hardware_audio_1' => '../../audio/hotspots_audio/digital_camera/digital_camera_self_timer.mp3',
 				'hardware_audio_2' => '../../audio/hotspots_audio/digital_camera/digital_camera_mode_dial.mp3',
@@ -708,7 +708,7 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.005338188552451464m 0.4370976884811617m 1.9870797197191905m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.0011465714566528252m 0.022599693798622287m 0.11569227803078963m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">SATA to USB bridge adapter</div>
 					</button>
 				',
@@ -753,10 +753,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.38510991138321954m 0.5940341228776713m -0.3771414767906275m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.03141067730203048m 0.048723298465233725m -0.0334373511497101m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Programmable Button</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.14507768291530815m 0.6110624376330759m -0.09236791106777115m" data-normal="-0.8703991066643111m 0m -0.49234682401531693m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.006850493825937998m 0.05154411615994037m -0.01573440738874848m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Hand Rest</div>
 					</button>
 				',
@@ -801,13 +801,13 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.9641034726523434m 0.42505853860578857m -0.08403005443259226m" data-normal="0.1403765879171798m 0.9890944071890275m 0.04457204541096251m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.0639112372996269m 0.02444573416341468m 0.014797710001549468m" data-normal="0.5549512625512655m 0.8311271430204737m 0.03545092844174108m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Main Typing Keypad</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.4952701546830566m 0.4647510220129679m -1.0011135316225734m" data-normal="0.1403765879171798m 0.9890944071890273m 0.04457204541096251m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-0.04915754591916417m 0.026913511031688084m -0.038317106719021395m" data-normal="0.0895425160568061m 0.9949628158793566m 0.04506809110266529m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Function Keys</div>
 					</button>
-					<button id="hot3" class="Hotspot" slot="hotspot-4" data-position="1.8870634831200608m 0.4018158757116155m 0.3552108646465608m" data-normal="0.00009384217432264161m 0.9989574181513464m 0.04565159267804801m" data-visibility-attribute="visible">
+					<button id="hot3" class="Hotspot" slot="hotspot-4" data-position="0.08773170384077715m 0.019869962483983393m 0.037152821021138475m" data-normal="0.00319410441545435m 0.21755387805104467m 0.9760430870827038m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Directional Keys</div>
 					</button>
 				',
@@ -852,10 +852,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.06218806740955997m 3.0753563207871992m 0.6672263089613846m" data-normal="-0.287753900287859m 0.948610763600599m 0.13166363222322758m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.001033830750971809m 0.20012240113379837m 0.055134046169862394m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Volume Changer</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-4" data-position="0.09998229675899468m 2.482411710393791m 0.6614617913073685m" data-normal="0.09801411234006746m 0m 0.9951850248984803m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-7" data-position="0.00008779979573921579m 0.17106045016544638m 0.045869833961850584m" data-normal="0.09801411234006746m 0m 0.9951850248984804m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Power</div>
 					</button>
 				',
@@ -900,7 +900,7 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-4.978357889772517m 5.951866172214682m 28.571962703226205m" data-normal="-0.01687504202214337m 0.015588905899498557m -0.9997360746565103m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-4" data-position="-0.05802964843808746m 0.11182229457822433m 0.24192878220210973m" data-normal="-0.01260790888750335m -0.000249647569822469m -0.9999204859935491m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">VGA</div>
 					</button>
 				',
@@ -945,13 +945,13 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.9825731523463846m 1.1621426820073184m -0.0024319259595321496m" data-normal="0m -0.999999999999991m -1.3435886108395827e-7m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.12401035553904635m 0.14694085357645528m 0.0018755367959413932m" data-normal="0m -0.9999999999999911m -1.3435886108395827e-7m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">VGA</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.7486086733172309m 1.1621426837379762m -0.015312785785925187m" data-normal="0m -0.9999999999999911m -1.343588610839583e-7m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.09550110408571491m 0.1469408535877128m 0.0017917516935822436m" data-normal="0m -0.9999999999999911m -1.3435886108395827e-7m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">DVI-D</div>
 					</button>
-					<button id="hot3" class="Hotspot" slot="hotspot-3" data-position="-0.5493025428189034m 1.1621426817668803m -0.0006424043841099913m" data-normal="0m -0.9999999999999911m -1.343588610839583e-7m" data-visibility-attribute="visible">
+					<button id="hot3" class="Hotspot" slot="hotspot-3" data-position="-0.07073583467494578m 0.14694085354224684m 0.0021301426571306158m" data-normal="0m -0.9999999999999911m -1.3435886108395827e-7m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">HDMI</div>
 					</button>
 				',
@@ -996,13 +996,13 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-3" data-position="0.023310786950688223m 0.7134425979464922m 1.2217872565331427m" data-normal="-0.039967130024597786m 0.8888727959914299m 0.4564074726206561m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-2" data-position="0.0007877098852703583m 0.0360049347240523m 0.03652905179222441m" data-normal="0.027688523527439283m 0.9702361267874007m 0.24057265834141212m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Mouse Body</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-4" data-position="-0.014777512552314007m 0.7591624696654303m -0.4118978377089535m" data-normal="-0.9584834948588766m 0.2826980915443531m 0.03729851364725475m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-4" data-position="-0.0015150358365476084m 0.032416187387368955m -0.02138198401241819m" data-normal="-0.9584865914856687m 0.2826888894497801m -0.03728868090768457m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Scroll Wheel</div>
-						</button>
-					<button id="hot3" class="Hotspot" slot="hotspot-5" data-position="-0.5147462945886504m 0.32717948336644387m -0.5013179237088558m" data-normal="-0.9880400367703004m 0.1470235338429931m -0.04648619402857061m" data-visibility-attribute="visible">
+					</button>
+					<button id="hot3" class="Hotspot" slot="hotspot-6" data-position="-0.024835809520748826m 0.020851586232989813m -0.02138637151840341m" data-normal="-0.9942040678542438m 0.10168452694243249m 0.034907426753747396m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Side Button</div>
 					</button>
 				',
@@ -1047,10 +1047,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.19464974733949292m 7.039204403436852m -0.520853158080953m" data-normal="-0.000009542895216473279m 0.9997793111961161m 0.02100782742581658m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-2" data-position="0.05630910279081804m 0.7895809929734838m -0.02438423429211112m" data-normal="-0.0000023755417208138975m 0.9997792505771602m 0.02101071416513141m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Window</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="1.0650421995537007m 2.588579903553136m 3.8012006069522073m" data-normal="0m -0.5983850089883103m 0.8012087000389223m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-5" data-position="0.11094223543638582m 0.31067767299394555m 0.4416731676273023m" data-normal="0m -0.5967494466586448m 0.8024276278348107m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Basket</div>
 					</button>
 				',
@@ -1095,10 +1095,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="3.270358359744964m 0.823335342082719m -0.15959090639572016m" data-normal="-0.006497704738077495m 0.9997826537292805m 0.019809723248304534m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.2886750766291259m 0.05004143429117795m 0.013737000393019345m" data-normal="1m 0m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Output Tray</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="2.070017763590979m 1.6562956468556407m 0.9730014936574851m" data-normal="0.7690879274299888m 0.6391376940914726m 0.002601513574772636m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-7" data-position="0.13720595311875558m 0.13049626413341178m 0.045075531468656616m" data-normal="0.7631652302240771m 0.6461906275679233m 0.004062538665053834m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Control Panel</div>
 					</button>
 				',
@@ -1143,19 +1143,19 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-3" data-position="0.9973827502523005m 1.1663620547082307m 1.613036834788188m" data-normal="0.00014863222594806765m 0.93807460058061m 0.3464332860075522m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.057265587592395306m 0.05446700604691318m 0.0756346039124765m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">A/V Mute Slide Lever</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-4" data-position="0.6822411724767101m 1.2484388009179284m -0.6304134041531988m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="0.03392826628903779m 0.05822945137501776m -0.03760676605390996m" data-normal="-0.2426633920309397m 0.9701105494571424m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Control Panel</div>
 					</button>
-					<button id="hot3" class="Hotspot" slot="hotspot-5" data-position="0.9702596838543239m 1.04182272387317m 1.1508510328520494m" data-normal="0.0006319113460094031m -6.559945581529487e-8m 0.9999998003440035m" data-visibility-attribute="visible">
+					<button id="hot3" class="Hotspot" slot="hotspot-3" data-position="0.04118409081498874m 0.04952801540879506m 0.05305688620464337m" data-normal="-5.759540577117326e-12m 0.9999999999999979m 6.559946872352364e-8m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Zoom Ring</div>
 					</button>
-					<button id="hot4" class="Hotspot" slot="hotspot-7" data-position="-0.14993439902355793m 0.9940610507978067m -1.5542595809682624m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+					<button id="hot4" class="Hotspot" slot="hotspot-4" data-position="-0.012823687183084966m 0.0463116611807777m -0.07112011593689972m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">HDMI</div>
 					</button>
-					<button id="hot5" class="Hotspot" slot="hotspot-8" data-position="0.2901319998335277m 0.9740675941648499m -1.5965871779257357m" data-normal="0m 0m -1m" data-visibility-attribute="visible">
+					<button id="hot5" class="Hotspot" slot="hotspot-6" data-position="0.011460229417470496m 0.04592503991114601m -0.07390097152227917m" data-normal="0m 0m -1m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">VGA</div>
 					</button>
 				',
@@ -1200,12 +1200,12 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-				<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.28853310442372376m 0.525870805881832m -0.022257017714673394m" data-normal="0m 0.258819609533249m 0.9659256750501338m" data-visibility-attribute="visible">
-					<div class="HotspotAnnotation">Storage Capacity</div>
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.003325345521904787m 0.004348517113823399m 0.0013632022066719827m" data-normal="0m 0.25881960953324906m 0.9659256750501337m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">Storage Capacity</div>
 					</button>
-				<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="0.4346767130343661m 0.30739469395433655m 0.03628361687243711m" data-normal="0m 0.258819609533249m 0.9659256750501338m" data-visibility-attribute="visible">
-					<div class="HotspotAnnotation">UHS Class</div>
-				</button>
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="0.004036173993851459m 0.0032974994110567856m 0.0016448222096069585m" data-normal="0m 0.25881960953324906m 0.9659256750501337m" data-visibility-attribute="visible">
+						<div class="HotspotAnnotation">UHS Class</div>
+					</button>
 				',
 				'hardware_audio_1' => '../../audio/hotspots_audio/sd_card/sd_card_storage.mp3',
 				'hardware_audio_2' => '../../audio/hotspots_audio/sd_card/sd_card_uhs.mp3',
@@ -1248,10 +1248,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-2" data-position="-0.05158121390469131m 0.46496433358779987m 0.09540411923065667m" data-normal="0.47509349909824644m -0.1993447224880479m 0.8570576694311463m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.00010645953575056039m 0.1366910779852011m 0.028295857722391585m" data-normal="0.1904018567053218m 0.2473307540055265m -0.9500392787070563m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Cone</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-12" data-position="-0.12878495664938194m 0.2734188218528101m 0.2218127491139933m" data-normal="-0.2854754750302498m -0.4547075753967475m -0.8436496749439689m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.03825603974277865m 0.06953623378798796m 0.042195898764892145m" data-normal="-0.16606321829984488m -0.12253086448201392m -0.9784728891375521m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Surround</div>
 					</button>
 				',
@@ -1296,10 +1296,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.31460056964934885m 0.386970239354648m -0.0624786007477731m" data-normal="0.6192329405463433m -0.7355305811906581m -0.2748551063299751m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.030066962601753927m 0.04036559443504255m -0.003493184935837171m" data-normal="0.45235139170623034m -0.7802717911753622m -0.4319191478939416m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Track Ball</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-2" data-position="-0.3328130092627672m 0.20187937605527387m 0.048722915366300926m" data-normal="0.7759485288343615m -0.6247602194937536m -0.08705486050707892m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="-0.040222072367259096m 0.015053368209336287m -0.005864168319741011m" data-normal="0.7759526443327591m -0.6247725978649015m -0.08692925117669587m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">Function Assignment Buttons</div>
 					</button>
 				',
@@ -1344,10 +1344,10 @@ class Controller extends BaseController
 				</table>
 				',
 				'hardware_hotspots' => '
-					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="-0.0068829909873281275m 0.06817509889598124m 0.6034114759049569m" data-normal="-9.711503793160696e-8m 0.9999999999999953m 7.500737628111567e-9m" data-visibility-attribute="visible">
+					<button id="hot1" class="Hotspot" slot="hotspot-1" data-position="0.0006190565392031691m 0.0018380115665149977m 0.01791174645025085m" data-normal="-9.711503793160696e-8m 0.9999999999999954m 7.500737628111562e-9m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">USB 3.0</div>
 					</button>
-					<button id="hot2" class="Hotspot" slot="hotspot-3" data-position="0.35635900100376183m 0.2957694360571439m 0.010652581684511608m" data-normal="0m 0.9998000724174381m -0.019995379318375764m" data-visibility-attribute="visible">
+					<button id="hot2" class="Hotspot" slot="hotspot-5" data-position="0.012031133241052837m 0.008135900963165636m -0.0011179306665666635m" data-normal="0m 0.9828722081467364m -0.1842884219172726m" data-visibility-attribute="visible">
 						<div class="HotspotAnnotation">USB C</div>
 					</button>
 				',

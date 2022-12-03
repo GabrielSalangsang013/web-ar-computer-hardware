@@ -19,7 +19,7 @@
     <header>
         <div class="container">
             <nav>
-                <a href="{{ route('dashboard') }}"><span class='material-icons iconLeave'>keyboard_backspace</span> </a>
+                <span class='material-icons iconLeave' onclick="history.back()">keyboard_backspace</span>
                 
                 <h4 class="hardware-title-type">Internal Hardwares</h4>
 

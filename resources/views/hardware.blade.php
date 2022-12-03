@@ -17,7 +17,7 @@
     <header>
         <div class="container">
             <nav>
-                <a href="{{ route('dashboard') }}"><span class='material-icons iconLeave'>keyboard_backspace</span> </a>
+                <span class='material-icons iconLeave' onclick="history.back()">keyboard_backspace</span>
                 
                 <ul class="nav-links">
                     <a href="{{ route('internal_hardware') }}"><li>Internal Hardware</li></a>
@@ -64,7 +64,7 @@
                         {!! $hardware_info['hardware_hotspots'] !!}
                     </model-viewer>
                     <br/>
-                    <button id="toggleLabel">View on / off labels</button>
+                    <button id="toggleLabel">Show on / off labels</button>
 
                 </div>
 

@@ -68,6 +68,7 @@ nav {
 
 .iconLeave {
     font-size: 32px !important;
+    cursor: pointer;
 }
 
 .iconLeave:visited {
