@@ -34,7 +34,7 @@
     <main>
         <div class="container herosection marginTop2">
             <h1 class="heroText"><strong>Markerless</strong><br/>Web Augmented Reality</h1>
-            <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/q_30/v1667630643/images/herovrguy_v11ykt.webp" alt="" class="heroGuy" loading="lazy"/>
+            {{-- <img src="https://res.cloudinary.com/dr9p65xlj/image/upload/q_30/v1667630643/images/herovrguy_v11ykt.webp" alt="" class="heroGuy" loading="lazy"/> --}}
         </div>
 
         <section>
@@ -121,45 +121,7 @@
 
         <section>
             <div class="container">
-                <p class="title2">PC assembly simulator</p>
-                <br/>
-                <model-viewer 
-                    src="{{ asset('models/system_unit/system_unit.glb') }}"
-                    ios-src="{{ asset('models/system_unit/system_unit.usdz') }}"
-                    ar="ar" 
-                    disable-tap
-                    auto-rotate
-                    camera-controls
-                    touch-action="pan-y"
-                    autoplay
-                    animation-name="MotherboardAction"
-                    quick-look-browsers="safari chrome"
-                    class="ar"
-                    poster="{{ asset('images/loading_model.gif') }}"
-                    >
-                </model-viewer>
-                <br/>
-                <span>Select device:</span>
-                <br/>
-                <br/>
-                <button class="btnAnim" data-animation="MotherboardAction">Motherboard</button>
-                <button class="btnAnim" data-animation="PSUAction">PSU</button>
-                <button class="btnAnim" data-animation="M2Action">M2</button>
-                <button class="btnAnim" data-animation="RadiatorAction">Radiator</button>
-                <button class="btnAnim" data-animation="CPUAction">CPU</button>
-                <button class="btnAnim" data-animation="RTX2080tiAction">GPU</button>
-                <button class="btnAnim" data-animation="SSDAction">SSD</button>
-                <button class="btnAnim" data-animation="WaterCoolingAction">WaterCooling</button>
-                <button class="btnAnim" data-animation="RAMAction">RAM</button>
-                <button class="btnAnim" data-animation="RAM1Action">RAM1</button>
-                <button class="btnAnim" data-animation="RAM2Action">RAM2</button>
-                <button class="btnAnim" data-animation="RAM3Action">RAM3</button>
-                <button class="btnAnim" data-animation="Corsair_FanAction">Corsair_Fan</button>
-                <button class="btnAnim" data-animation="Corsair_Fan1Action">Corsair_Fan1</button>
-                <button class="btnAnim" data-animation="Corsair_Fan2Action">Corsair_Fan2</button>
-                <p class="explanation">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A system unit is the part of a computer that houses the primary devices that perform operations and produce results for complex calculations. It includes the motherboard, CPU, RAM and other components, as well as the case in which these devices are housed. This unit performs the majority of the functions that a computer is required to do.
-                </p>
+                
             </div>
         </section>
 
@@ -180,6 +142,479 @@
         </div>
     </footer>
 
+
+    <script>
+        let btnPlayPause = document.querySelector('.btnPlayPause');
+        let btnReplay = document.querySelector('.btnReplay');
+        var videoTimePause = 0;
+        let video = document.getElementById('video');
+        let simu1 = document.getElementById('simu1');
+        let simu2 = document.getElementById('simu2');
+        let simu3 = document.getElementById('simu3');
+        let simu4 = document.getElementById('simu4');
+        let simu5 = document.getElementById('simu5');
+        let simu6 = document.getElementById('simu6');
+        let simu7 = document.getElementById('simu7');
+        let simu8 = document.getElementById('simu8');
+        let simu9 = document.getElementById('simu9');
+        let simu10 = document.getElementById('simu10');
+        let simu11 = document.getElementById('simu11');
+        let simu12 = document.getElementById('simu12');
+        let simu13 = document.getElementById('simu13');
+        let simu14 = document.getElementById('simu14');
+        var myTimeOut = setTimeout(() => {
+
+        });
+        var myInterval = setInterval(() => {}, 1000);
+
+        btnPlayPause.addEventListener('click', () => {
+            if(video.paused) {
+                if(videoTimePause >= 1) { 
+                    if(videoTimePause != 100) {
+                        video.play();
+
+                        myTimeOut = setTimeout(() => {
+                        video.pause();
+                        btnPlayPause.innerHTML = '▶️ &nbsp; Play';
+                        
+                        console.log(videoTimePause);
+                        }, videoTimePause);
+
+                        myInterval = setInterval(() => {
+                            if(videoTimePause == 0) {
+                                clearInterval(myInterval);
+                            }
+                            videoTimePause = videoTimePause - 100;
+                        }, 100);
+                    } 
+                }
+
+                video.play();
+                btnPlayPause.innerHTML = '⏸️ &nbsp; Pause';
+            }else {
+                video.pause();
+                if(videoTimePause == -100) {
+                    videoTimePause = videoTimePause + 100;
+                }
+                console.log('remaining time ' + videoTimePause);
+                clearInterval(myInterval);
+                clearInterval(myTimeOut);
+                btnPlayPause.innerHTML = '▶️ &nbsp; Play';
+            }
+        });
+
+        btnReplay.addEventListener('click', () => {
+            video.currentTime = 0;
+            videoTimePause = 0;
+            video.pause();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+        });
+
+        function pauseBtn() {
+            video.pause();
+            btnPlayPause.innerHTML = '▶️ &nbsp; Play';
+        }
+
+        simu1.addEventListener('click', () => {
+            video.currentTime = 6.05;
+            clearInterval(myTimeOut);
+            videoTimePause = 4 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu1.classList.add('playActive');
+        });
+
+        simu2.addEventListener('click', () => {
+            video.currentTime = 10;
+            clearInterval(myTimeOut);
+            videoTimePause = 7 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu2.classList.add('playActive');
+
+        });
+
+        simu3.addEventListener('click', () => {
+            video.currentTime = 17;
+            clearInterval(myTimeOut);
+            videoTimePause = 10 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu3.classList.add('playActive');
+        });
+
+        simu4.addEventListener('click', () => {
+            video.currentTime = 28;
+            clearInterval(myTimeOut);
+            videoTimePause = 11 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu4.classList.add('playActive');
+        });
+
+        simu5.addEventListener('click', () => {
+            video.currentTime = 40;
+            clearInterval(myTimeOut);
+            videoTimePause = 9.5 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu5.classList.add('playActive');
+        });
+
+        simu6.addEventListener('click', () => {
+            video.currentTime = 49.2;
+            clearInterval(myTimeOut);
+            videoTimePause = 6.6 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu6.classList.add('playActive');
+        });
+
+        simu7.addEventListener('click', () => {
+            video.currentTime = 55.8;
+            clearInterval(myTimeOut);
+            videoTimePause = 6.5 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu7.classList.add('playActive');
+        });
+
+        simu8.addEventListener('click', () => {
+            video.currentTime = 62;
+            clearInterval(myTimeOut);
+            videoTimePause = 18 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu8.classList.add('playActive');
+        });
+
+        simu9.addEventListener('click', () => {
+            video.currentTime = 80.2;
+            clearInterval(myTimeOut);
+            videoTimePause = 4.8 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu9.classList.add('playActive');
+        });
+
+        simu10.addEventListener('click', () => {
+            video.currentTime = 85;
+            clearInterval(myTimeOut);
+            videoTimePause = 8 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu10.classList.add('playActive');
+        });
+
+        simu11.addEventListener('click', () => {
+            video.currentTime = 93.1;
+            clearInterval(myTimeOut);
+            videoTimePause = 18 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu11.classList.add('playActive');
+        });
+
+        simu12.addEventListener('click', () => {
+            video.currentTime = 112.1;
+            clearInterval(myTimeOut);
+            videoTimePause = 22 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu12.classList.add('playActive');
+        });
+
+        simu13.addEventListener('click', () => {
+            video.currentTime = 135.05;
+            clearInterval(myTimeOut);
+            videoTimePause = 19 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu13.classList.add('playActive');
+        });
+
+        simu14.addEventListener('click', () => {
+            video.currentTime = 154;
+            clearInterval(myTimeOut);
+            videoTimePause = 7 * 1000;
+            pauseBtn();
+
+            let active = document.querySelectorAll('.playActive');
+            if(active.length > 0) {
+                active.forEach(a => {
+                    a.classList.remove('playActive');
+                })
+            }
+
+            simu14.classList.add('playActive');
+        });
+
+        video.ontimeupdate = function() {
+            let vid = video.currentTime;
+
+            switch(true) {
+                case (vid >= 6 && vid <= 9):
+                    if(!simu1.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu1.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 9 && vid <= 16):
+                    if(!simu2.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu2.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 16 && vid <= 27):
+                    if(!simu3.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu3.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 28 && vid <= 39):
+                    if(!simu4.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu4.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 40 && vid <= 49):
+                    if(!simu5.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu5.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 49 && vid <= 55):
+                    if(!simu6.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu6.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 55 && vid <= 61):
+                    if(!simu7.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu7.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 61 && vid <= 80):
+                    if(!simu8.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu8.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 80 && vid <= 84):
+                    if(!simu9.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu9.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 84 && vid <= 93):
+                    if(!simu10.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu10.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 93 && vid <= 111):
+                    if(!simu11.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu11.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 112 && vid <= 134):
+                    if(!simu12.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu12.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 134 && vid <= 153):
+                    if(!simu13.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu13.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 154 && vid <= 161):
+                    if(!simu14.classList.contains('playActive')) {
+                        let active = document.querySelectorAll('.playActive');
+                        if(active.length > 0) {
+                            active.forEach(a => {
+                                a.classList.remove('playActive');
+                            })
+                        }
+                        simu14.classList.add('playActive')
+                    }
+                    break;
+                case (vid >= 161 && vid <= 163):
+                    let active = document.querySelectorAll('.playActive');
+                    if(active.length > 0) {
+                        active.forEach(a => {
+                            a.classList.remove('playActive');
+                        })
+                    }
+                    break;
+            }
+        }
+    </script>
 
     <script>
         let btnTabs = document.querySelectorAll('.btnTab');

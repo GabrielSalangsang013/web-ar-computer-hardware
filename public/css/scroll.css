@@ -7,7 +7,8 @@
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 8px;
+    width: 1px;
+    height: 4px;
   }
 
   *::-webkit-scrollbar-track {
@@ -18,4 +19,12 @@
     background-color: #d1d1d1;
     border-radius: 13px;
     border: 0px none #ffffff;
+  }
+
+
+  @media screen and (max-width: 728px) {
+    *::-webkit-scrollbar {
+      width: 1px;
+      height: 0px;
+    }
   }
