@@ -7,7 +7,11 @@ The BSIT students in University of the Assumption S.Y (2022-2023) learn computer
 - Salangsang, Gabriel
 - Salonga, Clark Jhan Ranier
 
-# View
+# Project Description
+
+Web-based Augmented Reality (WebAR) is a technology that allows users to view and interact with augmented reality (AR) content in a web browser. 
+
+Reference: https://wear-studio.com/all-about-webar/
 
 ![ezgif com-gif-maker (1) (1)](https://user-images.githubusercontent.com/74645297/207735115-b0546cbb-09e5-489c-b461-772cbd1fdbcc.gif)
 
