@@ -13,7 +13,7 @@ The BSIT students in University of the Assumption S.Y (2022-2023) learn computer
 
 \
 
-![ezgif com-gif-maker (3) (1)](https://user-images.githubusercontent.com/74645297/207735062-5a12724f-a068-4d21-9992-fccc44db07c0.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/74645297/207735832-63434012-2705-406c-8695-1081f098858d.gif)
 
 
 # Version
