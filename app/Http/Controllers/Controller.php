@@ -73,8 +73,8 @@ class Controller extends BaseController
 		// START INTERNAL HARDWARE DEVICES
 		if($hardwarename == 'cpu_cooler') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/cpu_cooler.glb?sound=audio/internal_hardwares/cpu_cooler.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/cpu_cooler.usdz?sound=audio/internal_hardwares/cpu_cooler.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/cpu_cooler.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/cpu_cooler.usdz', 
 				'hardware_name' => 'CPU Cooler', 
 				'hardware_description' => "A CPU cooler is a device made to remove heat from the system CPU and other enclosure components. Lowering CPU temperatures using a CPU cooler enhances computer performance and stability. However, including a cooling device may raise the system's total noise level.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/cpu_fan_xwv4jt.png',
@@ -121,8 +121,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'cpu') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/cpu.glb?sound=audio/internal_hardwares/cpu.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/cpu.usdz?sound=audio/internal_hardwares/cpu.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/cpu.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/cpu.usdz', 
 				'hardware_name' => 'Central Processing Unit (CPU)', 
 				'hardware_description' => "The Central Processing Unit is abbreviated as CPU. It is sometimes referred to as a microprocessor or processor. It's one of, if not the most, crucial pieces of hardware in every digital computer system. Numerous minuscule transistors, which act as tiny switches to regulate the flow of energy through integrated circuits, are found inside a CPU. The CPU is found on the motherboard of a computer. The motherboard of a computer is its primary circuit board. Its responsibility is to link all hardware pieces together. A CPU does all work and is sometimes referred to as the brain and heart of all digital systems. It runs instructions and carries out every single task a computer carries out.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/cpu_dfzmnw.png',
@@ -167,8 +167,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'fan') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/fan.glb?sound=audio/internal_hardwares/computer_fan.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/fan.usdz?sound=audio/internal_hardwares/computer_fan.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/fan.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/fan.usdz', 
 				'hardware_name' => 'Computer Fan', 
 				'hardware_description' => 'A computer fan is a fan used for active cooling that is located inside or connected to a computer casing. To cool a specific component, fans are utilized to circulate air across a heat sink, pull cooler air from the outside into the case, and exhaust warm air from within. Computers employ axial and occasionally centrifugal (blower/squirrel-cage) fans.',
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/fan_vmadpy.png',
@@ -214,8 +214,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'gpu') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/gpu.glb?sound=audio/internal_hardwares/gpu.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/gpu.usdz?sound=audio/internal_hardwares/gpu.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/gpu.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/gpu.usdz', 
 				'hardware_name' => 'Graphics Card Unit', 
 				'hardware_description' => "A chip or electrical circuit known as a graphics processing unit (GPU) is able to produce graphics for display on an electronic device. The GPU was first made available to the general public in 1999, and it is most recognized for being used to produce the fluid visuals that customers anticipate in contemporary movies and video games.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/gpu_ntynsn.png',
@@ -266,8 +266,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'hard_drive') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/hard_drive.glb?sound=audio/internal_hardwares/hdd.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/hard_drive.usdz?sound=audio/internal_hardwares/hdd.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/hard_drive.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/hard_drive.usdz', 
 				'hardware_name' => 'Hard Disk Drive (HDD)', 
 				'hardware_description' => "Your computer's operating system, software, and data files, including documents, images, and music, are all stored on a hard drive, often known as a hard disk or HDD. The remaining parts of your computer cooperate to display the programs and files on your hard disk.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/hdd_vs0jpx.png',
@@ -317,8 +317,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'motherboard') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/motherboard.glb?sound=audio/internal_hardwares/motherboard.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/motherboard.usdz?sound=audio/internal_hardwares/motherbard.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/motherboard.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/motherboard.usdz', 
 				'hardware_name' => 'Motherboard', 
 				'hardware_description' => "One of the most crucial components of a computer is the motherboard. It holds together a lot of the essential parts of a computer, such as the memory, connections for input and output devices, and the central processor unit (CPU). A highly stiff layer of non-conductive material, usually hard plastic, serves as the motherboard's basis. Traces—thin layers of copper or aluminum foil—are imprinted on this sheet. These traces, which connect the various components, are quite thin. A motherboard also has a number of connectors and slots for connecting additional components.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/motherboard_puqw8a.png',
@@ -371,8 +371,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'nic') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/nic.glb?sound=audio/internal_hardwares/nic.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/nic.usdz?sound=audio/internal_hardwares/nic.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/nic.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/nic.usdz', 
 				'hardware_name' => 'Network Interface Card', 
 				'hardware_description' => "A network interface card (NIC) is a piece of hardware, often a chip or circuit board, that is inserted on a computer to enable network connectivity.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886095/images/internal_hardwares/nic_kdqsx9.png',
@@ -419,8 +419,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'power_supply') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/internal_hardwares/power_supply.glb?sound=audio/internal_hardwares/psu.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/power_supply.usdz?sound=audio/internal_hardwares/psu.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/power_supply.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/power_supply.usdz', 
 				'hardware_name' => 'Power Supply Unit', 
 				'hardware_description' => "An internal piece of IT hardware is known as a power supply unit (PSU). Despite their name, power conversion devices, or PSUs, do not really deliver power to systems. A power supply specifically transforms alternating high voltage current (AC) to direct current (DC) and regulates the DC output voltage to the precise tolerances needed for contemporary computer components.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/psu_bklwlz.png',
@@ -476,8 +476,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'ram') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/ram.glb?sound=audio/internal_hardwares/ram.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/ram.usdz?sound=audio/internal_hardwares/ram.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/ram.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/ram.usdz', 
 				'hardware_name' => 'Random Access Memory (RAM)', 
 				'hardware_description' => "Random-access memory (RAM), often known as main memory, primary memory, or system memory, is a piece of hardware that enables the storing and retrieval of data on a computer. DRAM is a kind of memory module, and RAM is frequently related to it. Access times are greatly accelerated since data is randomly accessible rather than sequentially as it is on a CD or hard disk. RAM is a volatile memory, in contrast to ROM, and needs electricity to maintain the data accessible. All information in RAM is lost if the computer is switched off.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/ram_hxrsre.png',
@@ -524,8 +524,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'sound_card') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/sound_card.glb?sound=audio/internal_hardwares/sound_card.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/sound_card.usdz?sound=audio/internal_hardwares/sound_card.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/sound_card.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/sound_card.usdz', 
 				'hardware_name' => 'Sound Card', 
 				'hardware_description' => "Sometimes known as an audio card, sound board, or audio output device. An expansion card or IC known as a sound card is used by computers to generate sound that may be heard through speakers or headphones. Even though a sound card isn't necessary, every computer has one either integrated into the motherboard or in an expansion slot (as seen below) (onboard).",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/soundcard_joq98s.png',
@@ -575,8 +575,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'ssd') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/ssd.glb?sound=audio/internal_hardwares/ssd.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@7b9d7f1/public/models/internal_hardwares/ssd.usdz?sound=audio/internal_hardwares/ssd.ogg', 
+				'hardware_url_android' => '../../models/internal_hardwares/ssd.glb', 
+				'hardware_url_ios' => '../../models/internal_hardwares/ssd.usdz', 
 				'hardware_name' => 'Solid State Drive', 
 				'hardware_description' => "SSD is a storage media that accesses and stores data using non-volatile memory. An SSD provides benefits such as quicker access times, noiseless operation, improved durability, and reduced power consumption because it doesn't have moving components as a hard drive does.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886096/images/internal_hardwares/ssd_ogugc4.png',
@@ -631,8 +631,8 @@ class Controller extends BaseController
 		// START EXTERNAL HARDWARE DEVICES
 		if($hardwarename == 'digital_camera') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/external_hardwares/digital_camera.glb?sound=audio/external_hardwares/digital_camera.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/digital_camera.usdz?sound=audio/external_hardwares/digital_camera.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/digital_camera.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/digital_camera.usdz', 
 				'hardware_name' => 'Digital Camera', 
 				'hardware_description' => "A digital camera is a hardware device that captures images and saves them as data to a memory card. A digital camera employs digital optical components to record the strength and color of light and turn it into pixel data, in contrast to an analog camera, which exposes film chemicals to light. In addition to shooting pictures, many digital cameras also have the ability to capture video.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/digital_camera_k2ctbm.png',
@@ -682,8 +682,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'external_hard_drive') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/external_hard_drive.glb?sound=audio/external_hardwares/external_hard_drive.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/external_hard_drive.usdz?sound=audio/external_hardwares/external_hard_drive.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/external_hard_drive.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/external_hard_drive.usdz', 
 				'hardware_name' => 'External Hard Drive', 
 				'hardware_description' => "A portable storage device known as an external hard drive can be wirelessly or through a USB or FireWire connection connected to a computer. External hard drives sometimes have large storage capabilities and are used as network drives or to back up systems.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/external_hard_drive_ctsrsu.png',
@@ -727,8 +727,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'joystick') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/external_hardwares/joystick.glb?sound=audio/external_hardwares/joystick.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/joystick.usdz?sound=audio/external_hardwares/joystick.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/joystick.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/joystick.usdz', 
 				'hardware_name' => 'Joystick', 
 				'hardware_description' => "A joystick is an input device that may be used to manage the movement of a computer device's cursor or pointer. The joystick has a lever that may be used to control the pointer/cursor movement. The input device is mostly used for gaming applications, though occasionally graphical ones as well. For those with movement disorders, a joystick might be useful as an input device.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/joystrick_b5kybd.png',
@@ -775,8 +775,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'keyboard') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/external_hardwares/keyboard.glb?sound=audio/external_hardwares/keyboard.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/keyboard.usdz?sound=audio/external_hardwares/keyboard.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/keyboard.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/keyboard.usdz', 
 				'hardware_name' => 'Keyboard', 
 				'hardware_description' => "One of the main input methods for computers is the keyboard. A keyboard is made up of buttons that may be used to produce letters, numbers, and symbols as well as carry out other tasks, much like an electronic typewriter. More in-depth details and responses to some commonly asked questions concerning the keyboard are provided in the sections that follow.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/keyboard_b7etzu.png',
@@ -826,8 +826,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'mic') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/mic.glb?sound=audio/external_hardwares/microphone.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/mic.usdz?sound=audio/external_hardwares/microphone.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/mic.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/mic.usdz', 
 				'hardware_name' => 'Microphone', 
 				'hardware_description' => "A microphone, also shortened to 'mic,' is a hardware input and peripheral device created by Emile Berliner in 1877. Computer users may enter sounds into their computers via a microphone.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/microphone_yzpnqd.png',
@@ -874,8 +874,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'monitor_crt') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => '/models/external_hardwares/monitor_crt.glb?sound=audio/external_hardwares/monitor_crt.ogg', 
-				'hardware_url_ios' => '/models/external_hardwares/monitor_crt.usdz?sound=audio/external_hardwares/monitor_crt.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/monitor_crt.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/monitor_crt.usdz', 
 				'hardware_name' => 'Monitor (CRT)', 
 				'hardware_description' => "An electrical visual computer display known as a monitor consists of a screen, circuitry, and the housing for that equipment. Cathode ray tubes (CRT) were used in older computer monitors, which made them bulky, heavy, and ineffective. Since they are lighter and more energy-efficient, flat-screen LCD displays are now found in gadgets like laptops, PDAs, and desktop PCs. Another name for a monitor is a screen or a visual display device (VDU).",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/monitor_crt_pzn7zb.png',
@@ -919,8 +919,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'monitor_lcd') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/monitor_lcd.glb?sound=audio/external_hardwares/monitor_lcd.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/monitor_lcd.usdz?sound=audio/external_hardwares/monitor_lcd.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/monitor_lcd.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/monitor_lcd.usdz', 
 				'hardware_name' => 'Monitor (LCD)', 
 				'hardware_description' => "An electrical visual computer display known as a monitor consists of a screen, circuitry, and the housing for that equipment. Cathode ray tubes (CRT) were used in older computer monitors, which made them bulky, heavy, and ineffective. Since they are lighter and more energy-efficient, flat-screen LCD displays are now found in gadgets like laptops, PDAs, and desktop PCs. Another name for a monitor is a screen or a visual display device (VDU).",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/monitor_lcd_yr3xzl.png',
@@ -970,8 +970,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'mouse') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/mouse.glb?sound=audio/external_hardwares/mouse.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/mouse.usdz?sound=audio/external_hardwares/mouse.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/mouse.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/mouse.usdz', 
 				'hardware_name' => 'Mouse', 
 				'hardware_description' => "A computer mouse is a portable hardware input tool used for pointing, moving, and selecting text, icons, files, and folders on a computer's graphical user interface (GUI). A mouse may also be used to drag and drop things and provide you access to the right-click menu in addition to these features. The mouse is set up in front of desktop computers on a flat surface, such as a desk or mouse pad.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/mouse_jjvpxm.png',
@@ -1021,8 +1021,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'plotter') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/plotter.glb?sound=audio/external_hardwares/plotter.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/plotter.usdz?sound=audio/external_hardwares/plotter.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/plotter.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/plotter.usdz', 
 				'hardware_name' => 'Plotter', 
 				'hardware_description' => "A plotter is a piece of computer gear, similar to a printer, used to produce vector graphics. Plotters create several, continuous lines on paper as opposed to numerous dots, as is the case with conventional printers, using a pen, pencil, marker, or other writing instrument as opposed to toner. Schematics and other comparable applications are printed using plotters. These tools were originally often used for computer-aided design, but wide-format printers mostly replaced them.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/plotter_w2obpj.png',
@@ -1069,8 +1069,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'printer') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/printer.glb?sound=audio/external_hardwares/printer.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/printer.usdz?sound=audio/external_hardwares/printer.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/printer.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/printer.usdz', 
 				'hardware_name' => 'Printer', 
 				'hardware_description' => "An external hardware output device known as a printer converts digital data stored on a computer or other device into a physical copy. You may print numerous copies of a report you produced on your computer, for instance, and distribute them during a staff meeting. One of the most well-liked computer accessories, printers are frequently used to print text and images.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886822/images/external_hardwares/printer_jdgvcc.png',
@@ -1117,8 +1117,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'projector') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/projector.glb?sound=audio/external_hardwares/projector.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/projector.usdz?sound=audio/external_hardwares/projector.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/projector.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/projector.usdz', 
 				'hardware_name' => 'Projector', 
 				'hardware_description' => "A projector is an output device that reproduces images by projecting them onto a screen, wall, or other surface using images created by a computer or Blu-ray player. The surface that is projected upon is often big, flat, and softly colored. To ensure that everyone in the room can view a presentation, you may, for instance, utilize a projector to display it on a wide screen. Moving or motionless pictures can be produced via projectors (slides) (videos). A projector often has the same size and weight as a toaster.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/projector_uhaxqv.png',
@@ -1174,8 +1174,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'sd_card') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/sd_card.glb?sound=audio/external_hardwares/sd_card.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/sd_card.usdz?sound=audio/external_hardwares/sd_card.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/sd_card.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/sd_card.usdz', 
 				'hardware_name' => 'SD Card', 
 				'hardware_description' => "One of the most popular memory card kinds used with electronics is the SD card, often known as a Secure Digital card. Over 8000 distinct kinds of electronic devices from over 400 different companies, including digital cameras and cell phones, employ the SD technology. Due of its widespread use, it is regarded as the industry standard.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/sd_card_dni13b.png',
@@ -1222,8 +1222,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'speaker') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/speaker.glb?sound=audio/external_hardwares/speaker.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/speaker.usdz?sound=audio/external_hardwares/speaker.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/speaker.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/speaker.usdz', 
 				'hardware_name' => 'Speaker', 
 				'hardware_description' => "A computer speaker is a piece of hardware used for audio output that is connected to a computer. The sound card in the computer generates the signal that is needed to generate the sound that emanates from a computer speaker. The Harman Kardon Soundsticks III 2.1 Channel Multimedia Speaker System is seen in the image.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/spekare_wnhk7m.png',
@@ -1270,8 +1270,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'trackball') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/trackball.glb?sound=audio/external_hardwares/trackball.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/trackball.usdz?sound=audio/external_hardwares/trackball.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/trackball.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/trackball.usdz', 
 				'hardware_name' => 'Trackball', 
 				'hardware_description' => "The trackball is an input device that resembles a mouse turned sideways or upside down. A trackball is located on the top or side of the mouse, as opposed to a mechanical mouse ball that travels along the work surface. With the mouse not actually being moved, the user may control the on-screen pointer by rotating the ball in two dimensions with their fingers or thumb. A trackball helps avoid RSI since it involves less arm and wrist motion than a normal mouse and is frequently less unpleasant for the user to use.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/trackball_wbhkwk.png',
@@ -1318,8 +1318,8 @@ class Controller extends BaseController
 
 		if($hardwarename == 'usb_card_reader') {
 			return view('hardware', ['hardware_info' => [
-				'hardware_url_android' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/usb_card_reader.glb?sound=audio/external_hardwares/memory_card_reader.ogg', 
-				'hardware_url_ios' => 'https://cdn.jsdelivr.net/gh/GabrielSalangsang013/team-cord-web-ar@a4f80c9/public/models/external_hardwares/usb_card_reader.usdz?sound=audio/external_hardwares/memory_card_reader.ogg', 
+				'hardware_url_android' => '../../models/external_hardwares/usb_card_reader.glb', 
+				'hardware_url_ios' => '../../models/external_hardwares/usb_card_reader.usdz', 
 				'hardware_name' => 'USB Card Reader', 
 				'hardware_description' => "A memory card reader is a compact device that is used to access, read, copy, and backup data from a variety of memory cards, including SD (Secure Digital), CF (CompactFlash), MMC (MultiMediaCardC), and others. It is sometimes referred to as a USB card reader and an SD card reader.",
 				'hardware_image' => 'https://res.cloudinary.com/dr9p65xlj/image/upload/v1669886821/images/external_hardwares/card_reader_wv14dj.png',

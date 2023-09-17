@@ -1,1 +1,13 @@
-var firebaseConfig={apiKey:"AIzaSyBjDbI7XvX7HmcbvglM2dugrFxeYWrILs4",authDomain:"team-cord-web-ar.firebaseapp.com",projectId:"team-cord-web-ar",storageBucket:"team-cord-web-ar.appspot.com",messagingSenderId:"221647981080",appId:"1:221647981080:web:a4100e48ba42aad0d3516d",measurementId:"G-G5RYMQLPQ7"};firebase.initializeApp(firebaseConfig);var googleProvider=new firebase.auth.GoogleAuthProvider;
+var firebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
+};
+
+firebase.initializeApp(firebaseConfig);
+
+var googleProvider = new firebase.auth.GoogleAuthProvider;

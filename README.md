@@ -1,13 +1,13 @@
-# This is our capstone project titled "Markerless Web based Augmented Reality Technology for Information Technology Course Visualizing Computer Hardware"
+Markerless Web based Augmented Reality Technology for Information Technology Course Visualizing Computer Hardware
 
-# Problem
+## Problem
 The BSIT students in University of the Assumption S.Y (2022-2023) learn computer hardware in text and 2d images based learning. We want to add a new feature in learning computer hardware which is integrating a web-based augmented reality. Bringing virtual 3d hardware devices into our world. This can improve our quality education and for the learning of all BSIT students.
 
-# Team
+## Team
 - Salangsang, Gabriel
 - Salonga, Clark Jhan Ranier
 
-# Project Description
+## Project Description
 
 Web-based Augmented Reality (WebAR) is a technology that allows users to view and interact with augmented reality (AR) content in a web browser. 
 
@@ -17,8 +17,45 @@ Reference: https://wear-studio.com/all-about-webar/
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/74645297/207735832-63434012-2705-406c-8695-1081f098858d.gif)
 
+## How to use?
 
-# Version
+#### 1. Clone the repo.
+```sh
+$ git clone https://github.com/GabrielSalangsang013/web-ar-computer-hardware.git
+```
+
+#### 2. Open XAMPP and run apache, and mysql database.
+
+#### 3. Create database name "team_cord_web_ar".
+
+#### 4. Open the project in VS code.
+
+#### 5. Open new VS code terminal.
+
+#### 6. Install the packages.
+```sh
+$ composer update --no-scripts  
+```
+
+#### 7. Run migrate.
+```sh
+$ php artisan migrate
+```
+
+#### 8. Go to [https://firebase.google.com/](firebase) and create a firebase project.
+
+#### 9. In your firebase project, go to the project settings.
+
+#### 10. You can get firebase credentials in the project settings. Scroll down and click the npm input radio button and copy the firebaseConfig variable value.
+
+#### 11. Now go back to the project folder in VS code, go to public/js/firebase-conf.js and paste the firebase config object.
+
+#### 12. Run the project
+```sh
+$ php artisan serve
+```
+
+## Version
 History Version of our Project
 - Version 1.0 (10/29/2022)
 	- Update: This is first complete version of our project. Only UA students can login to this web application.
