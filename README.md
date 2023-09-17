@@ -34,23 +34,28 @@ $ git clone https://github.com/GabrielSalangsang013/web-ar-computer-hardware.git
 
 #### 6. Install the packages.
 ```sh
-$ composer update --no-scripts  
+$ composer install
 ```
 
-#### 7. Run migrate.
+#### 7. Generate key.
+```sh
+$ php artisan key:generate
+```
+
+#### 8. Run migrate.
 ```sh
 $ php artisan migrate
 ```
 
-#### 8. Go to [https://firebase.google.com/](firebase) and create a firebase project.
+#### 9. Go to [https://firebase.google.com/](firebase) and create a firebase project.
 
-#### 9. In your firebase project, go to the project settings.
+#### 10. In your firebase project, go to the project settings.
 
-#### 10. You can get firebase credentials in the project settings. Scroll down and click the npm input radio button and copy the firebaseConfig variable value.
+#### 11. You can get firebase credentials in the project settings. Scroll down and click the npm input radio button and copy the firebaseConfig variable value.
 
-#### 11. Now go back to the project folder in VS code, go to public/js/firebase-conf.js and paste the firebase config object.
+#### 12. Now go back to the project folder in VS code, go to public/js/firebase-conf.js and paste the firebase config object.
 
-#### 12. Run the project
+#### 13. Run the project
 ```sh
 $ php artisan serve
 ```
