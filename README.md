@@ -1,5 +1,7 @@
 # Markerless Web based Augmented Reality Technology for Information Technology Course Visualizing Computer Hardware
 
+![Alt text](cover.png)
+
 ## Problem
 The BSIT students in University of the Assumption S.Y (2022-2023) study computer hardware in text and 2d images based learning. We want to add a new feature in learning computer hardware which is integrating a web-based augmented reality. Bringing virtual 3d hardware devices into our world. This can improve our quality education and for the learning of all BSIT students.
 
